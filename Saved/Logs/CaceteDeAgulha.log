@@ -2051,3 +2051,1226 @@ FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArra
 [2024.03.11-16.45.27:121][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
 [2024.03.11-16.45.27:164][896]LogPlayLevel: Display: Destroying online subsystem :Context_11
 [2024.03.11-16.45.28:155][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.11-16.47.15:922][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.11-16.47.15:929][186]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.47.16:034][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/ABP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/ABP_Player.uasset" SILENT=true
+[2024.03.11-16.47.16:056][186]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/ABP_Player
+[2024.03.11-16.47.16:057][186]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/ABP_Player4703EC8BDF07487FAE843ED0C761DCC3.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/ABP_Player.uasset'
+[2024.03.11-16.47.16:128][186]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 1.73 sec)
+[2024.03.11-16.47.16:134][186]AssetCheck: New page: Asset Save: ABP_Player
+[2024.03.11-16.47.16:134][186]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/Player/ABP_Player.ABP_Player
+[2024.03.11-16.47.17:305][252]BlueprintLog: New page: Compile ABP_Player
+[2024.03.11-16.47.17:333][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.11-16.47.18:933][342]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-16.47.18:940][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-16.47.18:940][342]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 5:47:18 PM)
+[2024.03.11-16.47.18:940][342]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.47.18:942][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001814s)
+[2024.03.11-16.47.18:942][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001855s)
+[2024.03.11-16.47.18:960][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.11-16.47.18:962][342]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-16.47.18:962][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-16.47.18:962][342]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-16.47.18:962][342]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2024.03.11-16.47.18:962][342]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.03.11-16.47.18:962][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-16.47.18:962][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-16.47.18:962][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-16.47.18:962][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-16.47.18:962][342]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-16.47.18:962][342]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-16.47.18:962][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-16.47.18:962][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-16.47.18:963][342]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-16.47.18:963][342]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-16.47.18:963][342]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-16.47.18:963][342]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-16.47.18:963][342]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-16.47.19:157][342]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-16.47.19:185][342]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-16.47.19:186][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-16.47.19:186][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-16.47.19:186][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-16.47.19:187][342]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=8
+[2024.03.11-16.47.19:187][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.03.11-16.47.19:187][342]LogInit: FAudioDevice initialized with ID 8.
+[2024.03.11-16.47.19:187][342]LogAudio: Display: Audio Device (ID: 8) registered with world 'MAP_Debug'.
+[2024.03.11-16.47.19:187][342]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.11-16.47.19:190][342]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-16.47.19:191][342]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-16.47.19
+[2024.03.11-16.47.19:191][342]LogWorld: Bringing up level for play took: 0.000694
+[2024.03.11-16.47.19:191][342]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.03.11-16.47.19:193][342]PIE: Server logged in
+[2024.03.11-16.47.19:194][342]PIE: Play in editor total start time 0.254 seconds.
+[2024.03.11-16.47.29:623][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.47.29:623][967]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.47.29:624][967]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-16.47.29:624][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.47.29:635][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-16.47.29:639][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.47.29:660][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.47.29:660][967]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.11-16.47.29:715][967]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2024.03.11-16.47.29:763][968]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.03.11-16.47.31:180][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-16.47.31:187][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-16.47.31:187][ 48]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 5:47:31 PM)
+[2024.03.11-16.47.31:187][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.47.31:189][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001878s)
+[2024.03.11-16.47.31:189][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001909s)
+[2024.03.11-16.47.31:205][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.11-16.47.31:206][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-16.47.31:206][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-16.47.31:206][ 48]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-16.47.31:206][ 48]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2024.03.11-16.47.31:206][ 48]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.11-16.47.31:206][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-16.47.31:206][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-16.47.31:206][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-16.47.31:206][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-16.47.31:206][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-16.47.31:206][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-16.47.31:206][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-16.47.31:206][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-16.47.31:207][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-16.47.31:207][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-16.47.31:207][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-16.47.31:207][ 48]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-16.47.31:207][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-16.47.31:431][ 48]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-16.47.31:459][ 48]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-16.47.31:460][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-16.47.31:460][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-16.47.31:460][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-16.47.31:463][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=9
+[2024.03.11-16.47.31:463][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.11-16.47.31:464][ 48]LogInit: FAudioDevice initialized with ID 9.
+[2024.03.11-16.47.31:464][ 48]LogAudio: Display: Audio Device (ID: 9) registered with world 'MAP_Debug'.
+[2024.03.11-16.47.31:464][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.11-16.47.31:468][ 48]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-16.47.31:469][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-16.47.31
+[2024.03.11-16.47.31:470][ 48]LogWorld: Bringing up level for play took: 0.001284
+[2024.03.11-16.47.31:471][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.03.11-16.47.31:474][ 48]PIE: Server logged in
+[2024.03.11-16.47.31:475][ 48]PIE: Play in editor total start time 0.289 seconds.
+[2024.03.11-16.47.37:758][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.47.37:758][424]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.47.37:758][424]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-16.47.37:758][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.47.37:768][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-16.47.37:774][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.47.37:795][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.47.37:795][424]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.11-16.47.37:844][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.11-16.47.37:865][425]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.03.11-16.48.06:358][555]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-16.48.06:364][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-16.48.06:364][555]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 5:48:06 PM)
+[2024.03.11-16.48.06:364][555]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.48.06:366][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001741s)
+[2024.03.11-16.48.06:366][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001773s)
+[2024.03.11-16.48.06:384][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.03.11-16.48.06:385][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-16.48.06:385][555]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-16.48.06:386][555]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-16.48.06:386][555]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2024.03.11-16.48.06:386][555]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.11-16.48.06:386][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-16.48.06:386][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-16.48.06:386][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-16.48.06:386][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-16.48.06:386][555]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-16.48.06:386][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-16.48.06:386][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-16.48.06:386][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-16.48.06:386][555]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-16.48.06:387][555]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-16.48.06:387][555]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-16.48.06:387][555]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-16.48.06:387][555]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-16.48.06:588][555]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-16.48.06:603][555]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-16.48.06:603][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-16.48.06:603][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-16.48.06:603][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-16.48.06:604][555]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=10
+[2024.03.11-16.48.06:604][555]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.11-16.48.06:604][555]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.11-16.48.06:604][555]LogAudio: Display: Audio Device (ID: 10) registered with world 'MAP_Debug'.
+[2024.03.11-16.48.06:604][555]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.11-16.48.06:607][555]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-16.48.06:608][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-16.48.06
+[2024.03.11-16.48.06:608][555]LogWorld: Bringing up level for play took: 0.000874
+[2024.03.11-16.48.06:608][555]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.03.11-16.48.06:610][555]PIE: Server logged in
+[2024.03.11-16.48.06:611][555]PIE: Play in editor total start time 0.247 seconds.
+[2024.03.11-16.48.11:300][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.48.11:300][835]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.48.11:300][835]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-16.48.11:300][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.48.11:306][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-16.48.11:311][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.48.11:333][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.48.11:333][835]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.11-16.48.11:386][835]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2024.03.11-16.48.11:429][836]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.03.11-16.51.45:734][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.11-16.51.45:742][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.51.45:869][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-16.51.45:899][188]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-16.51.45:899][188]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player67BBF101EA0B4458B8C676DF67371182.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-16.51.45:936][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 1.93 sec)
+[2024.03.11-16.51.45:939][188]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-16.51.45:939][188]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-16.51.46:906][242]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-16.51.46:953][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.11-16.52.32:483][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.03.11-16.52.32:484][721]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.021
+[2024.03.11-16.52.32:485][721]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Player/BP_Player] ([2] browsable assets)...
+[2024.03.11-16.52.32:485][721]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Player/BP_Player]
+[2024.03.11-16.52.32:499][721]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/Player/BP_Player_Auto1
+[2024.03.11-16.52.32:499][721]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player_Auto1CE6F4AD2DC6A488B8E0C4BE89FD73286.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Blueprints/Characters/Player/BP_Player_Auto1.uasset'
+[2024.03.11-16.52.32:500][721]LogFileHelpers: Auto-saving content packages took 0.016
+[2024.03.11-16.52.34:261][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.03.11-16.52.34:268][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.52.34:335][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-16.52.34:375][817]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-16.52.34:375][817]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player9D9E8A4D87EA4F26A05960D044FC6818.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-16.52.34:401][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 2.06 sec)
+[2024.03.11-16.52.34:403][817]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-16.52.34:403][817]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-16.52.35:486][878]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-16.52.35:533][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.03.11-16.52.37:251][960]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-16.52.37:260][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-16.52.37:260][960]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 5:52:37 PM)
+[2024.03.11-16.52.37:260][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.52.37:262][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001641s)
+[2024.03.11-16.52.37:262][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001670s)
+[2024.03.11-16.52.37:285][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.03.11-16.52.37:287][960]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-16.52.37:287][960]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-16.52.37:287][960]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-16.52.37:288][960]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2024.03.11-16.52.37:288][960]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.11-16.52.37:288][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-16.52.37:288][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-16.52.37:288][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-16.52.37:288][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-16.52.37:288][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-16.52.37:288][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-16.52.37:288][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-16.52.37:288][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-16.52.37:289][960]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-16.52.37:289][960]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-16.52.37:289][960]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-16.52.37:289][960]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-16.52.37:289][960]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-16.52.37:470][960]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-16.52.37:503][960]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-16.52.37:505][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-16.52.37:505][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-16.52.37:505][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-16.52.37:509][960]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=11
+[2024.03.11-16.52.37:509][960]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.11-16.52.37:509][960]LogInit: FAudioDevice initialized with ID 11.
+[2024.03.11-16.52.37:509][960]LogAudio: Display: Audio Device (ID: 11) registered with world 'MAP_Debug'.
+[2024.03.11-16.52.37:509][960]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.11-16.52.37:513][960]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-16.52.37:514][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-16.52.37
+[2024.03.11-16.52.37:514][960]LogWorld: Bringing up level for play took: 0.000763
+[2024.03.11-16.52.37:515][960]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.03.11-16.52.37:517][960]PIE: Server logged in
+[2024.03.11-16.52.37:518][960]PIE: Play in editor total start time 0.258 seconds.
+[2024.03.11-16.52.39:353][ 69]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.39:353][ 69]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.39:501][ 77]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.39:502][ 77]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.39:671][ 88]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.39:671][ 88]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.39:820][ 97]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.39:820][ 97]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.39:936][104]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.39:936][104]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.40:119][115]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.40:119][115]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.40:270][124]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.40:270][124]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.40:437][134]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.40:437][134]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.40:604][144]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.40:604][144]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.40:753][153]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.40:753][153]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.40:904][162]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.40:904][162]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.41:070][172]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.41:070][172]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.41:220][181]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.41:220][181]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.41:937][224]LogScript: Script Msg: Could not play animation override
+[2024.03.11-16.52.41:937][224]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.52.43:396][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.52.43:396][309]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.52.43:397][309]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-16.52.43:397][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.52.43:399][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-16.52.43:407][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.52.43:426][309]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-16.52.43:426][309]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.11-16.52.43:470][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.52.43:474][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.11-16.52.43:499][310]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.03.11-16.52.43:839][326]Cmd: SELECT NONE
+[2024.03.11-16.54.03:939][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.11-16.54.03:947][771]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.54.04:007][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/ABP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/ABP_Player.uasset" SILENT=true
+[2024.03.11-16.54.04:024][771]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/ABP_Player
+[2024.03.11-16.54.04:025][771]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/ABP_Player308A4CAB29004AABAD3D4A670BBD046E.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/ABP_Player.uasset'
+[2024.03.11-16.54.04:073][771]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 2.19 sec)
+[2024.03.11-16.54.04:075][771]AssetCheck: New page: Asset Save: ABP_Player
+[2024.03.11-16.54.04:075][771]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/Player/ABP_Player.ABP_Player
+[2024.03.11-16.54.27:073][ 38]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-16.54.27:117][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.11-16.54.27:579][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.54.27:716][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-16.54.27:747][ 58]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-16.54.27:747][ 58]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player4FFD5EA310C2436195A9D527133C817D.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-16.54.27:790][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 2.40 sec)
+[2024.03.11-16.54.27:791][ 58]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-16.54.27:791][ 58]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-16.54.31:126][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.03.11-16.54.31:133][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.54.31:208][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-16.54.31:222][255]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-16.54.31:222][255]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerBFD5BCEB1AA74502905AA199EE20A2BA.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-16.54.31:288][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 2.55 sec)
+[2024.03.11-16.54.31:291][255]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-16.54.31:291][255]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-16.54.31:423][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.03.11-16.54.34:139][417]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-16.54.34:186][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.11-16.54.36:405][532]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-16.54.36:411][532]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.11-16.54.36:412][532]LogPlayLevel: [PlayLevel] Compiling ABP_Player before play...
+[2024.03.11-16.54.36:444][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.11-16.54.36:446][532]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (1 blueprints)
+[2024.03.11-16.54.36:446][532]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 5:54:36 PM)
+[2024.03.11-16.54.36:446][532]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.54.36:448][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001627s)
+[2024.03.11-16.54.36:448][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001656s)
+[2024.03.11-16.54.36:466][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.11-16.54.36:466][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-16.54.36:466][532]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-16.54.36:467][532]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-16.54.36:467][532]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2024.03.11-16.54.36:467][532]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.11-16.54.36:467][532]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-16.54.36:467][532]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-16.54.36:467][532]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-16.54.36:467][532]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-16.54.36:467][532]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-16.54.36:467][532]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-16.54.36:467][532]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-16.54.36:467][532]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-16.54.36:468][532]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-16.54.36:468][532]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-16.54.36:468][532]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-16.54.36:468][532]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-16.54.36:468][532]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-16.54.36:672][532]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-16.54.36:719][532]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-16.54.36:720][532]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-16.54.36:720][532]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-16.54.36:720][532]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-16.54.36:722][532]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=12
+[2024.03.11-16.54.36:722][532]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.11-16.54.36:722][532]LogInit: FAudioDevice initialized with ID 12.
+[2024.03.11-16.54.36:722][532]LogAudio: Display: Audio Device (ID: 12) registered with world 'MAP_Debug'.
+[2024.03.11-16.54.36:722][532]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.11-16.54.36:727][532]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-16.54.36:728][532]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-16.54.36
+[2024.03.11-16.54.36:729][532]LogWorld: Bringing up level for play took: 0.001345
+[2024.03.11-16.54.36:730][532]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.03.11-16.54.36:735][532]PIE: Server logged in
+[2024.03.11-16.54.36:737][532]PIE: Play in editor total start time 0.325 seconds.
+[2024.03.11-16.54.47:132][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.54.47:132][153]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.54.47:132][153]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-16.54.47:132][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.54.47:133][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-16.54.47:139][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.54.47:156][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.54.47:156][153]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.11-16.54.47:206][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2024.03.11-16.54.47:240][154]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.03.11-16.55.00:333][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-16.55.00:338][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-16.55.00:338][519]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 5:55:00 PM)
+[2024.03.11-16.55.00:338][519]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.55.00:340][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001614s)
+[2024.03.11-16.55.00:340][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001641s)
+[2024.03.11-16.55.00:357][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.11-16.55.00:358][519]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-16.55.00:358][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-16.55.00:359][519]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-16.55.00:359][519]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2024.03.11-16.55.00:359][519]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.03.11-16.55.00:359][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-16.55.00:359][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-16.55.00:359][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-16.55.00:359][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-16.55.00:359][519]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-16.55.00:359][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-16.55.00:359][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-16.55.00:359][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-16.55.00:360][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-16.55.00:360][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-16.55.00:360][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-16.55.00:360][519]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-16.55.00:360][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-16.55.00:570][519]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-16.55.00:617][519]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-16.55.00:618][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-16.55.00:618][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-16.55.00:618][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-16.55.00:619][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=13
+[2024.03.11-16.55.00:620][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.03.11-16.55.00:620][519]LogInit: FAudioDevice initialized with ID 13.
+[2024.03.11-16.55.00:620][519]LogAudio: Display: Audio Device (ID: 13) registered with world 'MAP_Debug'.
+[2024.03.11-16.55.00:620][519]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.11-16.55.00:627][519]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-16.55.00:630][519]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-16.55.00
+[2024.03.11-16.55.00:630][519]LogWorld: Bringing up level for play took: 0.002660
+[2024.03.11-16.55.00:632][519]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.03.11-16.55.00:637][519]PIE: Server logged in
+[2024.03.11-16.55.00:638][519]PIE: Play in editor total start time 0.3 seconds.
+[2024.03.11-16.55.01:143][549]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.01:143][549]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.01:493][570]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.01:493][570]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.01:710][583]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.01:710][583]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.01:843][591]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.01:843][591]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.01:993][600]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.01:993][600]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.02:160][610]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.02:160][610]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.02:326][620]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.02:326][620]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.02:810][649]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.02:810][649]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.03:443][687]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.03:443][687]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.04:076][725]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.04:077][725]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.05:110][787]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.05:110][787]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.05:626][818]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.05:626][818]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.05:910][835]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.05:910][835]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.06:159][850]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.06:159][850]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.06:426][866]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.06:426][866]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.06:693][882]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.06:693][882]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.07:259][916]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.07:259][916]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.07:876][953]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.07:876][953]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.08:594][996]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.08:594][996]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.09:010][ 21]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.09:010][ 21]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.09:210][ 33]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.09:210][ 33]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.09:359][ 42]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.09:359][ 42]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.09:543][ 53]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.09:543][ 53]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.09:726][ 64]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.09:726][ 64]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.09:892][ 74]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.09:892][ 74]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.10:083][ 85]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.10:083][ 85]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.10:309][ 99]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.10:309][ 99]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.10:560][114]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.10:560][114]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.10:792][128]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.10:793][128]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.11:028][142]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.11:028][142]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.11:894][194]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.11:894][194]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.13:209][273]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.13:209][273]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.13:760][306]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.13:760][306]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.14:460][348]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.14:460][348]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.14:626][358]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.14:626][358]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.14:809][369]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.14:809][369]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.14:993][380]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.14:993][380]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.15:759][426]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.15:759][426]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.17:626][538]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.17:626][538]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.19:350][641]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.19:350][641]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.19:977][679]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.19:977][679]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.20:709][723]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.20:710][723]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.20:859][732]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.20:860][732]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.21:010][741]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.21:010][741]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.21:177][751]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.21:177][751]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.22:077][805]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.22:077][805]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.22:800][848]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.22:800][848]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.23:444][887]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.23:444][887]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.24:027][922]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.24:027][922]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.24:727][964]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.24:727][964]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.24:844][971]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.24:844][971]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.25:011][981]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.25:011][981]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.25:160][990]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.25:160][990]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.25:293][998]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.25:293][998]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.25:444][  7]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.25:444][  7]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.25:593][ 16]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.25:593][ 16]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.25:743][ 25]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.25:743][ 25]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.26:427][ 66]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.26:427][ 66]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.27:077][105]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.27:077][105]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.27:828][150]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.27:828][150]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.29:077][225]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.29:078][225]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.29:760][266]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.29:760][266]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.30:260][296]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.30:260][296]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.30:611][317]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.30:611][317]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.31:151][349]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.31:151][349]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.31:578][375]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.31:578][375]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.32:234][414]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.32:234][414]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.33:244][475]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.33:244][475]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.33:461][488]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.33:461][488]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.33:611][497]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.33:611][497]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.33:777][507]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.33:777][507]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.33:960][518]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.33:960][518]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.34:100][526]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.34:100][526]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.34:261][536]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.34:261][536]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.34:395][544]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.34:395][544]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.34:693][562]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.34:693][562]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.34:860][572]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.34:860][572]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.35:051][583]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.35:051][583]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.35:228][594]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.35:228][594]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.35:395][604]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.35:395][604]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.35:561][614]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.35:561][614]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.35:744][625]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.35:744][625]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.35:916][635]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.35:916][635]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.36:077][645]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.36:077][645]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.36:278][657]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.36:278][657]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.36:377][663]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.36:377][663]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.36:694][682]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.36:694][682]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.36:844][691]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.36:844][691]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.36:994][700]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.36:994][700]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.37:169][710]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.37:169][710]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.37:427][726]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.37:427][726]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.37:634][738]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.37:634][738]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.37:794][748]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.37:794][748]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.37:995][760]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.37:995][760]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.38:168][770]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.38:169][770]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.38:352][781]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.38:352][781]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.38:528][792]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.38:528][792]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.38:648][799]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.38:648][799]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.38:944][817]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.38:944][817]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.39:095][826]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.39:095][826]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.39:227][834]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.39:227][834]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.39:527][852]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.39:527][852]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.39:760][866]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.39:760][866]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.39:927][876]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.39:927][876]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.40:210][893]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.40:210][893]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.40:461][908]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.40:462][908]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.40:753][925]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.40:753][925]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.40:912][935]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.40:912][935]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.41:194][952]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.41:194][952]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.41:344][961]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.41:344][961]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.41:478][969]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.41:478][969]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.42:044][  3]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.42:044][  3]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.42:694][ 42]LogScript: Script Msg: Playing animation override...
+[2024.03.11-16.55.42:694][ 42]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.11-16.55.43:990][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.55.43:990][117]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-16.55.43:991][117]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-16.55.43:991][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.55.43:993][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-16.55.44:000][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.55.44:025][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-16.55.44:025][117]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.11-16.55.44:072][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.11-16.55.44:103][118]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.03.11-16.57.47:332][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.11-16.57.47:340][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.57.47:456][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Action" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Input/IMC_Action.uasset" SILENT=true
+[2024.03.11-16.57.47:461][310]LogSavePackage: Moving output files for package: /Game/Input/IMC_Action
+[2024.03.11-16.57.47:461][310]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/IMC_Action633D6A0A57404AB6AEFD5230EDDBC28D.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Input/IMC_Action.uasset'
+[2024.03.11-16.57.47:462][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-16.57.47:491][310]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-16.57.47:492][310]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player0A376D89570442ADA3167BBD03AF5ED7.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-16.57.47:546][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 2.76 sec)
+[2024.03.11-16.57.47:553][310]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.11-16.57.47:553][310]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Action.IMC_Action
+[2024.03.11-16.57.47:553][310]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-16.57.48:484][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-16.57.48:601][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Action" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Input/IMC_Action.uasset" SILENT=true
+[2024.03.11-16.57.48:604][364]LogSavePackage: Moving output files for package: /Game/Input/IMC_Action
+[2024.03.11-16.57.48:604][364]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/IMC_Action97CA293F11D941FA91CDAAD0EB3B1DDD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Input/IMC_Action.uasset'
+[2024.03.11-16.57.48:666][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 2.94 sec)
+[2024.03.11-16.57.48:667][364]AssetCheck: New page: Asset Save: IMC_Action
+[2024.03.11-16.57.48:668][364]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Action.IMC_Action
+[2024.03.11-16.58.17:749][ 79]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-16.58.17:749][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-16.58.34:531][ 59]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-16.58.34:571][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.11-17.00.31:365][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.11-17.00.31:370][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.00.31:506][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.00.31:523][511]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.00.31:524][511]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerFCCF44FE3C994639833DA0078E03D4CB.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.00.31:586][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 3.16 sec)
+[2024.03.11-17.00.31:588][511]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.00.31:588][511]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.00.32:610][572]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.00.32:656][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.11-17.00.34:002][638]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-17.00.34:009][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-17.00.34:009][638]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 6:00:34 PM)
+[2024.03.11-17.00.34:009][638]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.00.34:011][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001759s)
+[2024.03.11-17.00.34:011][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001788s)
+[2024.03.11-17.00.34:031][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.03.11-17.00.34:033][638]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-17.00.34:033][638]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-17.00.34:033][638]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-17.00.34:034][638]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2024.03.11-17.00.34:034][638]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.03.11-17.00.34:034][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-17.00.34:034][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-17.00.34:034][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-17.00.34:034][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-17.00.34:034][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-17.00.34:034][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-17.00.34:034][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-17.00.34:034][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-17.00.34:035][638]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-17.00.34:035][638]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-17.00.34:035][638]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-17.00.34:035][638]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-17.00.34:035][638]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-17.00.34:199][638]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-17.00.34:212][638]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-17.00.34:213][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-17.00.34:213][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-17.00.34:213][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-17.00.34:214][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=14
+[2024.03.11-17.00.34:214][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.03.11-17.00.34:214][638]LogInit: FAudioDevice initialized with ID 14.
+[2024.03.11-17.00.34:215][638]LogAudio: Display: Audio Device (ID: 14) registered with world 'MAP_Debug'.
+[2024.03.11-17.00.34:215][638]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.11-17.00.34:216][638]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-17.00.34:217][638]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-17.00.34
+[2024.03.11-17.00.34:217][638]LogWorld: Bringing up level for play took: 0.000497
+[2024.03.11-17.00.34:218][638]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.03.11-17.00.34:219][638]PIE: Server logged in
+[2024.03.11-17.00.34:220][638]PIE: Play in editor total start time 0.211 seconds.
+[2024.03.11-17.00.35:370][707]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.35:370][707]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.35:554][718]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.35:554][718]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.35:920][740]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.35:920][740]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.36:154][754]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.36:154][754]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.36:387][768]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.36:387][768]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.36:871][797]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.36:871][797]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.37:354][826]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.37:354][826]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.37:987][864]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.37:987][864]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:255][880]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:255][880]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:454][892]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:454][892]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:722][908]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:722][908]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:937][921]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.38:937][921]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:105][931]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:105][931]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:237][939]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:237][939]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:353][946]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:354][946]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:520][956]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:520][956]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:672][965]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:672][965]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:820][974]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:820][974]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:971][983]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.39:971][983]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.40:171][995]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.40:171][995]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.40:737][ 29]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.40:737][ 29]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.41:237][ 59]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.41:237][ 59]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.41:720][ 88]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.41:720][ 88]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.42:370][127]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.42:370][127]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.42:871][157]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.42:871][157]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:088][170]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:088][170]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:287][182]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:287][182]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:454][192]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:454][192]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:637][203]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:637][203]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:787][212]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.43:787][212]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.44:088][230]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.44:088][230]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.44:221][238]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.44:221][238]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.00.45:495][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.00.45:495][313]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.00.45:495][313]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-17.00.45:495][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.00.45:504][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-17.00.45:510][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.00.45:531][313]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-17.00.45:531][313]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.11-17.00.45:579][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.00.45:582][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.11-17.00.45:602][314]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.03.11-17.02.53:081][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.02.53:144][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.02.53:162][381]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.02.53:162][381]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player07EE3FB9CF8E4899B848B86F45FCD862.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.02.53:208][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 3.28 sec)
+[2024.03.11-17.02.53:210][381]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.02.53:210][381]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.02.53:856][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.11-17.02.54:561][520]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.02.54:626][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.11-17.02.56:310][684]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-17.02.56:316][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-17.02.56:316][684]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 6:02:56 PM)
+[2024.03.11-17.02.56:316][684]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.02.56:319][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002118s)
+[2024.03.11-17.02.56:319][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.002148s)
+[2024.03.11-17.02.56:344][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.03.11-17.02.56:346][684]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-17.02.56:346][684]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-17.02.56:347][684]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-17.02.56:347][684]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2024.03.11-17.02.56:347][684]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.03.11-17.02.56:347][684]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-17.02.56:347][684]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-17.02.56:347][684]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-17.02.56:347][684]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-17.02.56:347][684]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-17.02.56:347][684]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-17.02.56:347][684]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-17.02.56:347][684]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-17.02.56:348][684]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-17.02.56:348][684]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-17.02.56:348][684]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-17.02.56:348][684]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-17.02.56:348][684]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-17.02.56:540][684]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-17.02.56:579][684]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-17.02.56:579][684]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-17.02.56:580][684]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-17.02.56:580][684]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-17.02.56:581][684]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=15
+[2024.03.11-17.02.56:581][684]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.03.11-17.02.56:581][684]LogInit: FAudioDevice initialized with ID 15.
+[2024.03.11-17.02.56:581][684]LogAudio: Display: Audio Device (ID: 15) registered with world 'MAP_Debug'.
+[2024.03.11-17.02.56:581][684]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.11-17.02.56:609][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.02.56:610][684]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-17.02.56:610][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-17.02.56
+[2024.03.11-17.02.56:610][684]LogWorld: Bringing up level for play took: 0.000566
+[2024.03.11-17.02.56:611][684]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.03.11-17.02.56:614][684]PIE: Server logged in
+[2024.03.11-17.02.56:616][684]PIE: Play in editor total start time 0.3 seconds.
+[2024.03.11-17.02.56:624][684]LogViewport: Scene viewport resized to 1283x740, mode Windowed.
+[2024.03.11-17.02.58:428][792]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.02.58:661][806]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.02.58:910][821]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.02.59:145][835]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.02.59:327][846]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.02.59:462][854]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.02.59:677][867]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.02.59:862][878]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.03.00:044][889]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.03.00:229][900]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.03.00:417][911]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.03.00:595][922]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.03.00:760][932]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.03.01:362][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.03.01:362][966]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.03.01:363][966]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.11-17.03.01:408][966]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-17.03.01:409][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.03.01:410][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-17.03.01:417][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.03.01:439][966]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-17.03.01:440][966]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.11-17.03.01:486][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.03.11-17.03.01:505][967]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.03.11-17.04.33:978][487]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.11-17.04.33:978][487]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-17.04.33:978][487]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-17.04.34:119][487]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.11-17.04.35:803][675]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-17.04.35:803][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.04.35:821][675]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.11-17.04.35:821][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-17.04.35:821][675]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-17.04.36:069][675]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.11-17.04.51:983][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.03.11-17.04.51:991][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.04.52:082][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.04.52:099][ 32]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.04.52:099][ 32]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player058A5DB0253A4D5F847FA6EBB0988C79.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.04.52:100][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.11-17.04.52:103][ 32]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.11-17.04.52:103][ 32]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_CharacterAF76922EF8834FBF8EEF80F8F6CEB31D.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.11-17.04.52:196][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 3.49 sec)
+[2024.03.11-17.04.52:201][ 32]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.11-17.04.52:201][ 32]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.04.52:202][ 32]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.11-17.05.00:037][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.03.11-17.05.02:435][448]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-17.05.02:435][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.05.13:581][121]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.05.13:626][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.11-17.05.25:287][457]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.11-17.05.25:287][457]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-17.05.25:287][457]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-17.05.25:467][457]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.11-17.06.28:556][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.11-17.06.28:564][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.06.28:632][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.06.28:655][291]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.06.28:655][291]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player9541DC6C46C648EF97848EF50C5A8E5C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.06.28:700][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 3.63 sec)
+[2024.03.11-17.06.28:703][291]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.06.28:703][291]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.06.30:023][438]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.06.30:033][438]LogBlueprint: Error: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset: [Compiler] The property associated with  Is Attacking  could not be found in '/Game/Blueprints/Characters/Player/BP_Player.BP_Player_C'
+[2024.03.11-17.06.30:057][438]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.11-17.06.30:146][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.11-17.07.00:719][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.11-17.07.00:728][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.07.00:834][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.07.00:878][313]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.07.00:878][313]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerE77A413F241C40E68C9DD1B13FC9B212.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.07.00:916][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 3.81 sec)
+[2024.03.11-17.07.00:918][313]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.07.00:918][313]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.07.07:092][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.11-17.07.07:098][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.07.07:150][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.07.07:164][ 41]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.07.07:165][ 41]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player517A82F697E6400A8EC6D919D861F1DD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.07.07:222][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 3.94 sec)
+[2024.03.11-17.07.07:226][ 41]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.07.07:226][ 41]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.07.21:204][650]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.07.21:214][650]LogBlueprint: Error: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset: [Compiler] The property associated with  Is Attacking  could not be found in '/Game/Blueprints/Characters/Player/BP_Player.BP_Player_C'
+[2024.03.11-17.07.21:214][650]LogBlueprint: Error: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset: [Compiler] The property associated with  Is Attacking  could not be found in '/Game/Blueprints/Characters/Player/BP_Player.BP_Player_C'
+[2024.03.11-17.07.21:243][650]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.11-17.07.21:343][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.03.11-17.07.22:778][794]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.07.22:837][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.07.22:852][794]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.07.22:852][794]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player4A31E0E70C284581914CB19A4FF369D9.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.07.22:902][794]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 4.06 sec)
+[2024.03.11-17.07.22:902][794]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.07.22:902][794]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.07.24:792][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.11-17.07.33:341][959]BlueprintLog: New page: Compile BP_Character
+[2024.03.11-17.07.33:403][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.11-17.07.34:146][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.07.34:203][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.11-17.07.34:207][ 29]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.11-17.07.34:207][ 29]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Character16BF1DE22DC64CE49F9D1AECFABFB85D.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.11-17.07.34:283][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 4.20 sec)
+[2024.03.11-17.07.34:288][ 29]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.11-17.07.34:288][ 29]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.11-17.07.40:180][614]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.07.40:228][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.03.11-17.07.40:979][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.07.41:040][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.07.41:058][680]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.07.41:059][680]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerA2F2886DEDBC42559D277615F86E9C39.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.07.41:103][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 4.32 sec)
+[2024.03.11-17.07.41:104][680]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.07.41:105][680]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.09.31:404][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.03.11-17.09.31:412][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.09.31:501][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.09.31:518][438]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.09.31:518][438]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player22AC38687DC74EADAE74EC0068BB3632.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.09.31:573][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 4.49 sec)
+[2024.03.11-17.09.31:574][438]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.09.31:574][438]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.09.43:267][984]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.09.43:323][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.11-17.09.43:782][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.09.43:834][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.09.43:855][ 16]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.09.43:856][ 16]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player6EAA5EBDDD7A4C2999AE0C1E3122CD7C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.09.43:908][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 4.61 sec)
+[2024.03.11-17.09.43:909][ 16]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.09.43:909][ 16]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.09.45:344][128]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-17.09.45:352][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-17.09.45:352][128]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 6:09:45 PM)
+[2024.03.11-17.09.45:352][128]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.09.45:354][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002106s)
+[2024.03.11-17.09.45:354][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.002140s)
+[2024.03.11-17.09.45:380][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.11-17.09.45:382][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-17.09.45:382][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-17.09.45:382][128]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-17.09.45:383][128]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2024.03.11-17.09.45:383][128]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.03.11-17.09.45:383][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-17.09.45:383][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-17.09.45:383][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-17.09.45:383][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-17.09.45:383][128]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-17.09.45:383][128]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-17.09.45:383][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-17.09.45:383][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-17.09.45:383][128]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-17.09.45:384][128]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-17.09.45:384][128]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-17.09.45:384][128]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-17.09.45:384][128]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-17.09.45:606][128]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-17.09.45:663][128]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-17.09.45:665][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-17.09.45:665][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-17.09.45:665][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-17.09.45:669][128]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=16
+[2024.03.11-17.09.45:670][128]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.03.11-17.09.45:670][128]LogInit: FAudioDevice initialized with ID 16.
+[2024.03.11-17.09.45:670][128]LogAudio: Display: Audio Device (ID: 16) registered with world 'MAP_Debug'.
+[2024.03.11-17.09.45:671][128]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.11-17.09.45:679][128]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-17.09.45:682][128]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-17.09.45
+[2024.03.11-17.09.45:683][128]LogWorld: Bringing up level for play took: 0.002552
+[2024.03.11-17.09.45:684][128]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.03.11-17.09.45:690][128]PIE: Server logged in
+[2024.03.11-17.09.45:692][128]PIE: Play in editor total start time 0.34 seconds.
+[2024.03.11-17.09.46:990][268]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.47:295][304]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.47:736][353]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.48:533][448]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.49:234][529]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.49:535][564]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.49:944][612]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.50:391][665]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.51:024][739]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.51:759][826]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.52:414][894]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.52:794][927]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.53:095][962]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.53:529][ 13]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.53:961][ 63]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.54:266][ 96]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.54:569][132]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.54:887][170]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.55:191][206]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.55:543][246]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.55:854][280]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.56:158][315]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.56:629][371]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.57:262][437]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.57:964][518]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.09.59:624][711]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.10.00:653][831]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.10.01:905][977]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.10.03:053][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.10.03:053][102]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.10.03:053][102]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-17.10.03:053][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.10.03:055][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-17.10.03:059][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.10.03:088][102]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-17.10.03:088][102]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.11-17.10.03:132][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.10.03:136][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.03.11-17.10.03:186][103]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.03.11-17.11.59:600][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.11-17.11.59:607][606]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.11.59:655][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.11.59:678][606]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.11.59:678][606]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player9ED3A237A93C4E1A9F649C38A23060CF.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.11.59:710][606]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 4.71 sec)
+[2024.03.11-17.11.59:711][606]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.11.59:711][606]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.11.59:876][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.11-17.13.22:488][ 33]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.2-29314046+++UE5+Release-5.3
+[2024.03.11-17.13.22:634][ 33]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.Rocket.Release SessionId={A1C03A77-91EE-4C95-BC11-802C7A9CECD7}
+[2024.03.11-17.14.00:366][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.03.11-17.14.00:373][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.14.00:534][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.14.00:572][ 92]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.14.00:572][ 92]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerCCDC0EB698B74F5FA03AD4A14A901697.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.14.00:598][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 4.94 sec)
+[2024.03.11-17.14.00:599][ 92]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.14.00:599][ 92]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.15.31:849][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.03.11-17.15.31:855][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-17.15.31:920][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.11-17.15.31:937][768]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.11-17.15.31:937][768]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player807158D6F0284BEB971CD84141927414.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.11-17.15.32:005][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 5.09 sec)
+[2024.03.11-17.15.32:009][768]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.11-17.15.32:009][768]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.11-17.15.32:092][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.03.11-17.15.32:236][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.11-17.15.33:337][910]BlueprintLog: New page: Compile BP_Player
+[2024.03.11-17.15.33:401][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.11-17.15.39:082][508]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.11-17.15.39:091][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-17.15.39:091][508]PIE: New page: PIE session: MAP_Debug (Mar 11, 2024, 6:15:39 PM)
+[2024.03.11-17.15.39:126][508]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.15.39:133][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007519s)
+[2024.03.11-17.15.39:133][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.007639s)
+[2024.03.11-17.15.39:165][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.03.11-17.15.39:167][508]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-17.15.39:167][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-17.15.39:168][508]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.11-17.15.39:168][508]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2024.03.11-17.15.39:168][508]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.03.11-17.15.39:168][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-17.15.39:168][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-17.15.39:168][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-17.15.39:168][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-17.15.39:168][508]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-17.15.39:168][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-17.15.39:168][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-17.15.39:168][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-17.15.39:169][508]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-17.15.39:169][508]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-17.15.39:169][508]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-17.15.39:169][508]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.11-17.15.39:170][508]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.11-17.15.39:387][508]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.11-17.15.39:436][508]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.11-17.15.39:438][508]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-17.15.39:439][508]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-17.15.39:439][508]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-17.15.39:444][508]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=17
+[2024.03.11-17.15.39:445][508]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.03.11-17.15.39:445][508]LogInit: FAudioDevice initialized with ID 17.
+[2024.03.11-17.15.39:445][508]LogAudio: Display: Audio Device (ID: 17) registered with world 'MAP_Debug'.
+[2024.03.11-17.15.39:445][508]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.11-17.15.39:450][508]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.11-17.15.39:451][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.11-17.15.39
+[2024.03.11-17.15.39:452][508]LogWorld: Bringing up level for play took: 0.001374
+[2024.03.11-17.15.39:453][508]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.03.11-17.15.39:456][508]PIE: Server logged in
+[2024.03.11-17.15.39:458][508]PIE: Play in editor total start time 0.367 seconds.
+[2024.03.11-17.15.41:772][781]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.42:455][863]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.42:814][906]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.44:025][ 51]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.44:795][143]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.48:097][538]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.48:738][615]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.49:055][653]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.49:463][702]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.49:772][739]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.50:948][880]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.52:047][ 10]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.53:592][194]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.53:892][230]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.54:217][269]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.54:577][312]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.55:510][424]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.57:074][611]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.58:544][786]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.58:858][823]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.15.59:158][859]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.01:680][161]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.02:138][216]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.03:039][323]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.03:464][374]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.03:797][414]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.04:167][458]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.04:540][502]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.04:957][552]LogScript: Script Msg: Playing animation override...
+[2024.03.11-17.16.06:022][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.16.06:022][675]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.11-17.16.06:022][675]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-17.16.06:022][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.16.06:024][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-17.16.06:029][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-17.16.06:049][675]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-17.16.06:049][675]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.11-17.16.06:096][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-17.16.06:100][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.03.11-17.16.06:135][676]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.03.11-17.16.07:213][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.11-17.17.51:129][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.11-17.17.51:130][453]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.021
+[2024.03.11-17.17.51:130][453]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Player/BP_Player] ([2] browsable assets)...
+[2024.03.11-17.17.51:130][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Player/BP_Player]
+[2024.03.11-17.17.51:151][453]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/Player/BP_Player_Auto2
+[2024.03.11-17.17.51:151][453]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player_Auto2AB9EE61DB4564B6887276576625FB5CD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Blueprints/Characters/Player/BP_Player_Auto2.uasset'
+[2024.03.11-17.17.51:151][453]LogFileHelpers: Auto-saving content packages took 0.021
