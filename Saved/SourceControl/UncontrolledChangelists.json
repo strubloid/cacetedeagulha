@@ -149,6 +149,17 @@
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Sound/S_Step_1_Cue.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Sound/S_Step_2_Cue.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/NotifyState/ANS_Attack.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/AnimSequences/Stun.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Attack.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Idle.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Fall.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Run.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AS_Enemy.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Stun.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/ABP_Enemy.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/JumpRise.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Throw.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sound/S_Hit.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sound/S_Throw.uasset"
 			]
