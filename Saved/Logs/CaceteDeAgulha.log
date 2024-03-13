@@ -16425,3 +16425,1056 @@ FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArra
 [2024.03.13-17.23.09:654][880]LogHttp: Warning: 0x4a75850a000: libcurl info message cache 34 (Closing connection)
 [2024.03.13-17.23.09:654][880]LogHttp: Warning: 0x4a75850a000: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2024.03.13-17.23.09:654][880]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-17.26.05:493][218]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.26.11:613][801]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.26.15:823][174]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.26.18:879][447]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-17.26.18:896][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-17.26.18:896][447]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 6:26:18 PM)
+[2024.03.13-17.26.18:896][447]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.26.18:901][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004409s)
+[2024.03.13-17.26.18:901][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.004445s)
+[2024.03.13-17.26.18:917][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.03.13-17.26.18:921][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-17.26.18:921][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-17.26.18:922][447]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-17.26.18:922][447]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2024.03.13-17.26.18:922][447]LogAudio: Display: Creating Audio Device:                 Id: 86, Scope: Unique, Realtime: True
+[2024.03.13-17.26.18:922][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-17.26.18:922][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-17.26.18:922][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-17.26.18:922][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-17.26.18:922][447]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-17.26.18:922][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-17.26.18:922][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-17.26.18:922][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-17.26.18:923][447]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-17.26.18:923][447]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-17.26.18:923][447]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-17.26.18:923][447]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-17.26.18:923][447]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-17.26.19:122][447]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-17.26.19:165][447]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-17.26.19:167][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-17.26.19:167][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-17.26.19:167][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-17.26.19:169][447]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=86
+[2024.03.13-17.26.19:170][447]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=86
+[2024.03.13-17.26.19:170][447]LogInit: FAudioDevice initialized with ID 86.
+[2024.03.13-17.26.19:170][447]LogAudio: Display: Audio Device (ID: 86) registered with world 'MAP_Debug'.
+[2024.03.13-17.26.19:170][447]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 86
+[2024.03.13-17.26.19:178][447]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-17.26.19:181][447]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-17.26.19
+[2024.03.13-17.26.19:183][447]LogWorld: Bringing up level for play took: 0.005033
+[2024.03.13-17.26.19:185][447]LogOnline: OSS: Created online subsystem instance for: :Context_135
+[2024.03.13-17.26.19:194][447]PIE: Server logged in
+[2024.03.13-17.26.19:196][447]PIE: Play in editor total start time 0.307 seconds.
+[2024.03.13-17.26.24:247][ 47]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.24:548][ 83]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.25:033][141]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.27:079][384]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.27:516][436]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.28:031][497]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.29:467][669]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.29:905][721]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.31:490][905]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.31:926][957]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.32:347][  7]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.32:774][ 56]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.26.37:436][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.26.37:436][606]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.26.37:437][606]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-17.26.37:437][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.26.37:439][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-17.26.37:444][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.26.37:466][606]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.13-17.26.37:467][606]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 86
+[2024.03.13-17.26.37:511][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.26.37:514][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.13-17.26.37:576][607]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.26.37:667][607]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2024.03.13-17.27.02:639][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.03.13-17.27.02:644][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Debug" FILE="../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Maps/MAP_Debug_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.03.13-17.27.02:660][437]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/MAP_Debug_Auto3
+[2024.03.13-17.27.02:660][437]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_Debug_Auto32864A5C4D23A428292613714AD4AE065.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Maps/MAP_Debug_Auto3.umap'
+[2024.03.13-17.27.02:661][437]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Maps/MAP_Debug_Auto3.umap is in the /Temp path, will not scan.
+[2024.03.13-17.27.02:661][437]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.048
+[2024.03.13-17.27.02:661][437]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 0 (Found bundle for host: 0x4a6f30207e0 [serially])
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 6 (Closing connection)
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.27.09:364][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 9 (  Trying 184.73.211.59:443...)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (184.73.211.59) port 443)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 34 (Closing connection)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: 0x4a72fc8af00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.27.09:365][885]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-17.27.10:384][888]LogViewport: Scene viewport resized to 1136x832, mode Windowed.
+[2024.03.13-17.27.57:456][224]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2024.03.13-17.27.57:467][224]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.27.57:611][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Debug" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Debug.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.13-17.27.57:671][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.03.13-17.27.57:686][224]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Debug
+[2024.03.13-17.27.57:686][224]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_Debug7900B4B7B18640F49D881E6ADE5C8369.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Debug.umap'
+[2024.03.13-17.27.57:692][224]LogFileHelpers: Saving map 'MAP_Debug' took 0.082
+[2024.03.13-17.27.57:692][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.13-17.27.57:697][224]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.13-17.27.57:697][224]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Enemy6E5E48F7EEBC45EBB7B24283F6D97398.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.13-17.27.57:750][224]LogFileHelpers: InternalPromptForCheckoutAndSave took 283 ms (total: 40.3 sec)
+[2024.03.13-17.27.57:752][224]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.13-17.27.57:752][224]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Debug.MAP_Debug
+[2024.03.13-17.27.57:752][224]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.13-17.27.59:024][354]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.13-17.27.59:070][354]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.27.59:176][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.13-17.27.59:453][355]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.28.19:005][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.03.13-17.28.19:015][479]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.28.19:069][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.13-17.28.19:074][479]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.13-17.28.19:074][479]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_EnemyD6E3F06FD9984B65A61A9E0D6497DE97.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.13-17.28.19:139][479]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 40.4 sec)
+[2024.03.13-17.28.19:141][479]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.13-17.28.19:141][479]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.13-17.28.20:152][579]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.13-17.28.20:210][579]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.28.20:313][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.13-17.28.20:663][580]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.28.37:785][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.13-17.28.37:798][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.28.37:854][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.13-17.28.37:858][388]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.13-17.28.37:858][388]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_EnemyB291C151878D437EB349E216FF7D3718.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.13-17.28.37:926][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 40.6 sec)
+[2024.03.13-17.28.37:928][388]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.13-17.28.37:928][388]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.13-17.28.39:057][496]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.13-17.28.39:113][496]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.28.39:219][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.13-17.28.39:464][497]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.28.50:291][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.28.50:351][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Debug" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Debug.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.13-17.28.50:400][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.13-17.28.50:420][442]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Debug
+[2024.03.13-17.28.50:420][442]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_Debug2BE0BBCDB8F24754877ECDE98190AA2F.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Debug.umap'
+[2024.03.13-17.28.50:425][442]LogFileHelpers: Saving map 'MAP_Debug' took 0.074
+[2024.03.13-17.28.50:453][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 40.7 sec)
+[2024.03.13-17.28.50:454][442]AssetCheck: New page: Asset Save: MAP_Debug
+[2024.03.13-17.28.50:454][442]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Debug.MAP_Debug
+[2024.03.13-17.29.57:941][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.03.13-17.29.57:957][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.29.58:043][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.13-17.29.58:049][487]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.13-17.29.58:050][487]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Enemy2A53093453274370911A6E12F5153449.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.13-17.29.58:142][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 185 ms (total: 40.9 sec)
+[2024.03.13-17.29.58:145][487]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.13-17.29.58:145][487]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.13-17.29.58:937][553]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.13-17.29.58:987][553]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.29.59:105][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.03.13-17.29.59:386][554]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.30.35:320][319]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020c30 [serially])
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 6 (Closing connection)
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.31.09:358][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 9 (  Trying 44.217.212.216:443...)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (44.217.212.216) port 443)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 34 (Closing connection)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: 0x4a7ebd73700: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.31.09:359][627]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-17.34.20:869][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.13-17.34.20:879][399]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.34.20:947][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.13-17.34.20:955][399]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.13-17.34.20:955][399]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Enemy6C1FE608DBBA487E81D7DDA642B78B04.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.13-17.34.21:016][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 41.1 sec)
+[2024.03.13-17.34.21:020][399]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.13-17.34.21:020][399]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.13-17.34.25:783][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.13-17.34.25:791][954]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.34.25:867][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.13-17.34.25:876][954]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.13-17.34.25:877][954]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_EnemyD6129A46D0744744A7CCB67ED0E6DA3F.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.13-17.34.25:961][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 41.2 sec)
+[2024.03.13-17.34.25:964][954]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.13-17.34.25:964][954]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.13-17.34.26:804][ 44]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.13-17.34.26:854][ 44]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.34.26:965][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.13-17.34.27:180][ 45]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.34.56:919][878]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.13-17.34.56:976][878]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.34.57:104][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.13-17.34.57:334][879]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.35.03:767][438]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/AIC_Enemy.AIC_Enemy
+[2024.03.13-17.35.03:767][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-17.35.03:767][438]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-17.35.29:799][901]LogEditorTransaction: Undo Resize Node
+[2024.03.13-17.35.49:492][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2024.03.13-17.35.49:501][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.35.49:563][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIC_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/AIC_Enemy.uasset" SILENT=true
+[2024.03.13-17.35.49:581][977]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/AIC_Enemy
+[2024.03.13-17.35.49:581][977]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/AIC_EnemyF535FE06886F424CBB084A601473AF7E.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/AIC_Enemy.uasset'
+[2024.03.13-17.35.49:645][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 41.4 sec)
+[2024.03.13-17.35.49:650][977]AssetCheck: New page: Asset Save: AIC_Enemy
+[2024.03.13-17.35.49:650][977]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/AIC_Enemy.AIC_Enemy
+[2024.03.13-17.36.07:813][877]BlueprintLog: New page: Compile AIC_Enemy
+[2024.03.13-17.36.07:885][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.03.13-17.36.07:972][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.36.08:047][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIC_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/AIC_Enemy.uasset" SILENT=true
+[2024.03.13-17.36.08:063][877]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/AIC_Enemy
+[2024.03.13-17.36.08:063][877]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/AIC_Enemy09BF3BAB310B4A46BABC6C1A6F7E8EFC.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/AIC_Enemy.uasset'
+[2024.03.13-17.36.08:114][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 41.5 sec)
+[2024.03.13-17.36.08:116][877]AssetCheck: New page: Asset Save: AIC_Enemy
+[2024.03.13-17.36.08:116][877]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/AIC_Enemy.AIC_Enemy
+[2024.03.13-17.36.08:274][878]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.36.08:352][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIC_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/AIC_Enemy.uasset" SILENT=true
+[2024.03.13-17.36.08:369][878]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/AIC_Enemy
+[2024.03.13-17.36.08:369][878]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/AIC_Enemy2768C8F1F7E841F880BD4A7B9CC9240C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/AIC_Enemy.uasset'
+[2024.03.13-17.36.08:414][878]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 41.7 sec)
+[2024.03.13-17.36.08:415][878]AssetCheck: New page: Asset Save: AIC_Enemy
+[2024.03.13-17.36.08:415][878]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/AIC_Enemy.AIC_Enemy
+[2024.03.13-17.36.19:985][781]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-17.36.20:003][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-17.36.20:003][781]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 6:36:20 PM)
+[2024.03.13-17.36.20:045][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.36.20:049][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004164s)
+[2024.03.13-17.36.20:049][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.004219s)
+[2024.03.13-17.36.20:072][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.13-17.36.20:076][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-17.36.20:076][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-17.36.20:076][781]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-17.36.20:077][781]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2024.03.13-17.36.20:077][781]LogAudio: Display: Creating Audio Device:                 Id: 87, Scope: Unique, Realtime: True
+[2024.03.13-17.36.20:077][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-17.36.20:077][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-17.36.20:077][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-17.36.20:077][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-17.36.20:077][781]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-17.36.20:077][781]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-17.36.20:077][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-17.36.20:077][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-17.36.20:078][781]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-17.36.20:078][781]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-17.36.20:078][781]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-17.36.20:078][781]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-17.36.20:078][781]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-17.36.20:328][781]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-17.36.20:380][781]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-17.36.20:380][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-17.36.20:380][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-17.36.20:380][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-17.36.20:387][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=87
+[2024.03.13-17.36.20:387][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=87
+[2024.03.13-17.36.20:388][781]LogInit: FAudioDevice initialized with ID 87.
+[2024.03.13-17.36.20:388][781]LogAudio: Display: Audio Device (ID: 87) registered with world 'MAP_Debug'.
+[2024.03.13-17.36.20:388][781]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 87
+[2024.03.13-17.36.20:395][781]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-17.36.20:399][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-17.36.20
+[2024.03.13-17.36.20:401][781]LogWorld: Bringing up level for play took: 0.005171
+[2024.03.13-17.36.20:403][781]LogOnline: OSS: Created online subsystem instance for: :Context_137
+[2024.03.13-17.36.20:409][781]PIE: Server logged in
+[2024.03.13-17.36.20:410][781]PIE: Play in editor total start time 0.416 seconds.
+[2024.03.13-17.36.35:059][468]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.36.35:391][505]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.36.35:802][553]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.36.36:218][602]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.36.36:647][652]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.37.43:099][112]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.37.43:745][186]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.07:315][706]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.07:451][721]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.08:121][793]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.08:367][820]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.09:275][920]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.10:191][ 19]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.11:197][125]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.12:192][221]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.13:190][327]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.14:189][438]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.38.14:575][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.38.14:575][474]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.38.14:575][474]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-17.38.14:575][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.38.14:579][474]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-17.38.14:584][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.38.14:609][474]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.13-17.38.14:609][474]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 87
+[2024.03.13-17.38.14:654][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.38.14:658][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.13-17.38.14:725][475]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.38.14:893][475]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020300 [serially])
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 6 (Closing connection)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 9 (  Trying 35.169.126.79:443...)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (35.169.126.79) port 443)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-17.39.09:329][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-17.39.09:330][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 34 (Closing connection)
+[2024.03.13-17.39.09:330][367]LogHttp: Warning: 0x4a735f65000: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.39.09:330][367]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-17.40.04:490][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.03.13-17.40.04:499][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.40.04:574][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-17.40.04:578][ 20]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-17.40.04:579][ 20]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_EnemyB6FA1AB80F6E415DA34431FD3A3FED77.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-17.40.04:688][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 41.8 sec)
+[2024.03.13-17.40.04:691][ 20]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-17.40.04:691][ 20]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-17.40.06:828][268]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-17.40.06:842][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-17.40.06:842][268]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 6:40:06 PM)
+[2024.03.13-17.40.06:842][268]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.40.06:846][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004155s)
+[2024.03.13-17.40.06:846][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.004192s)
+[2024.03.13-17.40.06:871][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.13-17.40.06:873][268]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-17.40.06:873][268]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-17.40.06:873][268]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-17.40.06:874][268]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2024.03.13-17.40.06:874][268]LogAudio: Display: Creating Audio Device:                 Id: 88, Scope: Unique, Realtime: True
+[2024.03.13-17.40.06:874][268]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-17.40.06:874][268]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-17.40.06:874][268]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-17.40.06:874][268]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-17.40.06:874][268]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-17.40.06:874][268]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-17.40.06:874][268]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-17.40.06:874][268]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-17.40.06:874][268]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-17.40.06:874][268]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-17.40.06:874][268]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-17.40.06:874][268]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-17.40.06:875][268]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-17.40.07:075][268]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-17.40.07:115][268]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-17.40.07:115][268]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-17.40.07:115][268]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-17.40.07:115][268]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-17.40.07:117][268]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=88
+[2024.03.13-17.40.07:118][268]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=88
+[2024.03.13-17.40.07:118][268]LogInit: FAudioDevice initialized with ID 88.
+[2024.03.13-17.40.07:118][268]LogAudio: Display: Audio Device (ID: 88) registered with world 'MAP_Debug'.
+[2024.03.13-17.40.07:118][268]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 88
+[2024.03.13-17.40.07:119][268]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=88
+[2024.03.13-17.40.07:422][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.40.07:423][268]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-17.40.07:424][268]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-17.40.07
+[2024.03.13-17.40.07:425][268]LogWorld: Bringing up level for play took: 0.001859
+[2024.03.13-17.40.07:425][268]LogOnline: OSS: Created online subsystem instance for: :Context_138
+[2024.03.13-17.40.07:429][268]PIE: Server logged in
+[2024.03.13-17.40.07:429][268]PIE: Play in editor total start time 0.594 seconds.
+[2024.03.13-17.40.07:450][268]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-17.40.07:458][269]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-17.40.07:580][270]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-17.40.31:376][390]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-17.41.09:760][852]LogHttp: Warning: 0x4a7cbf06900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-17.41.09:760][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020930 [serially])
+[2024.03.13-17.41.09:760][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 6 (Closing connection)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 9 (  Trying 44.220.124.70:443...)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (44.220.124.70) port 443)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 34 (Closing connection)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: 0x4a7cbf06900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.41.09:761][852]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-17.41.33:360][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.41.33:360][119]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.41.33:361][119]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-17.41.33:367][119]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-17.41.33:367][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.41.33:368][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-17.41.33:377][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.41.33:403][119]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 88
+[2024.03.13-17.41.33:455][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.03.13-17.41.33:541][120]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-17.41.33:715][120]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2024.03.13-17.42.12:213][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.13-17.42.12:215][663]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.022
+[2024.03.13-17.42.12:216][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BT_Enemy] ([1] browsable assets)...
+[2024.03.13-17.42.12:216][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BT_Enemy]
+[2024.03.13-17.42.12:216][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Blueprints/AI/BT_Enemy_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2024.03.13-17.42.12:218][663]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/AI/BT_Enemy_Auto4
+[2024.03.13-17.42.12:218][663]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_Enemy_Auto42D09C0522BA84988B5164A9E161B6F13.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Blueprints/AI/BT_Enemy_Auto4.uasset'
+[2024.03.13-17.42.12:218][663]LogFileHelpers: Auto-saving content packages took 0.003
+[2024.03.13-17.44.35:101][401]LogViewport: Scene viewport resized to 1516x870, mode Windowed.
+[2024.03.13-17.44.35:119][402]LogViewport: Scene viewport resized to 1504x870, mode Windowed.
+[2024.03.13-17.44.35:144][403]LogViewport: Scene viewport resized to 1492x870, mode Windowed.
+[2024.03.13-17.44.35:167][404]LogViewport: Scene viewport resized to 1472x870, mode Windowed.
+[2024.03.13-17.44.35:199][405]LogViewport: Scene viewport resized to 1444x870, mode Windowed.
+[2024.03.13-17.44.35:223][406]LogViewport: Scene viewport resized to 1422x870, mode Windowed.
+[2024.03.13-17.44.35:253][407]LogViewport: Scene viewport resized to 1408x870, mode Windowed.
+[2024.03.13-17.44.35:282][408]LogViewport: Scene viewport resized to 1395x870, mode Windowed.
+[2024.03.13-17.44.35:304][409]LogViewport: Scene viewport resized to 1386x870, mode Windowed.
+[2024.03.13-17.44.35:324][410]LogViewport: Scene viewport resized to 1383x870, mode Windowed.
+[2024.03.13-17.44.35:349][411]LogViewport: Scene viewport resized to 1377x870, mode Windowed.
+[2024.03.13-17.44.35:376][412]LogViewport: Scene viewport resized to 1365x870, mode Windowed.
+[2024.03.13-17.44.35:402][413]LogViewport: Scene viewport resized to 1360x870, mode Windowed.
+[2024.03.13-17.44.35:421][414]LogViewport: Scene viewport resized to 1348x870, mode Windowed.
+[2024.03.13-17.44.35:450][415]LogViewport: Scene viewport resized to 1332x870, mode Windowed.
+[2024.03.13-17.44.35:478][416]LogViewport: Scene viewport resized to 1317x870, mode Windowed.
+[2024.03.13-17.44.35:499][417]LogViewport: Scene viewport resized to 1300x870, mode Windowed.
+[2024.03.13-17.44.35:523][418]LogViewport: Scene viewport resized to 1277x870, mode Windowed.
+[2024.03.13-17.44.35:550][419]LogViewport: Scene viewport resized to 1269x870, mode Windowed.
+[2024.03.13-17.44.35:572][420]LogViewport: Scene viewport resized to 1262x870, mode Windowed.
+[2024.03.13-17.44.35:597][421]LogViewport: Scene viewport resized to 1258x870, mode Windowed.
+[2024.03.13-17.44.35:622][422]LogViewport: Scene viewport resized to 1252x870, mode Windowed.
+[2024.03.13-17.45.35:376][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.45.35:514][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-17.45.35:520][760]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-17.45.35:521][760]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_Enemy5F2B44C0CE1C4EB1A48F0010BFA6F5CD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-17.45.35:598][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 42.1 sec)
+[2024.03.13-17.45.35:600][760]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-17.45.35:600][760]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-17.46.23:471][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.13-17.46.23:482][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.46.23:588][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-17.46.23:592][974]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-17.46.23:593][974]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_Enemy366E4188A2CA4209820C97C4E5158B60.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-17.46.23:664][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 42.2 sec)
+[2024.03.13-17.46.23:665][974]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-17.46.23:665][974]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-17.47.56:818][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.13-17.47.56:828][751]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.47.56:906][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-17.47.56:910][751]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-17.47.56:910][751]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_Enemy037023B193664427A9C08557CF1C05E2.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-17.47.56:983][751]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 42.4 sec)
+[2024.03.13-17.47.56:985][751]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-17.47.56:985][751]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-17.48.37:478][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-17.48.37:492][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-17.48.37:492][ 76]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 6:48:37 PM)
+[2024.03.13-17.48.37:492][ 76]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.48.37:496][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004035s)
+[2024.03.13-17.48.37:496][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.004071s)
+[2024.03.13-17.48.37:517][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.13-17.48.37:519][ 76]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-17.48.37:519][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-17.48.37:520][ 76]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-17.48.37:520][ 76]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2024.03.13-17.48.37:520][ 76]LogAudio: Display: Creating Audio Device:                 Id: 89, Scope: Unique, Realtime: True
+[2024.03.13-17.48.37:520][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-17.48.37:520][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-17.48.37:520][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-17.48.37:520][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-17.48.37:520][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-17.48.37:520][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-17.48.37:520][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-17.48.37:520][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-17.48.37:521][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-17.48.37:521][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-17.48.37:521][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-17.48.37:521][ 76]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-17.48.37:521][ 76]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-17.48.37:728][ 76]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-17.48.37:774][ 76]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-17.48.37:775][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-17.48.37:775][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-17.48.37:775][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-17.48.37:777][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=89
+[2024.03.13-17.48.37:777][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=89
+[2024.03.13-17.48.37:777][ 76]LogInit: FAudioDevice initialized with ID 89.
+[2024.03.13-17.48.37:777][ 76]LogAudio: Display: Audio Device (ID: 89) registered with world 'MAP_Debug'.
+[2024.03.13-17.48.37:778][ 76]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 89
+[2024.03.13-17.48.38:033][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.48.38:034][ 76]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-17.48.38:035][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-17.48.38
+[2024.03.13-17.48.38:035][ 76]LogWorld: Bringing up level for play took: 0.001381
+[2024.03.13-17.48.38:036][ 76]LogOnline: OSS: Created online subsystem instance for: :Context_139
+[2024.03.13-17.48.38:038][ 76]PIE: Server logged in
+[2024.03.13-17.48.38:039][ 76]PIE: Play in editor total start time 0.553 seconds.
+[2024.03.13-17.48.38:055][ 76]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.13-17.48.38:059][ 77]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-17.48.38:174][ 78]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-17.48.47:898][930]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.48.58:072][878]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.48.59:147][972]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.48.59:538][  9]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.48.59:936][ 46]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.00:317][ 79]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.00:701][116]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.01:066][150]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.01:369][178]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.01:682][206]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.01:984][233]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.02:396][272]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.02:826][313]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.03:276][355]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.03:581][383]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.06:219][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.49.06:219][625]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.49.06:221][625]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-17.49.06:229][625]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-17.49.06:229][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.49.06:230][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-17.49.06:236][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.49.06:263][625]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 89
+[2024.03.13-17.49.06:312][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.13-17.49.06:415][626]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2024.03.13-17.49.32:873][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.13-17.49.32:881][186]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.49.32:959][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-17.49.32:964][186]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-17.49.32:964][186]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_EnemyD1D7CF9F2F97406686346C416D4AA811.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-17.49.33:050][186]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 42.6 sec)
+[2024.03.13-17.49.33:052][186]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-17.49.33:052][186]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-17.49.40:084][  0]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-17.49.40:097][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-17.49.40:097][  0]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 6:49:40 PM)
+[2024.03.13-17.49.40:097][  0]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.49.40:100][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003722s)
+[2024.03.13-17.49.40:100][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.003754s)
+[2024.03.13-17.49.40:122][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.13-17.49.40:124][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-17.49.40:124][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-17.49.40:125][  0]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-17.49.40:125][  0]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2024.03.13-17.49.40:125][  0]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2024.03.13-17.49.40:125][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-17.49.40:125][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-17.49.40:125][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-17.49.40:125][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-17.49.40:125][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-17.49.40:125][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-17.49.40:125][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-17.49.40:125][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-17.49.40:126][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-17.49.40:126][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-17.49.40:126][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-17.49.40:126][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-17.49.40:126][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-17.49.40:321][  0]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-17.49.40:339][  0]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-17.49.40:340][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-17.49.40:340][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-17.49.40:340][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-17.49.40:341][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=90
+[2024.03.13-17.49.40:341][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=90
+[2024.03.13-17.49.40:341][  0]LogInit: FAudioDevice initialized with ID 90.
+[2024.03.13-17.49.40:341][  0]LogAudio: Display: Audio Device (ID: 90) registered with world 'MAP_Debug'.
+[2024.03.13-17.49.40:341][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 90
+[2024.03.13-17.49.40:577][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.49.40:578][  0]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-17.49.40:580][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-17.49.40
+[2024.03.13-17.49.40:580][  0]LogWorld: Bringing up level for play took: 0.002573
+[2024.03.13-17.49.40:581][  0]LogOnline: OSS: Created online subsystem instance for: :Context_140
+[2024.03.13-17.49.40:585][  0]PIE: Server logged in
+[2024.03.13-17.49.40:586][  0]PIE: Play in editor total start time 0.495 seconds.
+[2024.03.13-17.49.40:609][  0]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-17.49.40:614][  1]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-17.49.40:823][  2]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-17.49.47:648][612]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.47:956][638]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.48:483][688]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.48:930][728]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.49:391][769]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.49:848][812]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.54:604][235]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.54:987][269]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.55:371][303]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.55:820][345]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.49.56:121][370]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.01:204][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.50.01:204][812]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.50.01:206][812]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-17.50.01:212][812]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-17.50.01:212][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.50.01:213][812]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-17.50.01:218][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.50.01:246][812]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 90
+[2024.03.13-17.50.01:294][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.13-17.50.01:409][813]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 0 (Found bundle for host: 0x4a6f30207e0 [serially])
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 6 (Closing connection)
+[2024.03.13-17.50.09:326][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 9 (  Trying 184.73.139.142:443...)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (184.73.139.142) port 443)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 34 (Closing connection)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: 0x4a80181a000: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.50.09:327][715]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-17.50.43:270][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.13-17.50.43:278][986]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.50.43:402][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-17.50.43:415][986]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-17.50.43:415][986]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_Enemy3D162D758639461388E2FA533A4AA5D2.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-17.50.43:489][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 42.8 sec)
+[2024.03.13-17.50.43:493][986]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-17.50.43:493][986]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-17.50.47:670][460]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-17.50.47:684][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-17.50.47:684][460]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 6:50:47 PM)
+[2024.03.13-17.50.47:684][460]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.50.47:689][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004543s)
+[2024.03.13-17.50.47:689][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.004580s)
+[2024.03.13-17.50.47:711][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.03.13-17.50.47:713][460]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-17.50.47:713][460]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-17.50.47:713][460]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-17.50.47:714][460]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2024.03.13-17.50.47:714][460]LogAudio: Display: Creating Audio Device:                 Id: 91, Scope: Unique, Realtime: True
+[2024.03.13-17.50.47:714][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-17.50.47:714][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-17.50.47:714][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-17.50.47:714][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-17.50.47:714][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-17.50.47:714][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-17.50.47:714][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-17.50.47:714][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-17.50.47:714][460]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-17.50.47:714][460]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-17.50.47:714][460]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-17.50.47:714][460]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-17.50.47:715][460]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-17.50.47:940][460]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-17.50.47:953][460]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-17.50.47:954][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-17.50.47:954][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-17.50.47:954][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-17.50.47:955][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=91
+[2024.03.13-17.50.47:955][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=91
+[2024.03.13-17.50.47:955][460]LogInit: FAudioDevice initialized with ID 91.
+[2024.03.13-17.50.47:955][460]LogAudio: Display: Audio Device (ID: 91) registered with world 'MAP_Debug'.
+[2024.03.13-17.50.47:955][460]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 91
+[2024.03.13-17.50.48:189][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.50.48:189][460]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-17.50.48:190][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-17.50.48
+[2024.03.13-17.50.48:190][460]LogWorld: Bringing up level for play took: 0.001452
+[2024.03.13-17.50.48:191][460]LogOnline: OSS: Created online subsystem instance for: :Context_141
+[2024.03.13-17.50.48:194][460]PIE: Server logged in
+[2024.03.13-17.50.48:195][460]PIE: Play in editor total start time 0.518 seconds.
+[2024.03.13-17.50.48:212][460]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-17.50.48:216][461]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-17.50.48:434][462]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-17.50.54:950][ 29]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.55:300][ 59]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.55:607][ 86]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.55:916][112]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.56:221][138]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.56:666][176]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.57:150][220]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.50.57:598][259]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.51.15:877][765]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.51.16:319][802]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.52.01:671][134]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.52.02:058][162]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.52.02:424][189]LogScript: Script Msg: Playing animation override...
+[2024.03.13-17.52.03:513][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-17.52.03:513][266]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-17.52.03:515][266]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-17.52.03:521][266]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-17.52.03:522][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.52.03:523][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-17.52.03:530][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-17.52.03:559][266]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 91
+[2024.03.13-17.52.03:610][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.13-17.52.03:736][267]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2024.03.13-17.52.25:125][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.03.13-17.52.25:134][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-17.52.25:215][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-17.52.25:222][733]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-17.52.25:223][733]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_EnemyAB189761A0A645698A8F4BEF3DBB3E25.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-17.52.25:293][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 42.9 sec)
+[2024.03.13-17.52.25:296][733]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-17.52.25:296][733]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020900 [serially])
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 6 (Closing connection)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 9 (  Trying 3.95.75.107:443...)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.95.75.107) port 443)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 34 (Closing connection)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: 0x4a7bd94d700: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-17.53.09:551][ 50]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
