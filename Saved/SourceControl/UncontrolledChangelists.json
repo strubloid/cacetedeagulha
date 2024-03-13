@@ -121,7 +121,6 @@
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sword/Captain__Sword_Idle.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sword/Captain__Sword_Spinning.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sword/Captain__Sword_Embedded.uasset",
-				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemies.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/Capitain/BP_Captain.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/Shark/BP_Shark.uasset",
@@ -160,6 +159,12 @@
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/ABP_Enemy.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/JumpRise.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Throw.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/AnimSequences/Defeated.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/AnimSequences/Defeated.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/AIC_Enemy.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BB_Enemy.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemies.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sound/S_Hit.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sound/S_Throw.uasset"
 			]
