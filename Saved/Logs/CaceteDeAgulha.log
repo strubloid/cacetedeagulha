@@ -14599,3 +14599,980 @@ Script call stack:
 [2024.03.13-16.32.25:398][565]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 68
 [2024.03.13-16.32.25:444][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
 [2024.03.13-16.32.25:489][566]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2024.03.13-16.33.26:748][645]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.33.26:755][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.33.26:755][645]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:33:26 PM)
+[2024.03.13-16.33.26:755][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.33.26:759][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003230s)
+[2024.03.13-16.33.26:759][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.003263s)
+[2024.03.13-16.33.26:778][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.13-16.33.26:781][645]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.33.26:781][645]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.33.26:782][645]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.33.26:782][645]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2024.03.13-16.33.26:782][645]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2024.03.13-16.33.26:782][645]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.33.26:782][645]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.33.26:782][645]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.33.26:782][645]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.33.26:782][645]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.33.26:782][645]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.33.26:782][645]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.33.26:782][645]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.33.26:783][645]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.33.26:783][645]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.33.26:783][645]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.33.26:783][645]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.33.26:783][645]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.33.26:981][645]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.33.27:032][645]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.33.27:032][645]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.33.27:032][645]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.33.27:032][645]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.33.27:035][645]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=69
+[2024.03.13-16.33.27:035][645]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2024.03.13-16.33.27:035][645]LogInit: FAudioDevice initialized with ID 69.
+[2024.03.13-16.33.27:035][645]LogAudio: Display: Audio Device (ID: 69) registered with world 'MAP_Debug'.
+[2024.03.13-16.33.27:035][645]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2024.03.13-16.33.27:357][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.33.27:358][645]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.33.27:359][645]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.33.27
+[2024.03.13-16.33.27:360][645]LogWorld: Bringing up level for play took: 0.001683
+[2024.03.13-16.33.27:361][645]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2024.03.13-16.33.27:369][645]PIE: Server logged in
+[2024.03.13-16.33.27:373][645]PIE: Play in editor total start time 0.618 seconds.
+[2024.03.13-16.33.27:393][645]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-16.33.27:396][646]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-16.33.27:538][647]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-16.33.28:347][695]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.28:681][715]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.13-16.33.29:343][753]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.29:691][773]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.13-16.33.30:334][810]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.30:675][831]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2024.03.13-16.33.31:329][868]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.32:330][925]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.33:271][979]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.34:212][ 24]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.35:152][ 76]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.33.35:206][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.33.35:206][ 77]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.33.35:207][ 77]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-16.33.35:213][ 77]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.33.35:213][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.33.35:214][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.33.35:218][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.33.35:240][ 77]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2024.03.13-16.33.35:288][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.13-16.33.35:317][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2024.03.13-16.33.43:330][864]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /ChaosNiagara/ChaosDestructionListenerActor.ChaosDestructionListenerActor
+[2024.03.13-16.33.43:330][864]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.33.43:330][864]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.34.10:102][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.13-16.34.10:111][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.34.10:172][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.13-16.34.10:206][933]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.13-16.34.10:206][933]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Character7480A079DD894E5AB8AEC6A811ABFA97.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.13-16.34.10:246][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 35.6 sec)
+[2024.03.13-16.34.10:249][933]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.13-16.34.10:249][933]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.13-16.34.10:388][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.13-16.34.11:631][ 25]BlueprintLog: New page: Compile BP_Character
+[2024.03.13-16.34.11:634][ 25]LogBlueprint: Warning: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset: [Compiler] Variable Faction is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2024.03.13-16.34.11:764][ 25]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-16.34.11:897][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.03.13-16.34.14:509][167]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.34.14:517][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.34.14:517][167]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:34:14 PM)
+[2024.03.13-16.34.14:517][167]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.34.14:523][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006380s)
+[2024.03.13-16.34.14:523][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.006427s)
+[2024.03.13-16.34.14:547][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.13-16.34.14:550][167]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.34.14:550][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.34.14:551][167]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.34.14:551][167]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2024.03.13-16.34.14:552][167]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2024.03.13-16.34.14:552][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.34.14:552][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.34.14:552][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.34.14:552][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.34.14:552][167]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.34.14:552][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.34.14:552][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.34.14:552][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.34.14:552][167]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.34.14:552][167]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.34.14:552][167]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.34.14:552][167]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.34.14:553][167]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.34.14:778][167]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.34.14:812][167]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.34.14:813][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.34.14:813][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.34.14:813][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.34.14:815][167]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=70
+[2024.03.13-16.34.14:816][167]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2024.03.13-16.34.14:816][167]LogInit: FAudioDevice initialized with ID 70.
+[2024.03.13-16.34.14:816][167]LogAudio: Display: Audio Device (ID: 70) registered with world 'MAP_Debug'.
+[2024.03.13-16.34.14:816][167]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2024.03.13-16.34.14:816][167]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=70
+[2024.03.13-16.34.15:125][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.34.15:125][167]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.34.15:127][167]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.34.15
+[2024.03.13-16.34.15:128][167]LogWorld: Bringing up level for play took: 0.002608
+[2024.03.13-16.34.15:130][167]LogOnline: OSS: Created online subsystem instance for: :Context_116
+[2024.03.13-16.34.15:139][167]PIE: Server logged in
+[2024.03.13-16.34.15:143][167]PIE: Play in editor total start time 0.627 seconds.
+[2024.03.13-16.34.15:160][167]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-16.34.15:164][168]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-16.34.15:293][169]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-16.34.16:116][216]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.17:137][273]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.29:956][977]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.30:240][992]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.32:709][127]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.33:122][150]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.33:366][163]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.35:358][268]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.35:960][301]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.37:240][371]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.38:243][427]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.39:185][479]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.40:118][532]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.41:054][585]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.42:011][634]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.42:964][683]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.43:920][730]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.44:858][780]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.45:806][829]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.46:742][879]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.47:669][927]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.34.47:976][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.34.47:976][942]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.34.47:978][942]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-16.34.47:984][942]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.34.47:984][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.34.47:985][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.34.47:994][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.34.48:019][942]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.13-16.34.48:020][942]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2024.03.13-16.34.48:073][942]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2024.03.13-16.34.48:104][943]LogPlayLevel: Display: Destroying online subsystem :Context_116
+[2024.03.13-16.34.50:513][ 89]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.34.50:513][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.34.51:976][182]LogSlate: Window 'BP_Player' being destroyed
+[2024.03.13-16.34.52:001][182]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.34.52:001][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.34.58:952][871]BlueprintLog: New page: Compile BP_Character
+[2024.03.13-16.34.58:955][871]LogBlueprint: Warning: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset: [Compiler] Variable Faction is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2024.03.13-16.34.59:037][871]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-16.34.59:164][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.03.13-16.35.29:136][ 40]BlueprintLog: New page: Compile BP_Character
+[2024.03.13-16.35.29:223][ 40]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-16.35.29:340][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.03.13-16.35.29:454][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.35.29:534][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.13-16.35.29:582][ 40]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.13-16.35.29:582][ 40]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_CharacterDF20C4DEB86246AEBAA3A660B4885DD3.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.13-16.35.29:608][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 35.8 sec)
+[2024.03.13-16.35.29:689][ 40]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.13-16.35.29:689][ 40]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.13-16.35.30:684][106]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.35.30:742][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.13-16.35.30:777][106]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.13-16.35.30:778][106]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_CharacterE9F482A043004A4CB55A978A7E1DB3C1.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.13-16.35.30:815][106]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 35.9 sec)
+[2024.03.13-16.35.30:821][106]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.13-16.35.30:821][106]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.13-16.35.32:800][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.35.32:808][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.35.32:808][321]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:35:32 PM)
+[2024.03.13-16.35.32:809][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.35.32:812][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003668s)
+[2024.03.13-16.35.32:812][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.003712s)
+[2024.03.13-16.35.32:838][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.03.13-16.35.32:845][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.35.32:845][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.35.32:845][321]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.35.32:846][321]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2024.03.13-16.35.32:846][321]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2024.03.13-16.35.32:846][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.35.32:846][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.35.32:846][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.35.32:846][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.35.32:846][321]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.35.32:846][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.35.32:846][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.35.32:846][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.35.32:847][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.35.32:847][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.35.32:847][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.35.32:847][321]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.35.32:847][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.35.33:069][321]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.35.33:092][321]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.35.33:093][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.35.33:093][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.35.33:093][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.35.33:093][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=71
+[2024.03.13-16.35.33:094][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2024.03.13-16.35.33:094][321]LogInit: FAudioDevice initialized with ID 71.
+[2024.03.13-16.35.33:094][321]LogAudio: Display: Audio Device (ID: 71) registered with world 'MAP_Debug'.
+[2024.03.13-16.35.33:094][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2024.03.13-16.35.33:392][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.35.33:392][321]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.35.33:393][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.35.33
+[2024.03.13-16.35.33:394][321]LogWorld: Bringing up level for play took: 0.001501
+[2024.03.13-16.35.33:394][321]LogOnline: OSS: Created online subsystem instance for: :Context_117
+[2024.03.13-16.35.33:400][321]PIE: Server logged in
+[2024.03.13-16.35.33:402][321]PIE: Play in editor total start time 0.594 seconds.
+[2024.03.13-16.35.33:414][321]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-16.35.33:419][322]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-16.35.33:516][323]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-16.35.34:358][379]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.35:063][434]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.35:547][470]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.36:308][526]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.36:337][528]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.37:377][605]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.38:379][677]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.39:380][754]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.40:377][829]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.35.40:798][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.35.40:798][858]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.35.40:799][858]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-16.35.40:806][858]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.35.40:806][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.35.40:807][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.35.40:815][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.35.40:840][858]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.13-16.35.40:840][858]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2024.03.13-16.35.40:891][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.03.13-16.35.40:920][859]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2024.03.13-16.36.19:140][570]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.36.19:140][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.36.19:213][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.13-16.36.19:213][570]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.36.19:213][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.36.19:431][570]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.36.19:431][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.36.19:492][570]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.36.19:492][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.36.19:566][570]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.36.19:566][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.36.19:591][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.13-16.36.19:591][570]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.36.19:591][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.36.29:291][481]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-16.37.06:981][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.03.13-16.37.07:005][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.37.07:086][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-16.37.07:089][226]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-16.37.07:089][226]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_Enemy3929590C39C147FBAC365F12E10FCB9F.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-16.37.07:161][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 36.1 sec)
+[2024.03.13-16.37.07:162][226]AssetCheck: New page: Asset Save: BT_Enemy
+[2024.03.13-16.37.07:162][226]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-16.38.27:163][ 74]LogContentBrowser: Attempting asset rename: BT_TryAttack -> BTT_TryAttack
+[2024.03.13-16.38.27:200][ 74]LogMetaData: Removing '/Game/Blueprints/AI/Tasks/BTT_TryAttack.SKEL_BTT_TryAttack_C' ref from Metadata '/Game/Blueprints/AI/Tasks/BT_TryAttack.PackageMetaData'
+[2024.03.13-16.38.27:200][ 74]LogMetaData: Removing '/Game/Blueprints/AI/Tasks/BTT_TryAttack.BTT_TryAttack_C' ref from Metadata '/Game/Blueprints/AI/Tasks/BT_TryAttack.PackageMetaData'
+[2024.03.13-16.38.27:200][ 74]LogMetaData: Removing '/Game/Blueprints/AI/Tasks/BTT_TryAttack.SKEL_BTT_TryAttack_C:ReceiveExecuteAI' ref from Metadata '/Game/Blueprints/AI/Tasks/BT_TryAttack.PackageMetaData'
+[2024.03.13-16.38.27:200][ 74]LogMetaData: Removing '/Game/Blueprints/AI/Tasks/BTT_TryAttack.BTT_TryAttack_C:ReceiveExecuteAI' ref from Metadata '/Game/Blueprints/AI/Tasks/BT_TryAttack.PackageMetaData'
+[2024.03.13-16.38.27:210][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.38.27:286][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset" SILENT=true
+[2024.03.13-16.38.27:288][ 74]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_Enemy
+[2024.03.13-16.38.27:288][ 74]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BT_EnemyC41159EB8F4848C088A167A2A8899CDB.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset'
+[2024.03.13-16.38.27:289][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTT_TryAttack" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset" SILENT=true
+[2024.03.13-16.38.27:297][ 74]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTT_TryAttack
+[2024.03.13-16.38.27:297][ 74]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BTT_TryAttack8A81B17E411D475B996184203546AF78.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset'
+[2024.03.13-16.38.27:297][ 74]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/AI/Tasks/BTT_TryAttack.
+[2024.03.13-16.38.27:384][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 36.2 sec)
+[2024.03.13-16.38.27:437][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.13-16.38.27:459][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.13-16.38.27:485][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.13-16.38.27:488][ 74]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.13-16.38.27:488][ 74]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Blueprints/AI/BT_Enemy.BT_Enemy
+[2024.03.13-16.38.27:488][ 74]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTT_TryAttack.BTT_TryAttack
+[2024.03.13-16.38.30:112][378]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTT_TryAttack.BTT_TryAttack
+[2024.03.13-16.38.30:112][378]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.38.30:112][378]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.40.08:945][792]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.13-16.40.08:945][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.40.08:945][792]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.40.09:247][792]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020e40 [serially])
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 6 (Closing connection)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 9 (  Trying 52.203.167.68:443...)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.203.167.68) port 443)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 34 (Closing connection)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: 0x4a7c0611900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.40.09:340][794]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-16.42.24:056][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.13-16.42.24:067][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.42.24:157][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.13-16.42.24:177][ 77]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.13-16.42.24:177][ 77]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player68653744B44D4225BCAC9F406EC2258B.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.13-16.42.24:237][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 36.4 sec)
+[2024.03.13-16.42.24:239][ 77]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.13-16.42.24:239][ 77]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.13-16.42.33:112][931]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.13-16.42.34:095][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.13-16.42.34:102][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.42.34:171][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.13-16.42.34:191][ 25]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.13-16.42.34:191][ 25]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerDB12FD7EC92A4345B2C9000B7D7BE35A.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.13-16.42.34:239][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 36.6 sec)
+[2024.03.13-16.42.34:241][ 25]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.13-16.42.34:241][ 25]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.13-16.43.15:128][910]LogEditorTransaction: Undo Break Pin Links
+[2024.03.13-16.43.36:200][965]LogEditorTransaction: Undo Delete current selection
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020870 [serially])
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 6 (Closing connection)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 9 (  Trying 18.233.107.181:443...)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (18.233.107.181) port 443)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 34 (Closing connection)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: 0x4a7e9d3c300: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.44.09:290][ 99]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-16.44.17:965][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.13-16.44.17:976][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.44.18:130][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.13-16.44.18:170][ 22]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.13-16.44.18:170][ 22]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player7DF41D73E4314A3BA870DB34EE659493.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.13-16.44.18:241][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 36.8 sec)
+[2024.03.13-16.44.18:244][ 22]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.13-16.44.18:244][ 22]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.13-16.44.22:237][398]BlueprintLog: New page: Compile BP_Player
+[2024.03.13-16.44.22:284][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.13-16.44.22:694][417]LogViewport: Scene viewport resized to 1520x870, mode Windowed.
+[2024.03.13-16.44.23:974][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.44.23:992][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.44.23:992][519]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:44:23 PM)
+[2024.03.13-16.44.24:020][519]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.44.24:023][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002723s)
+[2024.03.13-16.44.24:023][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.002760s)
+[2024.03.13-16.44.24:052][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.03.13-16.44.24:057][519]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.44.24:058][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.44.24:058][519]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.44.24:058][519]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2024.03.13-16.44.24:058][519]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2024.03.13-16.44.24:058][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.44.24:058][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.44.24:058][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.44.24:058][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.44.24:058][519]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.44.24:058][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.44.24:058][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.44.24:058][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.44.24:059][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.44.24:059][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.44.24:059][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.44.24:059][519]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.44.24:059][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.44.24:255][519]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.44.24:299][519]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.44.24:300][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.44.24:300][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.44.24:300][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.44.24:302][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=72
+[2024.03.13-16.44.24:303][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2024.03.13-16.44.24:303][519]LogInit: FAudioDevice initialized with ID 72.
+[2024.03.13-16.44.24:303][519]LogAudio: Display: Audio Device (ID: 72) registered with world 'MAP_Debug'.
+[2024.03.13-16.44.24:303][519]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 72
+[2024.03.13-16.44.24:308][519]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.44.24:310][519]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.44.24
+[2024.03.13-16.44.24:311][519]LogWorld: Bringing up level for play took: 0.001729
+[2024.03.13-16.44.24:312][519]LogOnline: OSS: Created online subsystem instance for: :Context_120
+[2024.03.13-16.44.24:315][519]PIE: Server logged in
+[2024.03.13-16.44.24:316][519]PIE: Play in editor total start time 0.333 seconds.
+[2024.03.13-16.44.24:900][585]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.25:896][704]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.26:842][816]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.26:892][822]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.27:376][880]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.28:050][959]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.28:128][968]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.29:042][ 77]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.29:629][147]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.29:955][186]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.30:147][209]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.30:789][286]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.30:951][305]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.31:118][325]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.31:562][378]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.32:030][434]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.32:940][543]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.44.33:632][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.44.33:632][622]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.44.33:632][622]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.44.33:632][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.44.33:635][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.44.33:640][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.44.33:663][622]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.13-16.44.33:663][622]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 72
+[2024.03.13-16.44.33:711][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.44.33:716][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2024.03.13-16.44.33:761][623]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2024.03.13-16.45.47:642][791]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.13-16.45.53:473][200]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.13-16.45.55:843][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.13-16.45.55:856][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.45.55:961][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.13-16.45.55:997][441]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.13-16.45.55:998][441]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player19AB7C99FCD943488AE667D3E59F9584.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.13-16.45.56:044][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 37.0 sec)
+[2024.03.13-16.45.56:046][441]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.13-16.45.56:046][441]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.13-16.46.07:032][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.13-16.46.07:040][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.46.07:138][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.13-16.46.07:170][632]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.13-16.46.07:170][632]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerC9A56804C49D44E69988CE1E3042F5B4.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.13-16.46.07:218][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 37.2 sec)
+[2024.03.13-16.46.07:223][632]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.13-16.46.07:223][632]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.13-16.46.08:873][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.03.13-16.46.08:881][816]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.46.09:037][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.13-16.46.09:077][816]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.13-16.46.09:077][816]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player718A613C9BB34BE69B1FE2BBF86BFC9C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.13-16.46.09:112][816]LogFileHelpers: InternalPromptForCheckoutAndSave took 230 ms (total: 37.4 sec)
+[2024.03.13-16.46.09:113][816]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.13-16.46.09:113][816]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.13-16.46.09:937][894]BlueprintLog: New page: Compile BP_Player
+[2024.03.13-16.46.09:998][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.13-16.46.16:633][989]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.46.16:648][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.46.16:648][989]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:46:16 PM)
+[2024.03.13-16.46.16:648][989]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.46.16:652][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003909s)
+[2024.03.13-16.46.16:652][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.003949s)
+[2024.03.13-16.46.16:673][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.13-16.46.16:677][989]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.46.16:677][989]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.46.16:677][989]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.46.16:678][989]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2024.03.13-16.46.16:678][989]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2024.03.13-16.46.16:678][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.46.16:678][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.46.16:678][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.46.16:678][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.46.16:678][989]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.46.16:678][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.46.16:678][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.46.16:678][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.46.16:678][989]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.46.16:678][989]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.46.16:678][989]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.46.16:678][989]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.46.16:679][989]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.46.16:899][989]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.46.16:936][989]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.46.16:937][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.46.16:937][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.46.16:937][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.46.16:938][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=73
+[2024.03.13-16.46.16:938][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2024.03.13-16.46.16:938][989]LogInit: FAudioDevice initialized with ID 73.
+[2024.03.13-16.46.16:938][989]LogAudio: Display: Audio Device (ID: 73) registered with world 'MAP_Debug'.
+[2024.03.13-16.46.16:938][989]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2024.03.13-16.46.17:266][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.46.17:266][989]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.46.17:269][989]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.46.17
+[2024.03.13-16.46.17:270][989]LogWorld: Bringing up level for play took: 0.003385
+[2024.03.13-16.46.17:271][989]LogOnline: OSS: Created online subsystem instance for: :Context_121
+[2024.03.13-16.46.17:281][989]PIE: Server logged in
+[2024.03.13-16.46.17:285][989]PIE: Play in editor total start time 0.643 seconds.
+[2024.03.13-16.46.17:304][989]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-16.46.17:309][990]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-16.46.17:410][991]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-16.46.18:250][ 52]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.19:255][125]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.20:122][189]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.20:245][198]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.20:521][218]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.21:372][276]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.22:295][342]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.23:220][408]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.24:141][477]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.24:528][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.46.24:528][503]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.46.24:529][503]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-16.46.24:534][503]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.46.24:534][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.46.24:535][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.46.24:543][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.46.24:568][503]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.13-16.46.24:568][503]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2024.03.13-16.46.24:615][503]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.03.13-16.46.24:636][504]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2024.03.13-16.46.25:770][620]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.46.25:785][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.46.25:785][620]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:46:25 PM)
+[2024.03.13-16.46.25:785][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.46.25:790][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004889s)
+[2024.03.13-16.46.25:790][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.004940s)
+[2024.03.13-16.46.25:806][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.03.13-16.46.25:809][620]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.46.25:809][620]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.46.25:810][620]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.46.25:810][620]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2024.03.13-16.46.25:810][620]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2024.03.13-16.46.25:810][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.46.25:810][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.46.25:810][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.46.25:810][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.46.25:810][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.46.25:810][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.46.25:810][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.46.25:810][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.46.25:811][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.46.25:811][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.46.25:811][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.46.25:811][620]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.46.25:811][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.46.26:040][620]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.46.26:071][620]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.46.26:072][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.46.26:072][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.46.26:072][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.46.26:072][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=74
+[2024.03.13-16.46.26:073][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=74
+[2024.03.13-16.46.26:073][620]LogInit: FAudioDevice initialized with ID 74.
+[2024.03.13-16.46.26:073][620]LogAudio: Display: Audio Device (ID: 74) registered with world 'MAP_Debug'.
+[2024.03.13-16.46.26:073][620]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 74
+[2024.03.13-16.46.26:074][620]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=74
+[2024.03.13-16.46.26:333][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.46.26:333][620]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.46.26:335][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.46.26
+[2024.03.13-16.46.26:336][620]LogWorld: Bringing up level for play took: 0.002049
+[2024.03.13-16.46.26:337][620]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2024.03.13-16.46.26:344][620]PIE: Server logged in
+[2024.03.13-16.46.26:346][620]PIE: Play in editor total start time 0.568 seconds.
+[2024.03.13-16.46.26:360][620]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-16.46.26:367][621]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-16.46.26:445][622]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-16.46.26:913][656]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.27:773][720]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.27:986][737]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.28:156][750]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.28:987][811]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.29:072][817]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.29:373][839]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.30:145][897]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.31:061][955]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.31:952][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.46.31:952][ 19]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.46.31:953][ 19]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-16.46.31:958][ 19]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.46.31:958][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.46.31:959][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.46.31:966][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.46.31:990][ 19]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 74
+[2024.03.13-16.46.32:038][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.13-16.46.32:058][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2024.03.13-16.46.33:389][167]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.46.33:403][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.46.33:403][167]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:46:33 PM)
+[2024.03.13-16.46.33:403][167]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.46.33:407][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003667s)
+[2024.03.13-16.46.33:407][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.003714s)
+[2024.03.13-16.46.33:427][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.13-16.46.33:429][167]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.46.33:429][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.46.33:430][167]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.46.33:430][167]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2024.03.13-16.46.33:430][167]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2024.03.13-16.46.33:430][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.46.33:430][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.46.33:430][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.46.33:430][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.46.33:430][167]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.46.33:430][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.46.33:430][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.46.33:430][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.46.33:431][167]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.46.33:431][167]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.46.33:431][167]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.46.33:431][167]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.46.33:431][167]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.46.33:630][167]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.46.33:673][167]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.46.33:674][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.46.33:674][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.46.33:674][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.46.33:675][167]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=75
+[2024.03.13-16.46.33:676][167]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=75
+[2024.03.13-16.46.33:676][167]LogInit: FAudioDevice initialized with ID 75.
+[2024.03.13-16.46.33:676][167]LogAudio: Display: Audio Device (ID: 75) registered with world 'MAP_Debug'.
+[2024.03.13-16.46.33:676][167]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 75
+[2024.03.13-16.46.33:997][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.46.33:998][167]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.46.33:999][167]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.46.33
+[2024.03.13-16.46.34:000][167]LogWorld: Bringing up level for play took: 0.001574
+[2024.03.13-16.46.34:001][167]LogOnline: OSS: Created online subsystem instance for: :Context_123
+[2024.03.13-16.46.34:007][167]PIE: Server logged in
+[2024.03.13-16.46.34:009][167]PIE: Play in editor total start time 0.613 seconds.
+[2024.03.13-16.46.34:026][167]LogViewport: Scene viewport resized to 1914x988, mode Windowed.
+[2024.03.13-16.46.34:035][168]LogViewport: Scene viewport resized to 1920x1029, mode Windowed.
+[2024.03.13-16.46.34:198][169]LogViewport: Scene viewport resized to 1911x1020, mode Windowed.
+[2024.03.13-16.46.34:976][226]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.35:978][299]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.37:621][416]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.38:081][449]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.40:302][601]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.40:733][632]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.42:723][769]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.43:640][832]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.44:560][891]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.45:578][963]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.46:575][ 33]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.46.53:590][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.46.53:590][521]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.46.53:591][521]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.13-16.46.53:597][521]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.46.53:597][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.46.53:598][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.46.53:604][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.46.53:628][521]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 75
+[2024.03.13-16.46.53:676][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.13-16.46.53:697][522]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020f90 [serially])
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 6 (Closing connection)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 9 (  Trying 34.230.171.76:443...)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.230.171.76) port 443)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 34 (Closing connection)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: 0x4a7bf402300: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.47.09:582][694]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-16.49.01:111][386]LogEditorTransaction: Undo Create Pin Link
+[2024.03.13-16.49.49:516][870]LogEditorTransaction: Undo Nudge Node
+[2024.03.13-16.50.33:297][836]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.03.13-16.51.09:353][495]LogHttp: Warning: 0x4a751ece600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 0 (Found bundle for host: 0x4a6f3020b10 [serially])
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 6 (Closing connection)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 9 (  Trying 54.166.17.16:443...)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.166.17.16) port 443)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 25 (Server certificate:)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 34 (Closing connection)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: 0x4a751ece600: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.13-16.51.09:354][495]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D3425F1-DD0D-40C8-91C0-BC863BF46961%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.13-16.51.16:285][168]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.13-16.51.27:938][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.13-16.51.27:950][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.51.28:027][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTT_TryAttack" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset" SILENT=true
+[2024.03.13-16.51.28:034][516]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTT_TryAttack
+[2024.03.13-16.51.28:034][516]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BTT_TryAttackD5DA50E8E0E645549849CEBD6C5EFDD0.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset'
+[2024.03.13-16.51.28:117][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 37.6 sec)
+[2024.03.13-16.51.28:121][516]AssetCheck: New page: Asset Save: BTT_TryAttack
+[2024.03.13-16.51.28:121][516]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTT_TryAttack.BTT_TryAttack
+[2024.03.13-16.51.36:763][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.13-16.51.36:771][498]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.51.36:886][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTT_TryAttack" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset" SILENT=true
+[2024.03.13-16.51.36:906][498]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTT_TryAttack
+[2024.03.13-16.51.36:906][498]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BTT_TryAttack6A7A786BDE1D43C7BA97E45934E377BE.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset'
+[2024.03.13-16.51.36:948][498]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 37.8 sec)
+[2024.03.13-16.51.36:949][498]AssetCheck: New page: Asset Save: BTT_TryAttack
+[2024.03.13-16.51.36:949][498]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTT_TryAttack.BTT_TryAttack
+[2024.03.13-16.51.37:372][540]BlueprintLog: New page: Compile BTT_TryAttack
+[2024.03.13-16.51.37:374][540]LogBlueprint: Error: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset: [Compiler] This blueprint (self) is not a BP_Character_C, therefore ' Target ' must have a connection.
+[2024.03.13-16.51.37:410][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.13-16.51.40:275][795]BlueprintLog: New page: Compile BTT_TryAttack
+[2024.03.13-16.51.40:277][795]LogBlueprint: Error: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset: [Compiler] This blueprint (self) is not a BP_Character_C, therefore ' Target ' must have a connection.
+[2024.03.13-16.51.40:312][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.13-16.53.30:086][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.03.13-16.53.30:096][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.13-16.53.30:222][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTT_TryAttack" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset" SILENT=true
+[2024.03.13-16.53.30:237][100]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTT_TryAttack
+[2024.03.13-16.53.30:237][100]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BTT_TryAttackE1EB620C19194041BDA1045327A8A05C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset'
+[2024.03.13-16.53.30:291][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 38.0 sec)
+[2024.03.13-16.53.30:295][100]AssetCheck: New page: Asset Save: BTT_TryAttack
+[2024.03.13-16.53.30:295][100]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTT_TryAttack.BTT_TryAttack
+[2024.03.13-16.53.31:698][259]BlueprintLog: New page: Compile BTT_TryAttack
+[2024.03.13-16.53.31:739][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.13-16.53.34:419][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.53.34:433][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.53.34:433][513]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:53:34 PM)
+[2024.03.13-16.53.34:434][513]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.53.34:437][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003220s)
+[2024.03.13-16.53.34:437][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.003257s)
+[2024.03.13-16.53.34:461][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.13-16.53.34:464][513]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.53.34:464][513]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.53.34:465][513]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.53.34:465][513]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2024.03.13-16.53.34:465][513]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2024.03.13-16.53.34:465][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.53.34:465][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.53.34:465][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.53.34:465][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.53.34:465][513]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.53.34:465][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.53.34:465][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.53.34:465][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.53.34:466][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.53.34:466][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.53.34:466][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.53.34:466][513]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.53.34:466][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.53.34:661][513]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.53.34:705][513]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.53.34:705][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.53.34:706][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.53.34:706][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.53.34:708][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=76
+[2024.03.13-16.53.34:709][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2024.03.13-16.53.34:709][513]LogInit: FAudioDevice initialized with ID 76.
+[2024.03.13-16.53.34:709][513]LogAudio: Display: Audio Device (ID: 76) registered with world 'MAP_Debug'.
+[2024.03.13-16.53.34:709][513]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 76
+[2024.03.13-16.53.34:713][513]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.53.34:714][513]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.53.34
+[2024.03.13-16.53.34:715][513]LogWorld: Bringing up level for play took: 0.001805
+[2024.03.13-16.53.34:716][513]LogOnline: OSS: Created online subsystem instance for: :Context_124
+[2024.03.13-16.53.34:720][513]PIE: Server logged in
+[2024.03.13-16.53.34:721][513]PIE: Play in editor total start time 0.293 seconds.
+[2024.03.13-16.53.36:380][706]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.36:755][750]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.37:237][807]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.37:673][859]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.38:124][913]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.41:671][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.53.41:671][331]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.53.41:671][331]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.53.41:671][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.53.41:674][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.53.41:678][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.53.41:703][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.53.41:704][331]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 76
+[2024.03.13-16.53.41:755][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2024.03.13-16.53.41:801][332]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2024.03.13-16.53.43:147][452]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.13-16.53.43:161][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.13-16.53.43:161][452]PIE: New page: PIE session: MAP_Debug (Mar 13, 2024, 5:53:43 PM)
+[2024.03.13-16.53.43:162][452]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.53.43:165][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003478s)
+[2024.03.13-16.53.43:165][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.003521s)
+[2024.03.13-16.53.43:189][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.13-16.53.43:191][452]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.13-16.53.43:191][452]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.13-16.53.43:192][452]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.03.13-16.53.43:192][452]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2024.03.13-16.53.43:192][452]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2024.03.13-16.53.43:192][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.13-16.53.43:192][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.13-16.53.43:192][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.13-16.53.43:192][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.13-16.53.43:192][452]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.13-16.53.43:192][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.13-16.53.43:192][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.13-16.53.43:192][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.13-16.53.43:193][452]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.13-16.53.43:193][452]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.13-16.53.43:193][452]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.13-16.53.43:193][452]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.13-16.53.43:193][452]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.13-16.53.43:392][452]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.13-16.53.43:436][452]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.13-16.53.43:436][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.13-16.53.43:436][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.13-16.53.43:436][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.13-16.53.43:437][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=77
+[2024.03.13-16.53.43:438][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=77
+[2024.03.13-16.53.43:438][452]LogInit: FAudioDevice initialized with ID 77.
+[2024.03.13-16.53.43:438][452]LogAudio: Display: Audio Device (ID: 77) registered with world 'MAP_Debug'.
+[2024.03.13-16.53.43:438][452]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 77
+[2024.03.13-16.53.43:442][452]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.13-16.53.43:444][452]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.03.13-16.53.43
+[2024.03.13-16.53.43:445][452]LogWorld: Bringing up level for play took: 0.001675
+[2024.03.13-16.53.43:446][452]LogOnline: OSS: Created online subsystem instance for: :Context_125
+[2024.03.13-16.53.43:449][452]PIE: Server logged in
+[2024.03.13-16.53.43:450][452]PIE: Play in editor total start time 0.295 seconds.
+[2024.03.13-16.53.44:420][563]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.45:411][680]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.46:400][797]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.46:401][797]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.47:428][919]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.47:480][925]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.48:556][ 54]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.49:466][163]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.50:372][271]LogScript: Script Msg: Playing animation override...
+[2024.03.13-16.53.50:807][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.53.50:807][317]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.03.13-16.53.50:807][317]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.13-16.53.50:807][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.53.50:810][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.13-16.53.50:814][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.13-16.53.50:837][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.13-16.53.50:838][317]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 77
+[2024.03.13-16.53.50:888][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.13-16.53.50:913][318]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2024.03.13-16.53.52:490][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms

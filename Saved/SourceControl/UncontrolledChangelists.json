@@ -165,6 +165,7 @@
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BB_Enemy.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/BT_Enemy.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BT_TryAttack.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/AI/Tasks/BTT_TryAttack.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemies.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sound/S_Hit.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/PaperAssets/Sound/S_Throw.uasset"
