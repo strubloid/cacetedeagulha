@@ -1,0 +1,30 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-25-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "Ensure condition failed: !PersistentLayout->PrimaryArea.IsValid()  [File:./Runtime/Slate/Private/Framework/Docking/TabManager.cpp] [Line: 944] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Slate.so!FTabManager::PersistLayout() const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:944]
+libUnrealEditor-Slate.so!FTabManager::SavePersistentLayout() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:969]
+libUnrealEditor-Slate.so!decltype(auto) UE::Core::Private::Tuple::TTupleBase<TIntegerSequence<unsigned int> >::ApplyAfter<FTabManager::RequestSavePersistentLayout()::$_0&, float>(FTabManager::RequestSavePersistentLayout()::$_0&&&, float&&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Templates/Tuple.h:311]
+libUnrealEditor-Slate.so!TBaseFunctorDelegateInstance<bool (float), FDefaultDelegateUserPolicy, FTabManager::RequestSavePersistentLayout()::$_0>::Execute(float) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:862]
+libUnrealEditor-Core.so!FTSTicker::Tick(float) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Containers/Ticker.cpp:110]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:6072]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2814f)
+libc.so.6!__libc_start_main(+0x88)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
