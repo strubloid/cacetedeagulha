@@ -1,0 +1,39 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-26-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "FShaderCompilingManager::BlockOnAllShaderMapCompletion"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+libUnrealEditor-Core.so!ThreadStackWalker(int, siginfo_t*, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1040]
+libc.so.6!UnknownFunction(0x4298f)
+libc.so.6!clock_nanosleep(+0xc0)
+libc.so.6!__nanosleep(+0x16)
+libc.so.6!usleep(+0x48)
+libUnrealEditor-Core.so!FGenericPlatformProcess::Sleep(float) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/GenericPlatform/GenericPlatformProcess.cpp:378]
+libUnrealEditor-Engine.so!FShaderCompilingManager::BlockOnAllShaderMapCompletion(TMap<int, FShaderMapCompileResults, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<int, FShaderMapCompileResults, false> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/ShaderCompiler/ShaderCompiler.cpp:4859]
+libUnrealEditor-Engine.so!FShaderCompilingManager::FinishAllCompilation() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/ShaderCompiler/ShaderCompiler.cpp:5621]
+libUnrealEditor-UnrealEd.so!FLightmassExporter::WriteToMaterialChannel(FLightmassStatistics&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Lightmass/Lightmass.cpp:758]
+libUnrealEditor-UnrealEd.so!FLightmassProcessor::ExecuteAmortizedMaterialExport() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Lightmass/Lightmass.cpp:2835]
+libUnrealEditor-UnrealEd.so!FStaticLightingSystem::UpdateLightingBuild() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/StaticLightingSystem/StaticLightingSystem.cpp:2334]
+libUnrealEditor-UnrealEd.so!FStaticLightingManager::UpdateBuildLighting() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/StaticLightingSystem/StaticLightingSystem.cpp:358]
+libUnrealEditor-UnrealEd.so!UEditorEngine::UpdateBuildLighting() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/StaticLightingSystem/StaticLightingSystem.cpp:2545]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5819]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2814f)
+libc.so.6!__libc_start_main(+0x88)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
