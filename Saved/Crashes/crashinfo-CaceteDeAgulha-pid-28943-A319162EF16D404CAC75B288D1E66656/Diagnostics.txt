@@ -1,0 +1,40 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-26-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SAssetView, (ESPMode)1, bool (TSharedPtr<FAssetViewItem, (ESPMode)1> const&, FText const&, FSlateRect const&, FText&), FDefaultDelegateUserPolicy>::Execute(TSharedPtr<FAssetViewItem, (ESPMode)1> const&, FText const&, FSlateRect const&, FText&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+libUnrealEditor-ContentBrowser.so!SAssetViewItem::HandleVerifyNameChanged(FText const&, FText&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/ContentBrowser/Private/AssetViewWidgets.cpp:582]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SAssetTileItem, (ESPMode)1, bool (FText const&, FText&), FDefaultDelegateUserPolicy>::Execute(FText const&, FText&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+libUnrealEditor-Slate.so!SInlineEditableTextBlock::OnTextChanged(FText const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Text/SInlineEditableTextBlock.cpp:272]
+libUnrealEditor-Slate.so!TBaseSPMethodDelegateInstance<false, SInlineEditableTextBlock, (ESPMode)1, void (FText const&), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FText const&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-Slate.so!SEditableTextBox::OnEditableTextChanged(FText const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SEditableTextBox.cpp:496]
+libUnrealEditor-Slate.so!TBaseSPMethodDelegateInstance<false, SEditableTextBox, (ESPMode)1, void (FText const&), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FText const&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-Slate.so!non-virtual thunk to SEditableText::OnTextChanged(FText const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SEditableText.cpp:0]
+libUnrealEditor-Slate.so!FSlateEditableTextLayout::EndEditTransaction() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Text/SlateEditableTextLayout.cpp:3187]
+libUnrealEditor-Slate.so!FSlateEditableTextLayout::HandleKeyChar(FCharacterEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Text/SlateEditableTextLayout.cpp:986]
+libUnrealEditor-Slate.so!SEditableText::OnKeyChar(FGeometry const&, FCharacterEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SEditableText.cpp:224]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessKeyCharEvent(FCharacterEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4596]
+libUnrealEditor-Slate.so!non-virtual thunk to FSlateApplication::OnKeyChar(char16_t, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:0]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:339]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:442]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5743]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2814f)
+libc.so.6!__libc_start_main(+0x88)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
