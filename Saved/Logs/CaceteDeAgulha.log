@@ -3182,3 +3182,1577 @@ FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArra
 [2024.03.26-09.20.42:027][323]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
 [2024.03.26-09.20.42:039][323]LogViewport: Scene viewport resized to 268x151, mode Windowed.
 [2024.03.26-09.20.42:081][324]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.22.14:508][466]LogSlate: Took 0.001419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.03.26-09.22.17:264][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.03.26-09.22.17:271][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.22.17:334][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.22.17:387][581]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.22.17:388][581]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player1B84FB8C515F4624B5D9D27B2E6AC30C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.22.17:414][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 4.20 sec)
+[2024.03.26-09.22.17:416][581]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.22.17:416][581]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.22.50:850][925]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.03.26-09.22.50:885][925]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.03.26-09.22.50:918][925]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.03.26-09.22.50:928][926]LogAutomationController: Ignoring very large delta of 10.77 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.26-09.22.50:953][926]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.03.26-09.22.55:730][153]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WID_Score
+[2024.03.26-09.22.55:736][153]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.03.26-09.22.57:167][211]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/WID_Score.WID_Score
+[2024.03.26-09.22.57:167][211]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.22.57:167][211]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.22.57:172][211]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.22.57:172][211]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.23.48:166][662]BlueprintLog: New page: Compile WID_Score
+[2024.03.26-09.23.48:232][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-09.23.48:245][662]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.23.48:395][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Score" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset" SILENT=true
+[2024.03.26-09.23.48:400][662]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Score
+[2024.03.26-09.23.48:400][662]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Score8C10C8F7252847129FC35FFC0CB10120.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset'
+[2024.03.26-09.23.48:468][662]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 4.42 sec)
+[2024.03.26-09.23.48:518][662]AssetCheck: New page: Asset Save: WID_Score
+[2024.03.26-09.23.48:518][662]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Score.WID_Score
+[2024.03.26-09.25.08:077][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.03.26-09.25.08:084][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.25.08:182][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Score" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset" SILENT=true
+[2024.03.26-09.25.08:193][127]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Score
+[2024.03.26-09.25.08:194][127]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Score9BDE9F7DEE474F58963F75DF61DCC8FD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset'
+[2024.03.26-09.25.08:225][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 4.56 sec)
+[2024.03.26-09.25.08:227][127]AssetCheck: New page: Asset Save: WID_Score
+[2024.03.26-09.25.08:227][127]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Score.WID_Score
+[2024.03.26-09.25.08:497][139]BlueprintLog: New page: Compile WID_Score
+[2024.03.26-09.25.08:539][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.03.26-09.25.20:942][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.03.26-09.25.20:950][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.25.21:109][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Score" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset" SILENT=true
+[2024.03.26-09.25.21:128][853]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Score
+[2024.03.26-09.25.21:128][853]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_ScoreD2EE3DDEDCF6467583763C3069BF6557.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset'
+[2024.03.26-09.25.21:188][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 4.80 sec)
+[2024.03.26-09.25.21:189][853]AssetCheck: New page: Asset Save: WID_Score
+[2024.03.26-09.25.21:189][853]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Score.WID_Score
+[2024.03.26-09.25.23:965][  6]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.25.26:126][122]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2024.03.26-09.25.26:144][122]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.25.29:877][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.03.26-09.25.29:885][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.25.29:962][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Score" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset" SILENT=true
+[2024.03.26-09.25.29:967][340]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Score
+[2024.03.26-09.25.29:967][340]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_ScoreCA97588A5C6746DC87F352D8BD9859A8.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset'
+[2024.03.26-09.25.30:039][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 4.95 sec)
+[2024.03.26-09.25.30:042][340]AssetCheck: New page: Asset Save: WID_Score
+[2024.03.26-09.25.30:042][340]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Score.WID_Score
+[2024.03.26-09.26.18:411][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.26-09.26.18:418][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.26.18:540][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Score" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset" SILENT=true
+[2024.03.26-09.26.18:556][911]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Score
+[2024.03.26-09.26.18:556][911]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Score51215B21C11B4AB1BB6C71DFB3FE2E23.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset'
+[2024.03.26-09.26.18:593][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 5.13 sec)
+[2024.03.26-09.26.18:594][911]AssetCheck: New page: Asset Save: WID_Score
+[2024.03.26-09.26.18:594][911]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Score.WID_Score
+[2024.03.26-09.26.41:548][238]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.26.42:187][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.03.26-09.26.42:194][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.26.42:282][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Score" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset" SILENT=true
+[2024.03.26-09.26.42:289][276]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Score
+[2024.03.26-09.26.42:289][276]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Score2300BA62AFC24DDBA8A3359FA304FAC3.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset'
+[2024.03.26-09.26.42:348][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 5.28 sec)
+[2024.03.26-09.26.42:350][276]AssetCheck: New page: Asset Save: WID_Score
+[2024.03.26-09.26.42:351][276]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Score.WID_Score
+[2024.03.26-09.26.54:143][948]BlueprintLog: New page: Compile WID_Score
+[2024.03.26-09.26.54:145][948]LogBlueprint: Error: [AssetLog] /home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Score.uasset: [Compiler] The property associated with  Player Score  could not be found in '/Game/Blueprints/Widgets/WID_Score.WID_Score_C'
+[2024.03.26-09.26.54:186][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.26-09.27.02:090][145]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-09.27.02:173][145]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.26-09.27.02:346][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.26-09.27.04:094][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.03.26-09.27.08:490][422]BlueprintLog: New page: Compile WID_Score
+[2024.03.26-09.27.08:517][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2024.03.26-09.28.26:353][774]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-09.28.26:451][774]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.26-09.28.26:639][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.26-09.28.26:688][774]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.28.26:812][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.28.26:889][774]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.28.26:889][774]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player051CF0A944DD421BA659E930D3E5AB2E.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.28.26:917][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 5.51 sec)
+[2024.03.26-09.28.26:953][774]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.28.26:953][774]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.28.28:314][834]LogDerivedDataCache: /home/zero/.config/Epic/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:19.109 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10253 files in 11775 folders with total size 418 MiB.
+[2024.03.26-09.28.42:339][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.26-09.28.42:347][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.28.42:482][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.28.42:559][581]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.28.42:559][581]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player1213BBF161754AAEA35E39D9834CEDA9.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.28.42:613][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 5.78 sec)
+[2024.03.26-09.28.42:618][581]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.28.42:618][581]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.29.52:020][282]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.29.59:213][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.26-09.29.59:221][677]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.29.59:290][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.29.59:345][677]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.29.59:345][677]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player885FB6BB15A14C67B922DB5C25EFA169.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.29.59:369][677]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 5.92 sec)
+[2024.03.26-09.29.59:371][677]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.29.59:371][677]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.30.01:331][782]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-09.30.01:411][782]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.26-09.30.01:596][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.26-09.30.12:559][337]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.26-09.30.12:559][337]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.30.12:559][337]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.30.12:989][337]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.26-09.31.06:546][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.26-09.31.06:557][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.31.06:664][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.26-09.31.06:690][255]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.26-09.31.06:690][255]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Enemy198FDD0CF3EA45EFA99EC62513430B3D.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.26-09.31.06:769][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 6.14 sec)
+[2024.03.26-09.31.06:775][255]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.26-09.31.06:775][255]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.26-09.31.08:655][357]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.26-09.31.08:718][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.03.26-09.31.58:105][145]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.32.00:087][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.03.26-09.32.00:096][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.32.00:175][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.26-09.32.00:194][260]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.26-09.32.00:194][260]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_EnemyEA981A7D135F4EAEBACA6D0769C74FC7.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.26-09.32.00:261][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 6.30 sec)
+[2024.03.26-09.32.00:265][260]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.26-09.32.00:265][260]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.26-09.32.09:215][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.26-09.32.09:222][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.32.09:283][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Enemies/BP_Enemy" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.03.26-09.32.09:294][768]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Enemies/BP_Enemy
+[2024.03.26-09.32.09:294][768]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_EnemyCC47EFCFF3FE4E968622C0B0C6598964.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2024.03.26-09.32.09:388][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 6.47 sec)
+[2024.03.26-09.32.09:392][768]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.03.26-09.32.09:392][768]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2024.03.26-09.32.18:703][302]BlueprintLog: New page: Compile BP_Enemy
+[2024.03.26-09.32.18:762][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.26-09.32.31:336][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.03.26-09.34.24:943][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.26-09.35.11:107][167]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.35.11:116][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.35.11:116][167]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:35:11 AM)
+[2024.03.26-09.35.11:116][167]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.35.11:119][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002614s)
+[2024.03.26-09.35.11:119][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002641s)
+[2024.03.26-09.35.11:142][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.03.26-09.35.11:143][167]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.35.11:143][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.35.11:143][167]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.35.11:143][167]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2024.03.26-09.35.11:143][167]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.03.26-09.35.11:143][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.35.11:143][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.35.11:143][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.35.11:143][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.35.11:143][167]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.35.11:143][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.35.11:143][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.35.11:143][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.35.11:144][167]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.35.11:144][167]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.35.11:144][167]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.35.11:144][167]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.35.11:144][167]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.35.11:389][167]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.35.11:409][167]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.35.11:410][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.35.11:410][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.35.11:410][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.35.11:412][167]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=20
+[2024.03.26-09.35.11:412][167]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.03.26-09.35.11:412][167]LogInit: FAudioDevice initialized with ID 20.
+[2024.03.26-09.35.11:412][167]LogAudio: Display: Audio Device (ID: 20) registered with world 'MAP_Menu'.
+[2024.03.26-09.35.11:412][167]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.03.26-09.35.11:687][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.35.11:687][167]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.35.11:689][167]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.35.11
+[2024.03.26-09.35.11:690][167]LogWorld: Bringing up level for play took: 0.002431
+[2024.03.26-09.35.11:691][167]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.03.26-09.35.11:721][167]PIE: Server logged in
+[2024.03.26-09.35.11:729][167]PIE: Play in editor total start time 0.612 seconds.
+[2024.03.26-09.35.11:746][167]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.35.11:750][168]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.35.13:042][228]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-09.35.13:042][228]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-09.35.13:042][228]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.35.13:042][228]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.35.13:043][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.35.13:064][228]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.35.13:067][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.26-09.35.13:442][228]LogAudio: Display: Audio Device (ID: 20) registered with world 'MAP_Egypt'.
+[2024.03.26-09.35.13:442][228]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.35.13:442][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.35.13:442][228]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-09.35.13:444][228]LogPlayLevel: PIE: World Init took: (0.001969s)
+[2024.03.26-09.35.13:444][228]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.35.13:720][228]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-09.35.13
+[2024.03.26-09.35.13:722][228]LogWorld: Bringing up level for play took: 0.276276
+[2024.03.26-09.35.13:731][228]LogLoad: Took 0.689338 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-09.35.16:470][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.35.16:471][343]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-09.35.16:471][343]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.35.16:482][343]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.35.16:500][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.35.16:568][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.35.16:577][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.35.16:617][343]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.03.26-09.35.16:693][343]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.03.26-09.35.17:213][344]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.03.26-09.35.20:312][492]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.26-09.36.28:863][ 19]BlueprintLog: New page: Collapse to Function
+[2024.03.26-09.38.08:930][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.26-09.38.08:939][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.38.09:025][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.38.09:102][531]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.38.09:103][531]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player13F2BF88AAED4993A724915CF2B8A063.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.38.09:151][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 6.68 sec)
+[2024.03.26-09.38.09:154][531]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.38.09:154][531]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.38.11:644][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.26-09.38.12:231][685]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-09.38.12:337][685]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+UClass::TryFindTypeSlow(UClass*, FString const&, EFindFirstObjectOptions) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6244]
+FPaperZDComponentReferenceCustomization::BuildClassFilters()::$_1::operator()(FString const&, TArray<TSubclassOf<UActorComponent>, TSizedDefaultAllocator<32> >&) const [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::BuildClassFilters() [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:214]
+FPaperZDComponentReferenceCustomization::CustomizeHeader(TSharedRef<IPropertyHandle, (ESPMode)1>, FDetailWidgetRow&, IPropertyTypeCustomizationUtils&) [/home/zero/UnrealGames/Plugins/PaperZDLinux/HostProject/Plugins/PaperZD/Source/PaperZDEditor/Private/Editors/DetailCustomizations/PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized(TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&, TSharedPtr<IDetailGroup, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:296]
+FDetailItemNode::InitPropertyEditor() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:45]
+FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+
+[2024.03.26-09.38.12:526][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.26-09.38.14:547][756]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.38.14:558][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.38.14:558][756]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:38:14 AM)
+[2024.03.26-09.38.14:558][756]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.38.14:561][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002624s)
+[2024.03.26-09.38.14:561][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002653s)
+[2024.03.26-09.38.14:586][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.03.26-09.38.14:588][756]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.38.14:588][756]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.38.14:589][756]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.38.14:589][756]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2024.03.26-09.38.14:589][756]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.03.26-09.38.14:589][756]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.38.14:589][756]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.38.14:589][756]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.38.14:589][756]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.38.14:589][756]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.38.14:589][756]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.38.14:589][756]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.38.14:589][756]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.38.14:590][756]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.38.14:590][756]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.38.14:590][756]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.38.14:590][756]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.38.14:590][756]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.38.14:859][756]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.38.14:906][756]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.38.14:907][756]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.38.14:907][756]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.38.14:907][756]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.38.14:908][756]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=21
+[2024.03.26-09.38.14:909][756]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.03.26-09.38.14:909][756]LogInit: FAudioDevice initialized with ID 21.
+[2024.03.26-09.38.14:909][756]LogAudio: Display: Audio Device (ID: 21) registered with world 'MAP_Menu'.
+[2024.03.26-09.38.14:909][756]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.26-09.38.15:221][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.38.15:221][756]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.38.15:222][756]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.38.15
+[2024.03.26-09.38.15:223][756]LogWorld: Bringing up level for play took: 0.001105
+[2024.03.26-09.38.15:223][756]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.03.26-09.38.15:239][756]PIE: Server logged in
+[2024.03.26-09.38.15:247][756]PIE: Play in editor total start time 0.689 seconds.
+[2024.03.26-09.38.15:265][756]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.38.15:270][757]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.38.16:812][824]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-09.38.16:812][824]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-09.38.16:812][824]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.38.16:812][824]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.38.16:812][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.38.16:835][824]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.38.16:838][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.26-09.38.17:176][824]LogAudio: Display: Audio Device (ID: 21) registered with world 'MAP_Egypt'.
+[2024.03.26-09.38.17:176][824]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.38.17:176][824]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.38.17:177][824]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-09.38.17:178][824]LogPlayLevel: PIE: World Init took: (0.001922s)
+[2024.03.26-09.38.17:178][824]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.38.17:429][824]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-09.38.17
+[2024.03.26-09.38.17:432][824]LogWorld: Bringing up level for play took: 0.251894
+[2024.03.26-09.38.17:442][824]LogLoad: Took 0.629685 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-09.38.24:502][109]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.24:504][109]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'ThrowCollection' of length 0 in '/Game/Blueprints/Characters/Player/BP_Player.BP_Player_C'!
+[2024.03.26-09.38.24:504][109]LogScript: Warning: Script Msg called by: BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+[2024.03.26-09.38.24:852][124]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.25:393][146]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.25:596][155]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.25:969][170]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.28:781][285]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.30:677][363]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.31:044][377]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.31:950][413]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.32:496][436]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.32:615][441]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.34:831][531]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.35:181][545]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.37:020][619]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.37:438][636]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.37:806][650]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.38:256][668]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.38:660][684]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.39:761][726]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.40:143][741]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.40:501][755]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.40:860][769]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.45:924][965]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.46:764][996]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.47:292][ 16]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.47:792][ 35]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.48:449][ 61]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.49:437][ 98]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.50:034][121]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.50:552][141]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.50:920][155]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.53:721][260]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.55:145][307]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.38.59:262][445]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.39.00:534][492]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.39.00:891][505]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.39.01:579][530]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.39.02:964][581]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.39.03:884][615]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.39.03:909][616]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.39.06:498][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.39.06:498][709]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-09.39.06:498][709]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.39.06:508][709]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.39.06:528][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.39.06:591][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.39.06:601][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.39.06:643][709]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.26-09.39.06:731][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.26-09.39.07:360][710]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.03.26-09.39.09:710][826]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.39.09:724][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.39.09:724][826]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:39:09 AM)
+[2024.03.26-09.39.09:724][826]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.39.09:728][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003941s)
+[2024.03.26-09.39.09:729][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.003984s)
+[2024.03.26-09.39.09:747][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.26-09.39.09:748][826]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.39.09:749][826]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.39.09:749][826]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.39.09:749][826]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2024.03.26-09.39.09:749][826]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.03.26-09.39.09:749][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.39.09:749][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.39.09:749][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.39.09:750][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.39.09:750][826]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.39.09:750][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.39.09:750][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.39.09:750][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.39.09:750][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.39.09:750][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.39.09:750][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.39.09:750][826]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.39.09:751][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.39.10:028][826]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.39.10:072][826]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.39.10:073][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.39.10:073][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.39.10:073][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.39.10:074][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=22
+[2024.03.26-09.39.10:074][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.03.26-09.39.10:074][826]LogInit: FAudioDevice initialized with ID 22.
+[2024.03.26-09.39.10:074][826]LogAudio: Display: Audio Device (ID: 22) registered with world 'MAP_Menu'.
+[2024.03.26-09.39.10:074][826]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.26-09.39.10:327][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.39.10:327][826]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.39.10:330][826]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.39.10
+[2024.03.26-09.39.10:331][826]LogWorld: Bringing up level for play took: 0.003215
+[2024.03.26-09.39.10:333][826]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.03.26-09.39.10:361][826]PIE: Server logged in
+[2024.03.26-09.39.10:369][826]PIE: Play in editor total start time 0.645 seconds.
+[2024.03.26-09.39.10:388][826]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.39.10:392][827]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.40.01:090][  9]Cmd: quit
+[2024.03.26-09.40.01:091][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.40.01:091][  9]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.40.01:092][  9]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.40.01:122][  9]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.40.01:123][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.40.01:125][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.40.01:131][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.40.01:157][  9]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.40.01:157][  9]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.26-09.40.01:207][  9]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2024.03.26-09.40.01:560][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.03.26-09.40.02:694][ 62]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.40.02:707][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.40.02:707][ 62]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:40:02 AM)
+[2024.03.26-09.40.02:707][ 62]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.40.02:711][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003695s)
+[2024.03.26-09.40.02:711][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.003740s)
+[2024.03.26-09.40.02:739][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.03.26-09.40.02:740][ 62]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.40.02:740][ 62]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.40.02:741][ 62]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.40.02:741][ 62]LogPlayLevel: PIE: World Init took: (0.001316s)
+[2024.03.26-09.40.02:741][ 62]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.03.26-09.40.02:741][ 62]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.40.02:741][ 62]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.40.02:741][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.40.02:741][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.40.02:741][ 62]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.40.02:741][ 62]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.40.02:741][ 62]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.40.02:741][ 62]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.40.02:742][ 62]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.40.02:742][ 62]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.40.02:742][ 62]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.40.02:742][ 62]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.40.02:743][ 62]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.40.03:017][ 62]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.40.03:060][ 62]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.40.03:061][ 62]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.40.03:061][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.40.03:061][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.40.03:061][ 62]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=23
+[2024.03.26-09.40.03:062][ 62]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.03.26-09.40.03:062][ 62]LogInit: FAudioDevice initialized with ID 23.
+[2024.03.26-09.40.03:062][ 62]LogAudio: Display: Audio Device (ID: 23) registered with world 'MAP_Menu'.
+[2024.03.26-09.40.03:062][ 62]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.03.26-09.40.03:330][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.40.03:331][ 62]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.40.03:334][ 62]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.40.03
+[2024.03.26-09.40.03:335][ 62]LogWorld: Bringing up level for play took: 0.003124
+[2024.03.26-09.40.03:336][ 62]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.03.26-09.40.03:366][ 62]PIE: Server logged in
+[2024.03.26-09.40.03:374][ 62]PIE: Play in editor total start time 0.667 seconds.
+[2024.03.26-09.40.03:395][ 62]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.40.03:399][ 63]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.40.18:958][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.40.18:958][701]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.40.18:959][701]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.40.18:975][701]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.40.18:976][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.40.18:978][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.40.18:990][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.40.19:020][701]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.03.26-09.40.19:072][701]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2024.03.26-09.40.19:363][702]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.03.26-09.40.27:232][114]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.40.27:244][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.40.27:244][114]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:40:27 AM)
+[2024.03.26-09.40.27:244][114]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.40.27:248][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003065s)
+[2024.03.26-09.40.27:248][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.003101s)
+[2024.03.26-09.40.27:273][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.26-09.40.27:274][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.40.27:274][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.40.27:275][114]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.40.27:275][114]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2024.03.26-09.40.27:275][114]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.03.26-09.40.27:275][114]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.40.27:275][114]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.40.27:275][114]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.40.27:275][114]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.40.27:275][114]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.40.27:275][114]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.40.27:275][114]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.40.27:275][114]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.40.27:276][114]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.40.27:276][114]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.40.27:276][114]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.40.27:276][114]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.40.27:276][114]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.40.27:548][114]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.40.27:591][114]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.40.27:592][114]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.40.27:592][114]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.40.27:592][114]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.40.27:593][114]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=24
+[2024.03.26-09.40.27:593][114]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.03.26-09.40.27:593][114]LogInit: FAudioDevice initialized with ID 24.
+[2024.03.26-09.40.27:593][114]LogAudio: Display: Audio Device (ID: 24) registered with world 'MAP_Menu'.
+[2024.03.26-09.40.27:593][114]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.03.26-09.40.27:847][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.40.27:848][114]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.40.27:850][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.40.27
+[2024.03.26-09.40.27:851][114]LogWorld: Bringing up level for play took: 0.002219
+[2024.03.26-09.40.27:852][114]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.03.26-09.40.27:883][114]PIE: Server logged in
+[2024.03.26-09.40.27:892][114]PIE: Play in editor total start time 0.648 seconds.
+[2024.03.26-09.40.27:909][114]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.40.27:913][115]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.40.39:628][613]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-09.40.39:628][613]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-09.40.39:628][613]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.40.39:628][613]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.40.39:628][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.40.39:653][613]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.40.39:656][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.03.26-09.40.40:040][613]LogAudio: Display: Audio Device (ID: 24) registered with world 'MAP_Egypt'.
+[2024.03.26-09.40.40:041][613]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.40.40:041][613]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.40.40:041][613]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-09.40.40:042][613]LogPlayLevel: PIE: World Init took: (0.001978s)
+[2024.03.26-09.40.40:043][613]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.40.40:325][613]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-09.40.40
+[2024.03.26-09.40.40:328][613]LogWorld: Bringing up level for play took: 0.283423
+[2024.03.26-09.40.40:344][613]LogLoad: Took 0.716529 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-09.40.50:838][979]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.50:913][982]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.50:915][982]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'ThrowCollection' of length 0 in '/Game/Blueprints/Characters/Player/BP_Player.BP_Player_C'!
+[2024.03.26-09.40.50:915][982]LogScript: Warning: Script Msg called by: BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+[2024.03.26-09.40.51:278][996]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.51:817][ 16]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.51:977][ 22]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.52:511][ 41]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.52:657][ 46]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.57:627][218]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.57:656][219]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.58:024][232]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.58:381][244]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.58:934][263]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.40.59:126][270]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.00:445][316]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.00:810][328]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.01:353][347]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.01:492][352]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.02:041][371]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.02:183][376]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.05:441][486]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.05:819][498]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.06:503][521]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.07:197][544]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.10:238][644]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.10:614][656]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.10:994][669]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.11:548][689]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.11:652][693]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.14:434][789]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.14:802][801]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.15:216][816]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.15:760][834]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.41.19:287][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.41.19:287][955]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-09.41.19:288][955]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.41.19:301][955]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.41.19:329][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.41.19:436][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.41.19:455][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.41.19:511][955]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.03.26-09.41.19:594][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.03.26-09.41.20:456][956]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.03.26-09.41.24:077][126]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.41.24:106][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.41.24:106][126]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:41:24 AM)
+[2024.03.26-09.41.24:106][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.41.24:115][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008666s)
+[2024.03.26-09.41.24:115][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.008749s)
+[2024.03.26-09.41.24:142][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.03.26-09.41.24:144][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.41.24:145][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.41.24:145][126]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.41.24:146][126]LogPlayLevel: PIE: World Init took: (0.001535s)
+[2024.03.26-09.41.24:146][126]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.03.26-09.41.24:146][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.41.24:146][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.41.24:146][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.41.24:146][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.41.24:146][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.41.24:146][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.41.24:146][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.41.24:146][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.41.24:147][126]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.41.24:147][126]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.41.24:147][126]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.41.24:147][126]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.41.24:147][126]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.41.24:419][126]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.41.24:466][126]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.41.24:469][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.41.24:469][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.41.24:469][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.41.24:471][126]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=25
+[2024.03.26-09.41.24:471][126]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.03.26-09.41.24:471][126]LogInit: FAudioDevice initialized with ID 25.
+[2024.03.26-09.41.24:472][126]LogAudio: Display: Audio Device (ID: 25) registered with world 'MAP_Menu'.
+[2024.03.26-09.41.24:472][126]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.03.26-09.41.24:798][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.41.24:798][126]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.41.24:801][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.41.24
+[2024.03.26-09.41.24:802][126]LogWorld: Bringing up level for play took: 0.003001
+[2024.03.26-09.41.24:803][126]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.03.26-09.41.24:837][126]PIE: Server logged in
+[2024.03.26-09.41.24:846][126]PIE: Play in editor total start time 0.741 seconds.
+[2024.03.26-09.41.24:866][126]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.41.24:871][127]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.41.26:704][194]Cmd: quit
+[2024.03.26-09.41.26:705][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.41.26:705][194]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.41.26:705][194]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.41.26:712][194]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.41.26:713][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.41.26:714][194]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.41.26:721][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.41.26:742][194]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.03.26-09.41.26:790][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-09.41.27:126][195]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.03.26-09.46.15:040][121]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.26-09.46.15:072][121]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.26-09.46.15:098][121]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.26-09.46.15:107][121]LogAutomationController: Ignoring very large delta of 26.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.26-09.46.15:170][123]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.26-09.46.25:696][469]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2024.03.26-09.46.25:701][469]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.26-09.46.30:855][707]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Save
+[2024.03.26-09.46.30:900][707]LogMetaData: Removing '/Game/Blueprints/SaveGame/BP_Save.SKEL_BP_Save_C' ref from Metadata '/Game/Blueprints/SaveGame/NewBlueprint.PackageMetaData'
+[2024.03.26-09.46.30:900][707]LogMetaData: Removing '/Game/Blueprints/SaveGame/BP_Save.BP_Save_C' ref from Metadata '/Game/Blueprints/SaveGame/NewBlueprint.PackageMetaData'
+[2024.03.26-09.46.30:900][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.46.31:059][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SaveGame/BP_Save" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset" SILENT=true
+[2024.03.26-09.46.31:060][707]LogSavePackage: Moving output files for package: /Game/Blueprints/SaveGame/BP_Save
+[2024.03.26-09.46.31:060][707]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Save9C38445B3DFC495FAE2433B272618819.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset'
+[2024.03.26-09.46.31:187][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 286 ms (total: 6.97 sec)
+[2024.03.26-09.46.31:233][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.26-09.46.31:262][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.26-09.46.31:294][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.03.26-09.46.31:296][707]AssetCheck: New page: Asset Save: BP_Save
+[2024.03.26-09.46.31:296][707]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/SaveGame/BP_Save.BP_Save
+[2024.03.26-09.46.32:442][757]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/SaveGame/BP_Save.BP_Save
+[2024.03.26-09.46.32:442][757]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.46.32:442][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.47.26:779][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-09.47.26:786][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.47.26:842][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SaveGame/BP_Save" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset" SILENT=true
+[2024.03.26-09.47.26:843][575]LogSavePackage: Moving output files for package: /Game/Blueprints/SaveGame/BP_Save
+[2024.03.26-09.47.26:844][575]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_SaveEE0598DBB0CA41A2873FFECCBD314FDB.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset'
+[2024.03.26-09.47.26:915][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 7.10 sec)
+[2024.03.26-09.47.26:917][575]AssetCheck: New page: Asset Save: BP_Save
+[2024.03.26-09.47.26:917][575]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/SaveGame/BP_Save.BP_Save
+[2024.03.26-09.47.30:184][639]BlueprintLog: New page: Compile BP_Save
+[2024.03.26-09.47.30:217][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.03.26-09.47.30:948][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.47.31:145][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SaveGame/BP_Save" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset" SILENT=true
+[2024.03.26-09.47.31:147][670]LogSavePackage: Moving output files for package: /Game/Blueprints/SaveGame/BP_Save
+[2024.03.26-09.47.31:147][670]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_SaveD46F49FC4D9C4EC69C2D99955FF5AF98.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset'
+[2024.03.26-09.47.31:256][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 308 ms (total: 7.40 sec)
+[2024.03.26-09.47.31:259][670]AssetCheck: New page: Asset Save: BP_Save
+[2024.03.26-09.47.31:259][670]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/SaveGame/BP_Save.BP_Save
+[2024.03.26-09.47.35:493][753]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.35:493][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.47.36:889][820]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.36:889][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.47.37:891][876]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.37:891][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.47.37:903][876]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.37:903][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.47.40:204][  6]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.26-09.47.40:204][  6]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.40:204][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.47.42:338][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.26-09.47.42:338][123]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.42:338][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.47.43:740][195]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.43:740][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.47.43:751][195]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.47.43:751][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.49.12:314][733]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.49.59:606][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.26-09.49.59:617][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.49.59:765][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.49.59:840][261]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.49.59:840][261]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player46B7098B8A374E95BDAF50F0E903A7C8.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.49.59:894][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 276 ms (total: 7.68 sec)
+[2024.03.26-09.49.59:898][261]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.49.59:899][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.50.06:928][620]BlueprintLog: New page: Collapse to Function
+[2024.03.26-09.50.20:258][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.03.26-09.50.20:272][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.50.20:331][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.50.20:393][358]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.50.20:394][358]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player9DEF46E4BC074F3BB6CDE2CBD962B4E8.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.50.20:432][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 7.84 sec)
+[2024.03.26-09.50.20:435][358]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.50.20:435][358]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.50.21:069][385]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-09.50.21:239][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.03.26-09.51.19:698][312]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-09.51.19:794][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.26-09.51.19:828][312]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.51.19:907][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.51.19:978][312]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.51.19:978][312]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player036B8FE5B18F406E9F812370E8775FCD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.51.20:015][312]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 8.03 sec)
+[2024.03.26-09.51.20:031][312]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.51.20:031][312]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.51.34:363][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.26-09.51.34:372][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.51.34:434][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.51.34:490][121]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.51.34:490][121]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player8F2D98EF207C4C30B61D257D6958E4BD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.51.34:491][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/Death/BP_Death" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/Death/BP_Death.uasset" SILENT=true
+[2024.03.26-09.51.34:497][121]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/Death/BP_Death
+[2024.03.26-09.51.34:497][121]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Death3BBA7B7072B74314BAAE5026057D3FDF.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/Death/BP_Death.uasset'
+[2024.03.26-09.51.34:546][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 8.20 sec)
+[2024.03.26-09.51.34:550][121]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.26-09.51.34:550][121]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.51.34:550][121]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/Death/BP_Death.BP_Death
+[2024.03.26-09.51.50:506][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.26-09.51.50:513][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.51.50:588][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.51.50:651][615]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.51.50:651][615]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerBE795C5AF28C496FBACB117889DCDECF.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.51.50:652][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/Death/BP_Death" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/Death/BP_Death.uasset" SILENT=true
+[2024.03.26-09.51.50:657][615]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/Death/BP_Death
+[2024.03.26-09.51.50:657][615]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Death42BF7C2F5C884220A86C3573A5F95CB3.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/Death/BP_Death.uasset'
+[2024.03.26-09.51.50:697][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 8.39 sec)
+[2024.03.26-09.51.50:699][615]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.26-09.51.50:699][615]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.51.50:699][615]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/Death/BP_Death.BP_Death
+[2024.03.26-09.53.59:920][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.26-09.53.59:929][769]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.54.00:075][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.54.00:157][769]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.54.00:157][769]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerDCAB542F0BAC49B3B7BB368116943795.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.54.00:235][769]LogFileHelpers: InternalPromptForCheckoutAndSave took 306 ms (total: 8.69 sec)
+[2024.03.26-09.54.00:239][769]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.54.00:239][769]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.54.32:129][639]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2024.03.26-09.54.32:190][639]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.54.38:082][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.26-09.54.38:090][967]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.54.38:229][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.54.38:316][967]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.54.38:316][967]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player4E98A3627CA24E3AA90E1FB87EF1BB7E.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.54.38:386][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 296 ms (total: 8.99 sec)
+[2024.03.26-09.54.38:392][967]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.54.38:392][967]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.57.00:208][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.03.26-09.57.00:218][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.57.00:314][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.57.00:395][707]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.57.00:395][707]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player0296ABC78F0F4F59A26734AC1A2CBB74.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.57.00:427][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 9.20 sec)
+[2024.03.26-09.57.00:428][707]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.57.00:428][707]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.57.30:983][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.26-09.57.30:993][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.57.31:076][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.57.31:145][416]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.57.31:146][416]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerCCA75E454FAC452B902869338D87F560.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.57.31:178][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 185 ms (total: 9.38 sec)
+[2024.03.26-09.57.31:180][416]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.57.31:180][416]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.57.55:668][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.03.26-09.57.55:677][311]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.57.55:746][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.57.55:820][311]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.57.55:820][311]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player4D2D999A98974BB9B533178D2032685C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.57.55:848][311]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 9.55 sec)
+[2024.03.26-09.57.55:853][311]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.57.55:853][311]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-09.57.56:960][362]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-09.57.57:066][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.26-09.59.01:806][201]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.59.23:755][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.26-09.59.23:763][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.59.23:815][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-09.59.23:881][383]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-09.59.23:882][383]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerEE456135ECF1498C9A8062AA31EFCC20.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-09.59.23:915][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 9.71 sec)
+[2024.03.26-09.59.23:917][383]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-09.59.23:917][383]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.00.23:208][682]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-10.00.35:968][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.26-10.00.35:975][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.00.36:038][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.00.36:110][436]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.00.36:110][436]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerE27274DB9E5D4527901A9CC376D3BCE1.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.00.36:136][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 9.87 sec)
+[2024.03.26-10.00.36:139][436]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.00.36:139][436]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.00.45:707][527]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.00.45:828][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.03.26-10.02.49:562][515]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-10.03.09:406][595]BlueprintLog: New page: Collapse to Function
+[2024.03.26-10.03.21:617][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-10.03.21:625][275]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.03.21:791][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.03.21:876][275]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.03.21:876][275]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player80604C8D414A4B99A9C8D464878588BB.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.03.21:922][275]LogFileHelpers: InternalPromptForCheckoutAndSave took 297 ms (total: 10.1 sec)
+[2024.03.26-10.03.21:931][275]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.03.21:931][275]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.03.24:657][422]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.03.24:847][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.26-10.03.24:881][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.03.25:032][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.03.25:119][422]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.03.25:119][422]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player9BFAF978F171400FAEC1FE2032841847.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.03.25:160][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 279 ms (total: 10.4 sec)
+[2024.03.26-10.03.25:174][422]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.03.25:174][422]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.05.07:019][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.03.26-10.05.07:030][734]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.05.07:135][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.05.07:219][734]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.05.07:219][734]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player4B5DD685E2214A0593770CBEF524CFC1.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.05.07:244][734]LogFileHelpers: InternalPromptForCheckoutAndSave took 214 ms (total: 10.6 sec)
+[2024.03.26-10.05.07:246][734]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.05.07:246][734]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.07.18:359][638]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-10.07.52:416][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-10.07.52:425][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.07.52:589][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.07.52:686][646]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.07.52:687][646]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player996F7F7BCF634625939338CDAF038071.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.07.52:733][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 308 ms (total: 10.9 sec)
+[2024.03.26-10.07.52:736][646]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.07.52:736][646]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.08.07:196][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.26-10.08.07:204][506]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.08.07:299][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.08.07:374][506]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.08.07:374][506]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerBC58BB84F31B4273BF5A951C1789BE3C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.08.07:448][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 244 ms (total: 11.2 sec)
+[2024.03.26-10.08.07:451][506]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.08.07:451][506]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.08.29:842][825]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.08.29:947][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.26-10.08.29:983][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.08.30:057][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.08.30:133][825]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.08.30:133][825]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerFCE5529F5B224BB59159A1466599FB4F.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.08.30:204][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 11.4 sec)
+[2024.03.26-10.08.30:213][825]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.08.30:213][825]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.08.52:247][616]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2024.03.26-10.08.52:259][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.08.52:326][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.08.52:427][616]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.08.52:427][616]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player4E14934F0E9747ACB6663FABBD431020.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.08.52:467][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 11.6 sec)
+[2024.03.26-10.08.52:472][616]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.08.52:472][616]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.08.53:504][668]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.08.53:618][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-10.09.16:397][967]LogEditorTransaction: Undo Move Node
+[2024.03.26-10.09.17:327][995]LogEditorTransaction: Undo Paste clipboard contents
+[2024.03.26-10.09.23:376][329]LogEditorTransaction: Undo Nudge Node
+[2024.03.26-10.09.24:579][373]LogEditorTransaction: Undo Nudge Node
+[2024.03.26-10.09.27:177][513]LogEditorTransaction: Redo Nudge Node
+[2024.03.26-10.09.27:974][529]LogEditorTransaction: Redo Nudge Node
+[2024.03.26-10.09.29:422][602]LogEditorTransaction: Undo Nudge Node
+[2024.03.26-10.09.56:776][105]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-10.10.03:496][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.03.26-10.10.03:504][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.10.03:605][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.10.03:689][507]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.10.03:689][507]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerC31F57798A0446E5BB53B6E95ADDDC84.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.10.03:769][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 11.9 sec)
+[2024.03.26-10.10.03:773][507]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.10.03:773][507]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.10.06:589][662]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.10.06:690][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.03.26-10.11.20:857][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.03.26-10.11.20:867][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.11.20:947][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.11.21:035][127]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.11.21:035][127]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player829AA14E226B460B8E64381CCC3FEC94.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.11.21:087][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 12.1 sec)
+[2024.03.26-10.11.21:089][127]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.11.21:089][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.11.51:619][861]BlueprintLog: New page: Collapse to Function
+[2024.03.26-10.11.58:851][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.26-10.11.58:858][238]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.11.58:922][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.11.59:021][238]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.11.59:021][238]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerFC7B0F0C9FD14CF98A0FAAE7A2ED842C.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.11.59:054][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 12.3 sec)
+[2024.03.26-10.11.59:056][238]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.11.59:056][238]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.12.26:720][597]LogEditorTransaction: Undo Paste clipboard contents
+[2024.03.26-10.12.27:676][626]LogEditorTransaction: Undo Move Node
+[2024.03.26-10.12.28:476][660]LogEditorTransaction: Undo Delete current selection
+[2024.03.26-10.12.43:158][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.03.26-10.12.43:166][420]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.12.43:304][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.12.43:393][420]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.12.43:393][420]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player477402C3E53B4D5D83EC94C03B9C0C73.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.12.43:451][420]LogFileHelpers: InternalPromptForCheckoutAndSave took 284 ms (total: 12.6 sec)
+[2024.03.26-10.12.43:453][420]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.12.43:453][420]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.13.24:139][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.26-10.13.24:159][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.13.24:239][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.13.24:322][598]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.13.24:322][598]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player4D3E51076D324F2FB0EA180C0DBB7336.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.13.24:349][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 12.7 sec)
+[2024.03.26-10.13.24:351][598]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.13.24:351][598]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.13.31:563][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.03.26-10.13.31:570][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.13.31:647][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.13.31:727][ 15]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.13.31:728][ 15]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player8F7F7A7672D44BACBAB0F1F59501AAE8.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.13.31:779][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 13.0 sec)
+[2024.03.26-10.13.31:782][ 15]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.13.31:782][ 15]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.14.45:445][760]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-10.14.57:056][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.03.26-10.14.57:064][443]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.14.57:205][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.14.57:293][443]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.14.57:293][443]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player2FB3C79D36BB42FD91716A4F6D019F75.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.14.57:376][443]LogFileHelpers: InternalPromptForCheckoutAndSave took 312 ms (total: 13.3 sec)
+[2024.03.26-10.14.57:381][443]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.14.57:381][443]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.15.11:354][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.26-10.15.11:362][265]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.15.11:417][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.15.11:498][265]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.15.11:498][265]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerBA7DC68157E54B20905880CC56171DFA.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.15.11:542][265]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 13.5 sec)
+[2024.03.26-10.15.11:545][265]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.15.11:545][265]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.15.27:105][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.26-10.15.27:112][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.15.27:181][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.15.27:251][933]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.15.27:251][933]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player17884071BA0D466DB76308F27E47220F.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.15.27:325][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 13.7 sec)
+[2024.03.26-10.15.27:328][933]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.15.27:328][933]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.15.36:107][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.03.26-10.15.36:117][430]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.15.36:218][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.15.36:304][430]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.15.36:304][430]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player721E46FF0449448F938AC16EE3DBE0C9.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.15.36:344][430]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 13.9 sec)
+[2024.03.26-10.15.36:346][430]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.15.36:346][430]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.15.37:177][470]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.15.37:288][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.26-10.16.25:189][647]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-10.16.25:191][647]LogViewport: Scene viewport resized to 270x152, mode Windowed.
+[2024.03.26-10.16.25:299][648]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-10.16.28:705][815]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-10.16.28:717][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-10.16.28:717][815]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 11:16:28 AM)
+[2024.03.26-10.16.28:718][815]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.16.28:721][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003316s)
+[2024.03.26-10.16.28:721][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.003353s)
+[2024.03.26-10.16.28:745][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.03.26-10.16.28:750][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.16.28:750][815]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.16.28:750][815]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-10.16.28:751][815]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2024.03.26-10.16.28:751][815]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.03.26-10.16.28:751][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-10.16.28:751][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-10.16.28:751][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-10.16.28:751][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-10.16.28:751][815]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-10.16.28:751][815]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-10.16.28:751][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-10.16.28:751][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-10.16.28:752][815]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-10.16.28:752][815]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-10.16.28:752][815]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-10.16.28:752][815]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-10.16.28:752][815]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-10.16.29:034][815]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-10.16.29:086][815]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-10.16.29:087][815]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-10.16.29:087][815]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-10.16.29:087][815]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-10.16.29:090][815]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=26
+[2024.03.26-10.16.29:091][815]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.03.26-10.16.29:091][815]LogInit: FAudioDevice initialized with ID 26.
+[2024.03.26-10.16.29:091][815]LogAudio: Display: Audio Device (ID: 26) registered with world 'MAP_Menu'.
+[2024.03.26-10.16.29:091][815]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.03.26-10.16.29:095][815]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-10.16.29:096][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-10.16.29
+[2024.03.26-10.16.29:097][815]LogWorld: Bringing up level for play took: 0.001188
+[2024.03.26-10.16.29:098][815]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.03.26-10.16.29:101][815]PIE: Server logged in
+[2024.03.26-10.16.29:102][815]PIE: Play in editor total start time 0.384 seconds.
+[2024.03.26-10.16.30:248][877]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-10.16.30:248][877]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-10.16.30:248][877]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.16.30:249][877]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.16.30:249][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.16.30:273][877]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-10.16.30:275][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.26-10.16.30:598][877]LogAudio: Display: Audio Device (ID: 26) registered with world 'MAP_Egypt'.
+[2024.03.26-10.16.30:598][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.16.30:599][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.16.30:599][877]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-10.16.30:600][877]LogPlayLevel: PIE: World Init took: (0.001925s)
+[2024.03.26-10.16.30:601][877]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-10.16.30:840][877]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-10.16.30
+[2024.03.26-10.16.30:843][877]LogWorld: Bringing up level for play took: 0.240751
+[2024.03.26-10.16.30:853][877]LogLoad: Took 0.604706 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-10.16.36:248][179]LogBlueprintUserMessages: [BP_Death_C_0] GAME  SAVED
+[2024.03.26-10.16.38:426][310]Cmd: LevelEditor.ToggleImmersive
+[2024.03.26-10.16.38:441][310]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.16.38:453][310]LogViewport: Scene viewport resized to 762x236, mode Windowed.
+[2024.03.26-10.16.38:470][310]LogViewport: Scene viewport resized to 762x236, mode Windowed.
+[2024.03.26-10.16.38:486][310]LogViewport: Scene viewport resized to 762x237, mode Windowed.
+[2024.03.26-10.16.38:498][310]LogViewport: Scene viewport resized to 1751x820, mode Windowed.
+[2024.03.26-10.16.38:526][311]LogViewport: Scene viewport resized to 1910x1064, mode Windowed.
+[2024.03.26-10.16.38:568][312]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2024.03.26-10.16.42:627][555]Cmd: LevelEditor.ToggleImmersive
+[2024.03.26-10.16.42:646][555]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.16.42:657][555]LogViewport: Scene viewport resized to 1742x805, mode Windowed.
+[2024.03.26-10.16.42:695][556]LogViewport: Scene viewport resized to 1629x631, mode Windowed.
+[2024.03.26-10.16.42:736][557]LogViewport: Scene viewport resized to 1561x526, mode Windowed.
+[2024.03.26-10.16.42:778][558]LogViewport: Scene viewport resized to 1535x487, mode Windowed.
+[2024.03.26-10.16.42:817][559]LogViewport: Scene viewport resized to 1530x478, mode Windowed.
+[2024.03.26-10.16.42:851][560]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-10.16.45:245][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.16.45:245][699]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-10.16.45:247][699]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.16.45:263][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.16.45:280][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-10.16.45:288][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.16.45:325][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.16.45:325][699]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.03.26-10.16.45:425][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.03.26-10.16.45:677][700]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.03.26-10.16.45:708][700]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-10.18.00:280][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.26-10.18.00:287][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.18.00:369][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.18.00:454][756]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.18.00:454][756]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerF716A76778B94629B571A03A72B1B35A.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.18.00:490][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 14.1 sec)
+[2024.03.26-10.18.00:492][756]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.18.00:492][756]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.18.15:300][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.03.26-10.18.15:309][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.18.15:376][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.18.15:468][495]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.18.15:468][495]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player691FAFB7EF8D4D20953407C998A39123.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.18.15:538][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 14.3 sec)
+[2024.03.26-10.18.15:541][495]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.18.15:541][495]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.18.16:625][548]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.18.16:836][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.26-10.18.17:955][583]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-10.18.17:966][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-10.18.17:966][583]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 11:18:17 AM)
+[2024.03.26-10.18.17:966][583]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.18.17:969][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002942s)
+[2024.03.26-10.18.17:970][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002976s)
+[2024.03.26-10.18.17:994][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.26-10.18.17:998][583]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.18.17:998][583]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.18.17:998][583]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-10.18.17:998][583]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2024.03.26-10.18.17:998][583]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.03.26-10.18.17:998][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-10.18.17:998][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-10.18.17:998][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-10.18.17:998][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-10.18.17:998][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-10.18.17:998][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-10.18.17:998][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-10.18.17:998][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-10.18.17:999][583]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-10.18.17:999][583]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-10.18.17:999][583]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-10.18.17:999][583]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-10.18.17:999][583]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-10.18.18:246][583]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-10.18.18:287][583]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-10.18.18:287][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-10.18.18:287][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-10.18.18:287][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-10.18.18:289][583]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=27
+[2024.03.26-10.18.18:289][583]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.03.26-10.18.18:289][583]LogInit: FAudioDevice initialized with ID 27.
+[2024.03.26-10.18.18:289][583]LogAudio: Display: Audio Device (ID: 27) registered with world 'MAP_Menu'.
+[2024.03.26-10.18.18:289][583]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.03.26-10.18.18:546][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.18.18:547][583]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-10.18.18:549][583]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-10.18.18
+[2024.03.26-10.18.18:550][583]LogWorld: Bringing up level for play took: 0.002650
+[2024.03.26-10.18.18:551][583]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.03.26-10.18.18:585][583]PIE: Server logged in
+[2024.03.26-10.18.18:594][583]PIE: Play in editor total start time 0.628 seconds.
+[2024.03.26-10.18.18:614][583]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-10.18.18:617][584]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-10.18.19:772][629]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-10.18.19:772][629]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-10.18.19:772][629]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.18.19:773][629]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.18.19:774][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.18.19:796][629]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-10.18.19:799][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-10.18.20:103][629]LogAudio: Display: Audio Device (ID: 27) registered with world 'MAP_Egypt'.
+[2024.03.26-10.18.20:103][629]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.18.20:103][629]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.18.20:104][629]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-10.18.20:105][629]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2024.03.26-10.18.20:105][629]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-10.18.20:334][629]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-10.18.20
+[2024.03.26-10.18.20:337][629]LogWorld: Bringing up level for play took: 0.229946
+[2024.03.26-10.18.20:347][629]LogLoad: Took 0.575010 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-10.18.24:823][793]LogScript: Warning: Accessed None trying to read property PlayerSaveGame
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:SaveGame:0067
+[2024.03.26-10.18.24:823][793]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerSaveGame". Node:  Set PlayerPosition Graph:  SaveGame Function:  Save Game Blueprint:  BP_Player
+[2024.03.26-10.18.24:823][793]LogScript: Warning: Attempted to assign to None
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:SaveGame:007C
+[2024.03.26-10.18.24:823][793]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set PlayerPosition Graph:  SaveGame Function:  Save Game Blueprint:  BP_Player
+[2024.03.26-10.18.24:823][793]LogBlueprintUserMessages: [BP_Death_C_0] GAME  SAVED
+[2024.03.26-10.18.29:155][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.18.29:155][961]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-10.18.29:156][961]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-10.18.29:164][961]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.18.29:183][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.18.29:308][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-10.18.29:316][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.18.29:357][961]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.03.26-10.18.29:455][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.03.26-10.18.30:156][962]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.03.26-10.18.55:512][249]LogSlate: Window 'Message Log' being destroyed
+[2024.03.26-10.21.32:863][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.26-10.21.32:872][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.21.32:958][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.21.33:052][ 94]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.21.33:053][ 94]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerC44AC8F2A06D4FEFBE278213A51992B4.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.21.33:087][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 14.5 sec)
+[2024.03.26-10.21.33:089][ 94]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.21.33:089][ 94]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.21.34:406][146]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.21.34:622][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.26-10.21.59:245][246]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-10.21.59:396][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-10.21.59:396][246]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 11:21:59 AM)
+[2024.03.26-10.21.59:397][246]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.21.59:399][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002781s)
+[2024.03.26-10.21.59:399][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002818s)
+[2024.03.26-10.21.59:426][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.26-10.21.59:431][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.21.59:431][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.21.59:431][246]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-10.21.59:432][246]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2024.03.26-10.21.59:432][246]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.03.26-10.21.59:432][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-10.21.59:432][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-10.21.59:432][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-10.21.59:432][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-10.21.59:432][246]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-10.21.59:432][246]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-10.21.59:432][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-10.21.59:432][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-10.21.59:433][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-10.21.59:433][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-10.21.59:433][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-10.21.59:433][246]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-10.21.59:433][246]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-10.21.59:640][246]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-10.21.59:674][246]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-10.21.59:674][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-10.21.59:674][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-10.21.59:675][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-10.21.59:678][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=28
+[2024.03.26-10.21.59:678][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.03.26-10.21.59:678][246]LogInit: FAudioDevice initialized with ID 28.
+[2024.03.26-10.21.59:679][246]LogAudio: Display: Audio Device (ID: 28) registered with world 'MAP_Menu'.
+[2024.03.26-10.21.59:679][246]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.03.26-10.22.00:008][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.22.00:009][246]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-10.22.00:011][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-10.22.00
+[2024.03.26-10.22.00:012][246]LogWorld: Bringing up level for play took: 0.003150
+[2024.03.26-10.22.00:014][246]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.03.26-10.22.00:030][246]PIE: Server logged in
+[2024.03.26-10.22.00:035][246]PIE: Play in editor total start time 0.638 seconds.
+[2024.03.26-10.22.00:060][246]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-10.22.00:089][247]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-10.22.01:489][301]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-10.22.01:489][301]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-10.22.01:489][301]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.22.01:489][301]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.22.01:489][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.22.01:512][301]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-10.22.01:515][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.03.26-10.22.01:802][301]LogAudio: Display: Audio Device (ID: 28) registered with world 'MAP_Egypt'.
+[2024.03.26-10.22.01:802][301]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.22.01:802][301]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.22.01:802][301]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-10.22.01:804][301]LogPlayLevel: PIE: World Init took: (0.001747s)
+[2024.03.26-10.22.01:804][301]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-10.22.02:011][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-10.22.02
+[2024.03.26-10.22.02:014][301]LogWorld: Bringing up level for play took: 0.208231
+[2024.03.26-10.22.02:022][301]LogLoad: Took 0.533143 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-10.22.06:085][451]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.22.07:002][485]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.22.08:549][546]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.22.09:292][574]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.22.11:904][678]LogScript: Warning: Accessed None trying to read property PlayerSaveGame
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:SaveGame:0067
+[2024.03.26-10.22.11:904][678]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerSaveGame". Node:  Set PlayerPosition Graph:  SaveGame Function:  Save Game Blueprint:  BP_Player
+[2024.03.26-10.22.11:904][678]LogScript: Warning: Attempted to assign to None
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:SaveGame:007C
+[2024.03.26-10.22.11:904][678]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set PlayerPosition Graph:  SaveGame Function:  Save Game Blueprint:  BP_Player
+[2024.03.26-10.22.11:904][678]LogBlueprintUserMessages: [BP_Death_C_0] GAME  SAVED
+[2024.03.26-10.22.16:430][855]LogScript: Warning: Accessed None trying to read property PlayerSaveGame
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:LoadGame:0055
+[2024.03.26-10.22.16:430][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerSaveGame". Node:  Set Actor Transform Graph:  LoadGame Function:  Load Game Blueprint:  BP_Player
+[2024.03.26-10.22.16:430][855]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.22.20:326][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.22.20:326][  5]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-10.22.20:327][  5]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-10.22.20:339][  5]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.22.20:355][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.22.20:395][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-10.22.20:404][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.22.20:449][  5]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.03.26-10.22.20:530][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2024.03.26-10.22.20:857][  6]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.03.26-10.22.27:995][375]LogSlate: Window 'Save Game' being destroyed
+[2024.03.26-10.24.43:045][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-10.24.43:055][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.24.43:127][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.24.43:212][957]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.24.43:212][957]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Player080C23DB8D7E40C0B6A0BE6E0F551D2E.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.24.43:251][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 14.7 sec)
+[2024.03.26-10.24.43:254][957]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.24.43:254][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.25.24:051][317]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.03.26-10.25.29:267][578]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.03.26-10.25.35:123][856]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.03.26-10.25.41:228][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.26-10.25.41:237][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.25.41:307][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.25.41:387][175]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.25.41:387][175]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerC5843C7367654085B61505EF335E53D2.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.25.41:452][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 214 ms (total: 14.9 sec)
+[2024.03.26-10.25.41:455][175]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.25.41:455][175]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.25.52:664][842]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.25.52:772][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.26-10.25.54:136][908]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-10.25.54:157][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-10.25.54:157][908]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 11:25:54 AM)
+[2024.03.26-10.25.54:157][908]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.25.54:163][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005647s)
+[2024.03.26-10.25.54:163][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.005712s)
+[2024.03.26-10.25.54:195][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.03.26-10.25.54:198][908]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.25.54:198][908]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.25.54:199][908]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-10.25.54:199][908]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2024.03.26-10.25.54:199][908]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.03.26-10.25.54:199][908]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-10.25.54:199][908]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-10.25.54:199][908]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-10.25.54:199][908]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-10.25.54:199][908]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-10.25.54:199][908]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-10.25.54:199][908]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-10.25.54:199][908]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-10.25.54:200][908]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-10.25.54:200][908]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-10.25.54:200][908]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-10.25.54:200][908]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-10.25.54:200][908]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-10.25.54:478][908]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-10.25.54:526][908]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-10.25.54:526][908]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-10.25.54:526][908]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-10.25.54:526][908]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-10.25.54:530][908]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=29
+[2024.03.26-10.25.54:530][908]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.03.26-10.25.54:530][908]LogInit: FAudioDevice initialized with ID 29.
+[2024.03.26-10.25.54:530][908]LogAudio: Display: Audio Device (ID: 29) registered with world 'MAP_Menu'.
+[2024.03.26-10.25.54:530][908]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.03.26-10.25.54:810][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.25.54:811][908]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-10.25.54:813][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-10.25.54
+[2024.03.26-10.25.54:814][908]LogWorld: Bringing up level for play took: 0.002456
+[2024.03.26-10.25.54:815][908]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2024.03.26-10.25.54:833][908]PIE: Server logged in
+[2024.03.26-10.25.54:840][908]PIE: Play in editor total start time 0.683 seconds.
+[2024.03.26-10.25.54:862][908]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-10.25.54:867][909]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-10.25.55:984][961]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-10.25.55:984][961]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-10.25.55:984][961]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.25.55:984][961]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.25.55:984][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.25.56:003][961]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-10.25.56:006][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.03.26-10.25.56:320][961]LogAudio: Display: Audio Device (ID: 29) registered with world 'MAP_Egypt'.
+[2024.03.26-10.25.56:320][961]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.25.56:320][961]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.25.56:320][961]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-10.25.56:322][961]LogPlayLevel: PIE: World Init took: (0.001941s)
+[2024.03.26-10.25.56:322][961]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-10.25.56:542][961]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-10.25.56
+[2024.03.26-10.25.56:545][961]LogWorld: Bringing up level for play took: 0.221071
+[2024.03.26-10.25.56:553][961]LogLoad: Took 0.569513 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-10.26.01:828][207]LogScript: Warning: Accessed None trying to read property PlayerSaveGame
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:SaveGame:0067
+[2024.03.26-10.26.01:828][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerSaveGame". Node:  Set PlayerPosition Graph:  SaveGame Function:  Save Game Blueprint:  BP_Player
+[2024.03.26-10.26.01:828][207]LogScript: Warning: Attempted to assign to None
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:SaveGame:007C
+[2024.03.26-10.26.01:828][207]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set PlayerPosition Graph:  SaveGame Function:  Save Game Blueprint:  BP_Player
+[2024.03.26-10.26.01:828][207]LogBlueprintUserMessages: [BP_Death_C_0] GAME  SAVED
+[2024.03.26-10.26.05:614][394]LogScript: Warning: Accessed None trying to read property PlayerSaveGame
+	BP_Death_C /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt:PersistentLevel.BP_Death_C_0
+	Function /Game/Blueprints/Characters/Player/BP_Player.BP_Player_C:LoadGame:0055
+[2024.03.26-10.26.05:614][394]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerSaveGame". Node:  Set Actor Transform Graph:  LoadGame Function:  Load Game Blueprint:  BP_Player
+[2024.03.26-10.26.05:614][394]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.26.08:996][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.26.08:996][555]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-10.26.08:998][555]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-10.26.09:005][555]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.26.09:044][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.26.09:082][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-10.26.09:092][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.26.09:134][555]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.03.26-10.26.09:212][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.26-10.26.09:507][556]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2024.03.26-10.27.51:030][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.03.26-10.27.51:040][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.27.51:154][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.27.51:248][739]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.27.51:249][739]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerD9C54CAF3E2F4D42AED1D5C01EBDED83.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.27.51:303][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 262 ms (total: 15.2 sec)
+[2024.03.26-10.27.51:305][739]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.27.51:305][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.28.28:301][916]LogDerivedDataCache: /home/zero/.config/Epic/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:19.095 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10253 files in 11775 folders with total size 418 MiB.
+[2024.03.26-10.29.05:835][103]BlueprintLog: New page: Compile BP_Save
+[2024.03.26-10.29.05:899][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.26-10.29.08:995][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.29.09:147][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SaveGame/BP_Save" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset" SILENT=true
+[2024.03.26-10.29.09:150][279]LogSavePackage: Moving output files for package: /Game/Blueprints/SaveGame/BP_Save
+[2024.03.26-10.29.09:150][279]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_SaveE9859651DCDD492EA09971528ED351BE.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Save.uasset'
+[2024.03.26-10.29.09:237][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 241 ms (total: 15.5 sec)
+[2024.03.26-10.29.09:238][279]AssetCheck: New page: Asset Save: BP_Save
+[2024.03.26-10.29.09:238][279]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/SaveGame/BP_Save.BP_Save
+[2024.03.26-10.32.37:995][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.26-10.32.38:005][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.32.38:146][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.32.38:235][642]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.32.38:235][642]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerD102FC119FCD4E678D11EBDA7E6B24E3.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.32.38:275][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 270 ms (total: 15.7 sec)
+[2024.03.26-10.32.38:277][642]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.32.38:277][642]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.32.42:367][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.03.26-10.32.42:374][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.32.42:475][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.32.42:568][868]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.32.42:568][868]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerC54A520DB59941FC919FE9C0AF0E8B50.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.32.42:606][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 232 ms (total: 16.0 sec)
+[2024.03.26-10.32.42:608][868]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.32.42:608][868]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.32.45:354][ 22]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.32.45:460][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.26-10.32.57:482][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.26-10.32.57:490][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-10.32.57:614][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Player/BP_Player" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset" SILENT=true
+[2024.03.26-10.32.57:707][720]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Player/BP_Player
+[2024.03.26-10.32.57:707][720]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_PlayerF96353EE1C9141C6A6CE623EF6A5F573.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset'
+[2024.03.26-10.32.57:741][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 251 ms (total: 16.2 sec)
+[2024.03.26-10.32.57:743][720]AssetCheck: New page: Asset Save: BP_Player
+[2024.03.26-10.32.57:743][720]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Player/BP_Player.BP_Player
+[2024.03.26-10.32.58:599][768]BlueprintLog: New page: Compile BP_Player
+[2024.03.26-10.32.58:703][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.26-10.32.59:849][812]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-10.32.59:858][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-10.32.59:858][812]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 11:32:59 AM)
+[2024.03.26-10.32.59:858][812]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.32.59:862][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003918s)
+[2024.03.26-10.32.59:862][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.003972s)
+[2024.03.26-10.32.59:886][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.03.26-10.32.59:890][812]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.32.59:890][812]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.32.59:890][812]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-10.32.59:891][812]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2024.03.26-10.32.59:891][812]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2024.03.26-10.32.59:891][812]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-10.32.59:891][812]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-10.32.59:891][812]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-10.32.59:891][812]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-10.32.59:891][812]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-10.32.59:891][812]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-10.32.59:891][812]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-10.32.59:891][812]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-10.32.59:892][812]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-10.32.59:892][812]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-10.32.59:892][812]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-10.32.59:892][812]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-10.32.59:892][812]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-10.33.00:164][812]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-10.33.00:213][812]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-10.33.00:214][812]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-10.33.00:214][812]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-10.33.00:214][812]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-10.33.00:215][812]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=30
+[2024.03.26-10.33.00:216][812]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2024.03.26-10.33.00:216][812]LogInit: FAudioDevice initialized with ID 30.
+[2024.03.26-10.33.00:216][812]LogAudio: Display: Audio Device (ID: 30) registered with world 'MAP_Menu'.
+[2024.03.26-10.33.00:216][812]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2024.03.26-10.33.00:498][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.33.00:499][812]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-10.33.00:502][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-10.33.00
+[2024.03.26-10.33.00:503][812]LogWorld: Bringing up level for play took: 0.003260
+[2024.03.26-10.33.00:504][812]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.03.26-10.33.00:521][812]PIE: Server logged in
+[2024.03.26-10.33.00:526][812]PIE: Play in editor total start time 0.668 seconds.
+[2024.03.26-10.33.00:547][812]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-10.33.00:551][813]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-10.33.01:571][860]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-10.33.01:571][860]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-10.33.01:571][860]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-10.33.01:571][860]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.33.01:572][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.33.01:593][860]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-10.33.01:595][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-10.33.01:885][860]LogAudio: Display: Audio Device (ID: 30) registered with world 'MAP_Egypt'.
+[2024.03.26-10.33.01:885][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-10.33.01:885][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-10.33.01:885][860]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-10.33.01:886][860]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2024.03.26-10.33.01:887][860]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-10.33.02:099][860]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-10.33.02
+[2024.03.26-10.33.02:102][860]LogWorld: Bringing up level for play took: 0.212530
+[2024.03.26-10.33.02:111][860]LogLoad: Took 0.539825 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-10.33.05:537][ 19]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.06:086][ 47]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.07:934][142]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.08:391][165]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.09:725][231]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.10:082][248]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.13:526][410]LogBlueprintUserMessages: [BP_Death_C_0] GAME  SAVED
+[2024.03.26-10.33.17:941][621]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.33.19:896][713]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.33.21:791][805]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.33.28:747][126]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.30:066][186]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.30:565][209]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.31:013][230]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.31:549][253]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.32:844][312]LogBlueprintUserMessages: [BP_Death_C_0] GAME  SAVED
+[2024.03.26-10.33.36:710][484]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.33.39:572][610]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.33.41:356][686]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.33.41:404][688]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.42:409][733]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.43:306][772]LogBlueprintUserMessages: [BP_Death_C_0] GaME LOADED
+[2024.03.26-10.33.43:380][774]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.44:366][815]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.45:372][858]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.46:392][903]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.46:759][920]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.47:382][947]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.47:761][963]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.48:389][990]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.48:770][  6]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.49:412][ 34]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.49:770][ 50]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.50:427][ 80]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.50:793][ 93]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.51:428][119]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.51:814][136]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.52:443][164]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.52:846][180]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.53:509][209]LogScript: Script Msg: Playing animation override...
+[2024.03.26-10.33.54:749][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-10.33.54:749][253]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-10.33.54:750][253]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-10.33.54:762][253]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.33.54:783][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.33.54:810][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-10.33.54:819][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-10.33.54:870][253]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2024.03.26-10.33.54:951][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.03.26-10.33.55:336][254]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.03.26-10.34.04:228][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.03.26-10.34.11:020][153]LogSlate: Window 'GM_CaceteDeAgulha' being destroyed
+[2024.03.26-10.34.11:105][153]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.26-10.34.11:106][153]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-10.34.11:106][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
