@@ -1964,3 +1964,1221 @@ FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArra
 [2024.03.26-08.49.02:912][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
 [2024.03.26-08.49.02:999][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
 [2024.03.26-08.49.03:320][935]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.03.26-08.59.01:129][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.26-08.59.01:136][157]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-08.59.01:217][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-08.59.01:224][157]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-08.59.01:224][157]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Menu9C062D22DF064E4F9287E40A9AEE58E5.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-08.59.01:268][157]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 589 ms)
+[2024.03.26-08.59.01:270][157]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-08.59.01:270][157]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-08.59.02:899][244]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-08.59.02:914][244]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.26-08.59.02:915][244]LogPlayLevel: [PlayLevel] Compiling WID_Menu before play...
+[2024.03.26-08.59.02:965][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.26-08.59.02:966][244]LogPlayLevel: PlayLevel: Blueprint regeneration took 51 ms (1 blueprints)
+[2024.03.26-08.59.02:966][244]PIE: New page: PIE session: MAP_Egypt (Mar 26, 2024, 9:59:02 AM)
+[2024.03.26-08.59.02:966][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-08.59.03:211][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.244818s)
+[2024.03.26-08.59.03:211][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Egypt.MAP_Egypt to /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt (0.244858s)
+[2024.03.26-08.59.03:229][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.26-08.59.03:230][244]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-08.59.03:230][244]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-08.59.03:230][244]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-08.59.03:231][244]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2024.03.26-08.59.03:231][244]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.03.26-08.59.03:231][244]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-08.59.03:231][244]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-08.59.03:231][244]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-08.59.03:231][244]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-08.59.03:231][244]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-08.59.03:231][244]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-08.59.03:231][244]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-08.59.03:231][244]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-08.59.03:232][244]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-08.59.03:232][244]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-08.59.03:232][244]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-08.59.03:232][244]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-08.59.03:233][244]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-08.59.03:452][244]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-08.59.03:465][244]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-08.59.03:466][244]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-08.59.03:466][244]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-08.59.03:466][244]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-08.59.03:468][244]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=7
+[2024.03.26-08.59.03:468][244]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.03.26-08.59.03:468][244]LogInit: FAudioDevice initialized with ID 7.
+[2024.03.26-08.59.03:468][244]LogAudio: Display: Audio Device (ID: 7) registered with world 'MAP_Egypt'.
+[2024.03.26-08.59.03:468][244]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.26-08.59.03:766][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-08.59.03:767][244]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-08.59.03:934][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-08.59.03
+[2024.03.26-08.59.03:936][244]LogWorld: Bringing up level for play took: 0.169361
+[2024.03.26-08.59.03:937][244]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.03.26-08.59.03:946][244]PIE: Server logged in
+[2024.03.26-08.59.03:946][244]PIE: Play in editor total start time 1.032 seconds.
+[2024.03.26-08.59.04:043][244]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-08.59.04:159][245]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-08.59.06:244][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-08.59.06:244][358]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-08.59.06:244][358]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-08.59.06:284][358]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-08.59.06:308][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-08.59.06:344][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-08.59.06:352][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-08.59.06:383][358]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.26-08.59.06:480][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.03.26-08.59.06:500][359]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.03.26-08.59.22:488][197]LogSlate: Took 0.000044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.26-08.59.24:893][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-08.59.27:966][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.26-08.59.29:898][577]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-08.59.29:908][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-08.59.29:908][577]PIE: New page: PIE session: MAP_Egypt (Mar 26, 2024, 9:59:29 AM)
+[2024.03.26-08.59.29:908][577]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-08.59.30:155][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.246987s)
+[2024.03.26-08.59.30:155][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Egypt.MAP_Egypt to /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt (0.247019s)
+[2024.03.26-08.59.30:174][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.26-08.59.30:174][577]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-08.59.30:174][577]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-08.59.30:175][577]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-08.59.30:176][577]LogPlayLevel: PIE: World Init took: (0.001488s)
+[2024.03.26-08.59.30:176][577]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.03.26-08.59.30:176][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-08.59.30:176][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-08.59.30:176][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-08.59.30:176][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-08.59.30:176][577]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-08.59.30:176][577]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-08.59.30:176][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-08.59.30:176][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-08.59.30:177][577]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-08.59.30:177][577]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-08.59.30:177][577]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-08.59.30:177][577]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-08.59.30:177][577]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-08.59.30:441][577]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-08.59.30:488][577]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-08.59.30:489][577]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-08.59.30:490][577]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-08.59.30:490][577]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-08.59.30:493][577]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=8
+[2024.03.26-08.59.30:493][577]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.03.26-08.59.30:493][577]LogInit: FAudioDevice initialized with ID 8.
+[2024.03.26-08.59.30:493][577]LogAudio: Display: Audio Device (ID: 8) registered with world 'MAP_Egypt'.
+[2024.03.26-08.59.30:493][577]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.26-08.59.30:500][577]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-08.59.30:629][577]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-08.59.30
+[2024.03.26-08.59.30:631][577]LogWorld: Bringing up level for play took: 0.131070
+[2024.03.26-08.59.30:632][577]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.03.26-08.59.30:643][577]PIE: Server logged in
+[2024.03.26-08.59.30:644][577]PIE: Play in editor total start time 0.736 seconds.
+[2024.03.26-08.59.32:885][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-08.59.32:885][682]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-08.59.32:895][682]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-08.59.32:924][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-08.59.32:930][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-08.59.32:937][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-08.59.32:954][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-08.59.32:967][682]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.26-08.59.33:037][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.03.26-08.59.33:055][683]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.03.26-08.59.34:221][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.26-08.59.35:961][832]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-08.59.37:081][883]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-08.59.37:312][886]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-08.59.37:510][891]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-08.59.40:166][ 17]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-08.59.40:244][ 18]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-08.59.41:162][ 65]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-08.59.49:325][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.26-08.59.49:498][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.26-08.59.49:625][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.26-09.00.01:635][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.26-09.00.01:637][149]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.00.01:638][149]Cmd: MAP LOAD FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.26-09.00.01:638][149]LightingResults: New page: Lighting Build
+[2024.03.26-09.00.01:638][149]LoadErrors: New page: Loading map: MAP_Menu.umap
+[2024.03.26-09.00.01:703][149]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.00.01:704][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.00.01:705][149]MapCheck: New page: Map Check
+[2024.03.26-09.00.01:705][149]LightingResults: New page: Lighting Build
+[2024.03.26-09.00.01:723][149]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.00.01:773][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-09.00.01:782][149]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.00.01:782][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.00.01:800][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.26-09.00.01:819][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.26-09.00.01:823][149]LogAudio: Display: Audio Device (ID: 1) registered with world 'MAP_Menu'.
+[2024.03.26-09.00.01:823][149]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.00.01:823][149]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.00.01:823][149]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.00.01:844][149]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.26-09.00.01:864][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.26-09.00.01:871][149]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.26-09.00.01:871][149]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.07ms to complete.
+[2024.03.26-09.00.05:090][343]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.00.06:843][354]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.00.08:337][424]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.00.15:952][868]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.00.37:030][936]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.00.56:435][868]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.01.22:175][225]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.01.22:197][226]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.01.39:887][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.26-09.01.39:895][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.01.39:969][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-09.01.39:976][242]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-09.01.39:976][242]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_MenuFD3A9BC48EA64C9283D2A370127E2B34.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-09.01.40:020][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 714 ms)
+[2024.03.26-09.01.40:022][242]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-09.01.40:022][242]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-09.01.44:236][486]BlueprintLog: New page: Compile WID_Menu
+[2024.03.26-09.01.44:267][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.03.26-09.01.45:479][556]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.01.45:489][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.01.45:489][556]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:01:45 AM)
+[2024.03.26-09.01.45:489][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.01.45:491][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002253s)
+[2024.03.26-09.01.45:491][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002286s)
+[2024.03.26-09.01.45:512][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.26-09.01.45:513][556]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.01.45:513][556]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.01.45:514][556]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.01.45:514][556]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2024.03.26-09.01.45:514][556]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.26-09.01.45:514][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.01.45:514][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.01.45:514][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.01.45:514][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.01.45:514][556]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.01.45:514][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.01.45:514][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.01.45:514][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.01.45:515][556]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.01.45:515][556]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.01.45:515][556]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.01.45:515][556]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.01.45:515][556]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.01.45:790][556]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.01.45:837][556]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.01.45:837][556]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.01.45:837][556]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.01.45:837][556]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.01.45:840][556]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=9
+[2024.03.26-09.01.45:840][556]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.26-09.01.45:841][556]LogInit: FAudioDevice initialized with ID 9.
+[2024.03.26-09.01.45:841][556]LogAudio: Display: Audio Device (ID: 9) registered with world 'MAP_Menu'.
+[2024.03.26-09.01.45:841][556]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.26-09.01.46:157][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.01.46:157][556]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.01.46:162][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.01.46
+[2024.03.26-09.01.46:163][556]LogWorld: Bringing up level for play took: 0.002020
+[2024.03.26-09.01.46:164][556]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.03.26-09.01.46:179][556]PIE: Server logged in
+[2024.03.26-09.01.46:182][556]PIE: Play in editor total start time 0.694 seconds.
+[2024.03.26-09.01.46:199][556]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.01.46:203][557]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.01.49:963][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.01.49:963][770]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.01.49:964][770]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.01.49:968][770]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.01.49:968][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.01.49:969][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.01.49:974][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.01.49:995][770]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.01.49:996][770]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.26-09.01.50:047][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.03.26-09.01.50:076][771]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.03.26-09.02.26:308][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.03.26-09.03.05:242][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.03.26-09.03.05:244][122]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MAP_Egypt.MAP_Egypt
+[2024.03.26-09.03.05:245][122]Cmd: MAP LOAD FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Egypt.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.26-09.03.05:245][122]LightingResults: New page: Lighting Build
+[2024.03.26-09.03.05:245][122]LoadErrors: New page: Loading map: MAP_Egypt.umap
+[2024.03.26-09.03.05:276][122]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.03.05:276][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.03.05:276][122]MapCheck: New page: Map Check
+[2024.03.26-09.03.05:276][122]LightingResults: New page: Lighting Build
+[2024.03.26-09.03.05:296][122]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.03.05:299][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.26-09.03.05:303][122]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.03.05:313][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.03.05:374][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.03.26-09.03.05:396][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.03.26-09.03.05:755][122]LogAudio: Display: Audio Device (ID: 1) registered with world 'MAP_Egypt'.
+[2024.03.26-09.03.05:755][122]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.03.05:755][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.03.05:756][122]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-09.03.06:124][122]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.26-09.03.06:125][122]LogNavigation: Warning: Recreating dtNavMesh instance RecastNavMesh-Default due to saved navmesh origin (X=-140.000 Y=0.000 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2024.03.26-09.03.06:314][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.03.26-09.03.06:326][122]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.26-09.03.06:327][122]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.398ms to complete.
+[2024.03.26-09.03.14:956][583]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.03.14:989][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.03.14:989][583]PIE: New page: PIE session: MAP_Egypt (Mar 26, 2024, 10:03:14 AM)
+[2024.03.26-09.03.14:989][583]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-09.03.15:279][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.289406s)
+[2024.03.26-09.03.15:279][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Egypt.MAP_Egypt to /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt (0.289454s)
+[2024.03.26-09.03.15:301][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.26-09.03.15:302][583]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.03.15:302][583]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.03.15:303][583]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-09.03.15:304][583]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2024.03.26-09.03.15:304][583]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.26-09.03.15:304][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.03.15:304][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.03.15:304][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.03.15:304][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.03.15:304][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.03.15:304][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.03.15:304][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.03.15:304][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.03.15:305][583]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.03.15:305][583]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.03.15:305][583]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.03.15:305][583]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.03.15:305][583]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.03.15:555][583]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.03.15:604][583]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.03.15:605][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.03.15:605][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.03.15:605][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.03.15:606][583]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=10
+[2024.03.26-09.03.15:606][583]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.26-09.03.15:607][583]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.26-09.03.15:607][583]LogAudio: Display: Audio Device (ID: 10) registered with world 'MAP_Egypt'.
+[2024.03.26-09.03.15:607][583]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.26-09.03.15:862][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.03.15:862][583]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.03.16:005][583]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-09.03.16
+[2024.03.26-09.03.16:008][583]LogWorld: Bringing up level for play took: 0.145001
+[2024.03.26-09.03.16:009][583]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.03.26-09.03.16:020][583]PIE: Server logged in
+[2024.03.26-09.03.16:021][583]PIE: Play in editor total start time 1.032 seconds.
+[2024.03.26-09.03.16:096][583]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.03.16:234][584]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.03.18:450][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.03.18:450][700]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-09.03.18:450][700]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.03.18:459][700]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.03.18:489][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.03.18:528][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.03.18:535][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.03.18:585][700]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.26-09.03.18:660][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.03.26-09.03.18:687][701]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.03.26-09.03.56:184][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.26-09.03.56:300][802]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.03.56:302][802]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.03.56:302][802]Cmd: MAP LOAD FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.26-09.03.56:302][802]LightingResults: New page: Lighting Build
+[2024.03.26-09.03.56:302][802]LoadErrors: New page: Loading map: MAP_Menu.umap
+[2024.03.26-09.03.56:363][802]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.03.56:365][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.03.56:365][802]MapCheck: New page: Map Check
+[2024.03.26-09.03.56:365][802]LightingResults: New page: Lighting Build
+[2024.03.26-09.03.56:406][802]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.03.56:442][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2024.03.26-09.03.56:450][802]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.03.56:450][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.03.56:476][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.03.26-09.03.56:497][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.03.26-09.03.56:510][802]LogAudio: Display: Audio Device (ID: 1) registered with world 'MAP_Menu'.
+[2024.03.26-09.03.56:510][802]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.03.56:510][802]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.03.56:511][802]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.03.56:534][802]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.26-09.03.56:558][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-09.03.56:565][802]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.26-09.03.56:565][802]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.079ms to complete.
+[2024.03.26-09.04.04:186][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.26-09.04.13:100][412]BlueprintLog: New page: Compile WID_Menu
+[2024.03.26-09.04.13:131][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.03.26-09.04.13:890][448]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.04.14:171][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-09.04.14:179][448]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-09.04.14:179][448]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Menu1AB87702954D4083A085463200AAC5D8.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-09.04.14:263][448]LogFileHelpers: InternalPromptForCheckoutAndSave took 372 ms (total: 1.08 sec)
+[2024.03.26-09.04.14:265][448]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-09.04.14:265][448]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-09.05.08:268][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.26-09.05.08:274][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.05.08:359][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-09.05.08:369][216]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-09.05.08:369][216]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Menu9062C56776584FEE9CB73D260EC3D9E0.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-09.05.08:454][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 1.26 sec)
+[2024.03.26-09.05.08:458][216]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-09.05.08:458][216]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-09.05.43:002][159]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.05.43:255][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-09.05.43:266][159]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-09.05.43:266][159]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Menu379B91E645D84C94899129EEC7B75D8D.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-09.05.43:342][159]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 1.60 sec)
+[2024.03.26-09.05.43:346][159]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-09.05.43:346][159]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-09.05.46:436][311]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.05.56:215][345]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.06.00:305][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.26-09.06.00:307][581]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.06.00:307][581]Cmd: MAP LOAD FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.26-09.06.00:307][581]LightingResults: New page: Lighting Build
+[2024.03.26-09.06.00:307][581]LoadErrors: New page: Loading map: MAP_Menu.umap
+[2024.03.26-09.06.00:379][581]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.06.00:379][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.06.00:379][581]MapCheck: New page: Map Check
+[2024.03.26-09.06.00:379][581]LightingResults: New page: Lighting Build
+[2024.03.26-09.06.00:409][581]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.06.00:415][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2024.03.26-09.06.00:422][581]LogAudio: Display: Audio Device (ID: 1) registered with world 'MAP_Menu'.
+[2024.03.26-09.06.00:422][581]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.00:422][581]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.06.00:423][581]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.06.00:447][581]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.26-09.06.00:473][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.03.26-09.06.00:480][581]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.26-09.06.00:480][581]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.059ms to complete.
+[2024.03.26-09.06.02:139][679]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.06.03:228][720]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.06.04:017][757]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.06.04:180][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.26-09.06.04:182][760]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.06.04:182][760]Cmd: MAP LOAD FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.26-09.06.04:182][760]LightingResults: New page: Lighting Build
+[2024.03.26-09.06.04:182][760]LoadErrors: New page: Loading map: MAP_Menu.umap
+[2024.03.26-09.06.04:211][760]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.06.04:212][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.06.04:212][760]MapCheck: New page: Map Check
+[2024.03.26-09.06.04:212][760]LightingResults: New page: Lighting Build
+[2024.03.26-09.06.04:227][760]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.06.04:229][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.26-09.06.04:233][760]LogAudio: Display: Audio Device (ID: 1) registered with world 'MAP_Menu'.
+[2024.03.26-09.06.04:233][760]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.04:233][760]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.06.04:234][760]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.06.04:264][760]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.26-09.06.04:294][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.03.26-09.06.04:303][760]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.26-09.06.04:303][760]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.086ms to complete.
+[2024.03.26-09.06.04:375][762]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.06.07:004][920]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.06.15:094][950]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.06.15:553][968]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.15:585][969]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.15:617][969]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.06.15:644][970]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.15:678][971]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: ================================================
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: Total job queries 112, among them cache hits 12 (10.71%)
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: Tracking 100 distinct input hashes that result in 69 distinct outputs (69.00%)
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: RAM used: 428.42 KiB of 1.60 GiB budget. Usage: 0.03%
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.26-09.06.15:702][972]LogShaderCompilers: Display: ================================================
+[2024.03.26-09.06.15:842][974]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.15:878][974]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.06.15:891][975]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.16:278][996]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.06.16:316][997]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MAP_Menu.MAP_Menu:PersistentLevel.MAP_Menu
+[2024.03.26-09.06.16:317][997]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.06.16:317][997]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.06.20:168][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-09.07.26:390][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.03.26-09.07.26:398][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.07.26:541][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.26-09.07.26:618][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.26-09.07.26:628][490]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Menu
+[2024.03.26-09.07.26:628][490]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_Menu6D7EA379BF2746C98718340B936AF2FD.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap'
+[2024.03.26-09.07.26:637][490]LogFileHelpers: Saving map 'MAP_Menu' took 0.099
+[2024.03.26-09.07.26:671][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 273 ms (total: 1.87 sec)
+[2024.03.26-09.07.26:672][490]AssetCheck: New page: Asset Save: MAP_Menu
+[2024.03.26-09.07.26:672][490]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.07.40:179][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.26-09.07.40:185][293]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.07.40:302][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.26-09.07.40:377][293]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.26-09.07.40:386][293]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Menu
+[2024.03.26-09.07.40:386][293]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_MenuB02D9B6F007E4557AAAA00899889BB2F.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap'
+[2024.03.26-09.07.40:394][293]LogFileHelpers: Saving map 'MAP_Menu' took 0.092
+[2024.03.26-09.07.40:437][293]LogFileHelpers: InternalPromptForCheckoutAndSave took 251 ms (total: 2.13 sec)
+[2024.03.26-09.07.40:438][293]AssetCheck: New page: Asset Save: MAP_Menu
+[2024.03.26-09.07.40:438][293]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.07.42:436][411]BlueprintLog: New page: Compile MAP_Menu
+[2024.03.26-09.07.42:463][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.26-09.07.48:841][771]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-09.08.17:031][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.26-09.08.17:036][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.08.17:208][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.26-09.08.17:278][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.26-09.08.17:288][372]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Menu
+[2024.03.26-09.08.17:288][372]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_Menu5DA777A4FF624420AFEB4D514C39D599.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap'
+[2024.03.26-09.08.17:296][372]LogFileHelpers: Saving map 'MAP_Menu' took 0.089
+[2024.03.26-09.08.17:326][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 290 ms (total: 2.42 sec)
+[2024.03.26-09.08.17:327][372]AssetCheck: New page: Asset Save: MAP_Menu
+[2024.03.26-09.08.17:327][372]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.08.24:095][507]BlueprintLog: New page: Compile MAP_Menu
+[2024.03.26-09.08.24:147][507]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2024.03.26-09.08.31:458][862]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.08.31:468][862]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.26-09.08.31:473][862]LogPlayLevel: [PlayLevel] Compiling WID_Menu before play...
+[2024.03.26-09.08.31:517][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.26-09.08.31:518][862]LogPlayLevel: PlayLevel: Blueprint regeneration took 50 ms (1 blueprints)
+[2024.03.26-09.08.31:518][862]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:08:31 AM)
+[2024.03.26-09.08.31:518][862]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.08.31:521][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002452s)
+[2024.03.26-09.08.31:521][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002485s)
+[2024.03.26-09.08.31:543][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.26-09.08.31:544][862]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.08.31:544][862]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.08.31:544][862]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.08.31:545][862]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2024.03.26-09.08.31:545][862]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.26-09.08.31:545][862]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.08.31:545][862]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.08.31:545][862]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.08.31:545][862]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.08.31:545][862]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.08.31:545][862]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.08.31:545][862]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.08.31:545][862]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.08.31:546][862]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.08.31:546][862]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.08.31:546][862]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.08.31:546][862]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.08.31:546][862]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.08.31:822][862]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.08.31:861][862]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.08.31:862][862]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.08.31:862][862]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.08.31:862][862]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.08.31:867][862]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=11
+[2024.03.26-09.08.31:867][862]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.26-09.08.31:867][862]LogInit: FAudioDevice initialized with ID 11.
+[2024.03.26-09.08.31:867][862]LogAudio: Display: Audio Device (ID: 11) registered with world 'MAP_Menu'.
+[2024.03.26-09.08.31:867][862]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.26-09.08.32:184][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.08.32:185][862]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.08.32:187][862]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.08.32
+[2024.03.26-09.08.32:188][862]LogWorld: Bringing up level for play took: 0.002659
+[2024.03.26-09.08.32:190][862]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.03.26-09.08.32:208][862]PIE: Server logged in
+[2024.03.26-09.08.32:210][862]PIE: Play in editor total start time 0.743 seconds.
+[2024.03.26-09.08.32:253][862]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.08.32:331][863]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.08.35:257][ 30]Cmd: quit
+[2024.03.26-09.08.35:257][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.08.35:258][ 30]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.08.35:258][ 30]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.08.35:349][ 30]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.08.35:349][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.08.35:350][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.08.35:356][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.08.35:376][ 30]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.26-09.08.35:432][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2024.03.26-09.08.35:476][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.03.26-09.08.37:044][123]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.08.37:054][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.08.37:054][123]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:08:37 AM)
+[2024.03.26-09.08.37:054][123]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.08.37:057][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002416s)
+[2024.03.26-09.08.37:057][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002444s)
+[2024.03.26-09.08.37:080][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.26-09.08.37:081][123]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.08.37:081][123]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.08.37:081][123]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.08.37:082][123]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2024.03.26-09.08.37:082][123]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.26-09.08.37:082][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.08.37:082][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.08.37:082][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.08.37:082][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.08.37:082][123]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.08.37:082][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.08.37:082][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.08.37:082][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.08.37:082][123]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.08.37:082][123]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.08.37:082][123]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.08.37:083][123]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.08.37:083][123]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.08.37:278][123]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.08.37:329][123]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.08.37:330][123]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.08.37:330][123]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.08.37:330][123]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.08.37:330][123]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=12
+[2024.03.26-09.08.37:331][123]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.26-09.08.37:331][123]LogInit: FAudioDevice initialized with ID 12.
+[2024.03.26-09.08.37:331][123]LogAudio: Display: Audio Device (ID: 12) registered with world 'MAP_Menu'.
+[2024.03.26-09.08.37:331][123]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.26-09.08.37:617][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.08.37:617][123]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.08.37:620][123]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.08.37
+[2024.03.26-09.08.37:621][123]LogWorld: Bringing up level for play took: 0.002683
+[2024.03.26-09.08.37:622][123]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.03.26-09.08.37:641][123]PIE: Server logged in
+[2024.03.26-09.08.37:644][123]PIE: Play in editor total start time 0.589 seconds.
+[2024.03.26-09.08.37:661][123]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.08.37:666][124]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.08.38:485][172]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-09.08.38:485][172]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-09.08.38:485][172]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.08.38:486][172]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.08.38:486][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.08.38:545][172]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.08.38:548][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.26-09.08.38:977][172]LogAudio: Display: Audio Device (ID: 12) registered with world 'MAP_Egypt'.
+[2024.03.26-09.08.38:977][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.08.38:977][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.08.38:977][172]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-09.08.38:978][172]LogPlayLevel: PIE: World Init took: (0.001679s)
+[2024.03.26-09.08.38:979][172]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.08.39:267][172]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-09.08.39
+[2024.03.26-09.08.39:270][172]LogWorld: Bringing up level for play took: 0.275979
+[2024.03.26-09.08.39:278][172]LogLoad: Took 0.792889 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-09.08.41:691][294]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.08.43:967][423]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.08.44:311][442]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.08.45:153][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.08.45:153][490]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-09.08.45:154][490]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.08.45:166][490]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.08.45:194][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.08.45:200][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.08.45:208][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.08.45:240][490]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.08.45:245][490]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.26-09.08.45:317][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.03.26-09.08.45:350][491]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.03.26-09.08.48:641][687]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.08.48:651][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.08.48:651][687]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:08:48 AM)
+[2024.03.26-09.08.48:651][687]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.08.48:654][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002329s)
+[2024.03.26-09.08.48:654][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002361s)
+[2024.03.26-09.08.48:678][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.03.26-09.08.48:679][687]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.08.48:679][687]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.08.48:680][687]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.08.48:680][687]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2024.03.26-09.08.48:680][687]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.03.26-09.08.48:680][687]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.08.48:680][687]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.08.48:680][687]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.08.48:680][687]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.08.48:680][687]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.08.48:680][687]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.08.48:680][687]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.08.48:680][687]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.08.48:681][687]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.08.48:681][687]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.08.48:681][687]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.08.48:681][687]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.08.48:681][687]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.08.48:945][687]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.08.48:992][687]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.08.48:993][687]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.08.48:993][687]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.08.48:993][687]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.08.48:994][687]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=13
+[2024.03.26-09.08.48:995][687]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.03.26-09.08.48:995][687]LogInit: FAudioDevice initialized with ID 13.
+[2024.03.26-09.08.48:995][687]LogAudio: Display: Audio Device (ID: 13) registered with world 'MAP_Menu'.
+[2024.03.26-09.08.48:995][687]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.26-09.08.49:251][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.08.49:251][687]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.08.49:253][687]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.08.49
+[2024.03.26-09.08.49:254][687]LogWorld: Bringing up level for play took: 0.002026
+[2024.03.26-09.08.49:256][687]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.03.26-09.08.49:272][687]PIE: Server logged in
+[2024.03.26-09.08.49:274][687]PIE: Play in editor total start time 0.623 seconds.
+[2024.03.26-09.08.49:291][687]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.08.49:298][688]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.09.02:035][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.09.02:035][440]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.09.02:035][440]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.09.02:047][440]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.09.02:047][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.09.02:048][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.09.02:054][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.09.02:084][440]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.26-09.09.02:134][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.03.26-09.09.02:184][441]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.03.26-09.10.27:417][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.26-09.10.27:424][212]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.10.27:512][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-09.10.27:522][212]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-09.10.27:522][212]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Menu447745A534F34B1BBCBB73125D91B88A.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-09.10.27:582][212]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 2.57 sec)
+[2024.03.26-09.10.27:586][212]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-09.10.27:586][212]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-09.10.28:039][234]BlueprintLog: New page: Compile WID_Menu
+[2024.03.26-09.10.28:080][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.26-09.10.28:991][266]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.10.29:002][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.10.29:002][266]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:10:29 AM)
+[2024.03.26-09.10.29:002][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.10.29:005][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002876s)
+[2024.03.26-09.10.29:005][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002907s)
+[2024.03.26-09.10.29:033][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.03.26-09.10.29:035][266]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.10.29:035][266]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.10.29:036][266]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.10.29:036][266]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2024.03.26-09.10.29:036][266]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.03.26-09.10.29:036][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.10.29:036][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.10.29:036][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.10.29:036][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.10.29:036][266]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.10.29:036][266]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.10.29:036][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.10.29:036][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.10.29:037][266]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.10.29:037][266]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.10.29:037][266]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.10.29:037][266]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.10.29:038][266]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.10.29:299][266]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.10.29:345][266]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.10.29:345][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.10.29:345][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.10.29:345][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.10.29:346][266]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=14
+[2024.03.26-09.10.29:346][266]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.03.26-09.10.29:347][266]LogInit: FAudioDevice initialized with ID 14.
+[2024.03.26-09.10.29:347][266]LogAudio: Display: Audio Device (ID: 14) registered with world 'MAP_Menu'.
+[2024.03.26-09.10.29:347][266]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=14
+[2024.03.26-09.10.29:347][266]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.26-09.10.29:628][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.10.29:628][266]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.10.29:631][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.10.29
+[2024.03.26-09.10.29:632][266]LogWorld: Bringing up level for play took: 0.002060
+[2024.03.26-09.10.29:633][266]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.03.26-09.10.29:653][266]PIE: Server logged in
+[2024.03.26-09.10.29:657][266]PIE: Play in editor total start time 0.656 seconds.
+[2024.03.26-09.10.29:678][266]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.10.29:682][267]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.10.32:357][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.10.32:357][398]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.10.32:358][398]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.10.32:372][398]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.10.32:372][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.10.32:379][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.10.32:390][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.10.32:417][398]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.10.32:417][398]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.26-09.10.32:469][398]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2024.03.26-09.10.32:508][399]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.03.26-09.10.45:182][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.26-09.10.45:188][779]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.10.45:332][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-09.10.45:344][779]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-09.10.45:344][779]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Menu7366661D26824095878ABD48535B79FA.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-09.10.45:393][779]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 2.78 sec)
+[2024.03.26-09.10.45:394][779]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-09.10.45:394][779]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-09.10.46:471][840]BlueprintLog: New page: Compile WID_Menu
+[2024.03.26-09.10.46:513][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.03.26-09.10.47:297][861]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.10.47:307][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.10.47:307][861]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:10:47 AM)
+[2024.03.26-09.10.47:308][861]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.10.47:310][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002365s)
+[2024.03.26-09.10.47:310][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002397s)
+[2024.03.26-09.10.47:334][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.26-09.10.47:335][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.10.47:335][861]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.10.47:336][861]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.10.47:336][861]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2024.03.26-09.10.47:336][861]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.03.26-09.10.47:336][861]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.10.47:337][861]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.10.47:337][861]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.10.47:337][861]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.10.47:337][861]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.10.47:337][861]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.10.47:337][861]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.10.47:337][861]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.10.47:338][861]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.10.47:338][861]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.10.47:338][861]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.10.47:338][861]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.10.47:338][861]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.10.47:563][861]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.10.47:575][861]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.10.47:575][861]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.10.47:575][861]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.10.47:576][861]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.10.47:576][861]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=15
+[2024.03.26-09.10.47:576][861]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.03.26-09.10.47:576][861]LogInit: FAudioDevice initialized with ID 15.
+[2024.03.26-09.10.47:576][861]LogAudio: Display: Audio Device (ID: 15) registered with world 'MAP_Menu'.
+[2024.03.26-09.10.47:576][861]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.26-09.10.47:845][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.10.47:845][861]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.10.47:847][861]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.10.47
+[2024.03.26-09.10.47:848][861]LogWorld: Bringing up level for play took: 0.002365
+[2024.03.26-09.10.47:849][861]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.03.26-09.10.47:870][861]PIE: Server logged in
+[2024.03.26-09.10.47:873][861]PIE: Play in editor total start time 0.566 seconds.
+[2024.03.26-09.10.47:892][861]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.10.47:897][862]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.10.49:754][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.10.49:754][957]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.10.49:754][957]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.10.49:759][957]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.10.49:759][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.10.49:760][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.10.49:766][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.10.49:785][957]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.10.49:785][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.26-09.10.49:836][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.26-09.10.49:866][958]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.03.26-09.11.33:353][594]BlueprintLog: New page: Compile WID_Menu
+[2024.03.26-09.11.33:374][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.26-09.11.33:616][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.11.33:701][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WID_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset" SILENT=true
+[2024.03.26-09.11.33:708][594]LogSavePackage: Moving output files for package: /Game/Blueprints/Widgets/WID_Menu
+[2024.03.26-09.11.33:709][594]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Menu57ED5519829344D08F5548CC843BACC7.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Widgets/WID_Menu.uasset'
+[2024.03.26-09.11.33:775][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 2.94 sec)
+[2024.03.26-09.11.33:811][594]AssetCheck: New page: Asset Save: WID_Menu
+[2024.03.26-09.11.33:811][594]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Widgets/WID_Menu.WID_Menu
+[2024.03.26-09.11.35:127][658]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.11.35:136][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.11.35:136][658]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:11:35 AM)
+[2024.03.26-09.11.35:137][658]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.11.35:139][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002162s)
+[2024.03.26-09.11.35:139][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002189s)
+[2024.03.26-09.11.35:162][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.03.26-09.11.35:164][658]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.11.35:164][658]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.11.35:164][658]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.11.35:165][658]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2024.03.26-09.11.35:165][658]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.03.26-09.11.35:165][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.11.35:165][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.11.35:165][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.11.35:165][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.11.35:165][658]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.11.35:165][658]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.11.35:165][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.11.35:165][658]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.11.35:166][658]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.11.35:166][658]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.11.35:166][658]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.11.35:166][658]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.11.35:166][658]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.11.35:447][658]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.11.35:499][658]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.11.35:500][658]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.11.35:500][658]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.11.35:500][658]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.11.35:501][658]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=16
+[2024.03.26-09.11.35:502][658]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.03.26-09.11.35:502][658]LogInit: FAudioDevice initialized with ID 16.
+[2024.03.26-09.11.35:502][658]LogAudio: Display: Audio Device (ID: 16) registered with world 'MAP_Menu'.
+[2024.03.26-09.11.35:502][658]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.26-09.11.35:802][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.11.35:803][658]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.11.35:805][658]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.11.35
+[2024.03.26-09.11.35:806][658]LogWorld: Bringing up level for play took: 0.002245
+[2024.03.26-09.11.35:807][658]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.03.26-09.11.35:828][658]PIE: Server logged in
+[2024.03.26-09.11.35:833][658]PIE: Play in editor total start time 0.697 seconds.
+[2024.03.26-09.11.35:855][658]LogViewport: Scene viewport resized to 1920x988, mode Windowed.
+[2024.03.26-09.11.35:862][659]LogViewport: Scene viewport resized to 1920x997, mode Windowed.
+[2024.03.26-09.11.38:631][798]Cmd: quit
+[2024.03.26-09.11.38:632][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.11.38:632][798]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.11.38:632][798]LogSlate: Window 'CaceteDeAgulha Preview [NetMode: Standalone 0]  (64-bit/PC Vulkan SM5)' being destroyed
+[2024.03.26-09.11.38:680][798]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.11.38:681][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.11.38:682][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.11.38:687][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.11.38:707][798]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.11.38:708][798]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.26-09.11.38:763][798]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2024.03.26-09.11.38:813][799]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.03.26-09.12.33:573][885]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.03.26-09.13.12:984][130]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.26-09.13.13:008][130]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.26-09.13.13:030][130]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.26-09.13.13:042][131]LogAutomationController: Ignoring very large delta of 23.46 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.26-09.13.13:058][131]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.26-09.13.22:175][267]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2024.03.26-09.13.22:196][267]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.26-09.13.29:736][709]LogContentBrowser: Attempting asset rename: NewBlueprint -> GM_MainMenu
+[2024.03.26-09.13.29:782][709]LogMetaData: Removing '/Game/Maps/GM_MainMenu.GM_MainMenu:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Maps/NewBlueprint.PackageMetaData'
+[2024.03.26-09.13.29:782][709]LogMetaData: Removing '/Game/Maps/GM_MainMenu.SKEL_GM_MainMenu_C:UserConstructionScript' ref from Metadata '/Game/Maps/NewBlueprint.PackageMetaData'
+[2024.03.26-09.13.29:782][709]LogMetaData: Removing '/Game/Maps/GM_MainMenu.SKEL_GM_MainMenu_C' ref from Metadata '/Game/Maps/NewBlueprint.PackageMetaData'
+[2024.03.26-09.13.29:782][709]LogMetaData: Removing '/Game/Maps/GM_MainMenu.GM_MainMenu_C' ref from Metadata '/Game/Maps/NewBlueprint.PackageMetaData'
+[2024.03.26-09.13.29:782][709]LogMetaData: Removing '/Game/Maps/GM_MainMenu.GM_MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Maps/NewBlueprint.PackageMetaData'
+[2024.03.26-09.13.29:782][709]LogMetaData: Removing '/Game/Maps/GM_MainMenu.GM_MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Maps/NewBlueprint.PackageMetaData'
+[2024.03.26-09.13.29:782][709]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.13.29:920][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GM_MainMenu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/GM_MainMenu.uasset" SILENT=true
+[2024.03.26-09.13.29:929][709]LogSavePackage: Moving output files for package: /Game/Maps/GM_MainMenu
+[2024.03.26-09.13.29:930][709]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/GM_MainMenu34BEEE823C554B5988DC47E552C99D95.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/GM_MainMenu.uasset'
+[2024.03.26-09.13.30:017][709]LogFileHelpers: InternalPromptForCheckoutAndSave took 235 ms (total: 3.17 sec)
+[2024.03.26-09.13.30:070][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.26-09.13.30:101][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.03.26-09.13.30:119][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.03.26-09.13.30:121][709]AssetCheck: New page: Asset Save: GM_MainMenu
+[2024.03.26-09.13.30:121][709]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Maps/GM_MainMenu.GM_MainMenu
+[2024.03.26-09.13.32:950][857]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Maps/GM_MainMenu.GM_MainMenu
+[2024.03.26-09.13.32:950][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.13.32:950][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.13.33:177][857]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.13.51:728][947]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.14.02:142][983]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.14.02:862][ 24]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.14.03:034][ 27]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.14.04:098][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-09.14.04:103][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.14.04:185][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GM_MainMenu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/GM_MainMenu.uasset" SILENT=true
+[2024.03.26-09.14.04:189][ 90]LogSavePackage: Moving output files for package: /Game/Maps/GM_MainMenu
+[2024.03.26-09.14.04:190][ 90]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/GM_MainMenu5B9E7802CB18438DA75F78A1C7A66724.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/GM_MainMenu.uasset'
+[2024.03.26-09.14.04:270][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 3.34 sec)
+[2024.03.26-09.14.04:273][ 90]AssetCheck: New page: Asset Save: GM_MainMenu
+[2024.03.26-09.14.04:273][ 90]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Maps/GM_MainMenu.GM_MainMenu
+[2024.03.26-09.14.04:309][ 90]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.14.04:388][ 92]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.14.18:692][901]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode/GM_CaceteDeAgulha.GM_CaceteDeAgulha
+[2024.03.26-09.14.18:692][901]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.14.18:693][901]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.14.22:270][ 74]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.14.22:526][ 87]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.14.24:771][201]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.14.42:599][175]LogViewport: Scene viewport resized to 898x909, mode Windowed.
+[2024.03.26-09.14.42:612][176]BlueprintLog: New page: Compile GM_MainMenu
+[2024.03.26-09.14.42:657][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.03.26-09.14.43:433][212]LogViewport: Scene viewport resized to 901x915, mode Windowed.
+[2024.03.26-09.14.52:838][244]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.14.56:546][451]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.14.59:901][622]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.04:767][857]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.20:055][619]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.36:645][457]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.39:152][601]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.41:959][741]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.42:309][757]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.44:531][876]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.45:643][935]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.51:396][252]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.26-09.15.51:403][252]LogToolMenus: Warning: Menu item not found: 'OpenMarketplace' for insert: 'ContentBrowser'
+[2024.03.26-09.15.55:193][447]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.56:460][512]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.56:646][515]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.56:810][518]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.56:943][521]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.57:143][525]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.57:310][528]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.57:476][531]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.57:627][534]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.57:759][537]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.57:893][540]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.58:059][544]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.58:210][548]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.58:343][551]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.58:476][554]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.58:609][557]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.58:727][560]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.58:859][563]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.15.58:993][566]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.15.59:177][569]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.00:261][626]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.16.01:201][661]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.06:738][975]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.16.06:870][976]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.07:010][977]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.16.07:153][978]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.07:222][979]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.16.07:245][980]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.10:636][156]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.16.27:959][504]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.31:090][676]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.16.31:256][680]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.32:477][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.03.26-09.16.32:485][744]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.16.32:601][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.26-09.16.32:668][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.26-09.16.32:682][744]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Menu
+[2024.03.26-09.16.32:682][744]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_Menu25D85C38F842439CB416FE106419DA2D.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap'
+[2024.03.26-09.16.32:692][744]LogFileHelpers: Saving map 'MAP_Menu' took 0.091
+[2024.03.26-09.16.32:730][744]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 3.59 sec)
+[2024.03.26-09.16.32:731][744]AssetCheck: New page: Asset Save: MAP_Menu
+[2024.03.26-09.16.32:731][744]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.16.32:739][744]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.16.32:783][746]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.16.45:332][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.26-09.16.47:012][573]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.16.47:025][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.16.47:025][573]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:16:47 AM)
+[2024.03.26-09.16.47:025][573]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.16.47:028][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003104s)
+[2024.03.26-09.16.47:028][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.003144s)
+[2024.03.26-09.16.47:048][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.26-09.16.47:049][573]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.16.47:049][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.16.47:050][573]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.16.47:050][573]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2024.03.26-09.16.47:050][573]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.03.26-09.16.47:050][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.16.47:050][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.16.47:050][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.16.47:050][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.16.47:050][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.16.47:050][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.16.47:050][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.16.47:050][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.16.47:051][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.16.47:051][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.16.47:051][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.16.47:051][573]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.16.47:051][573]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.16.47:327][573]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.16.47:375][573]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.16.47:376][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.16.47:377][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.16.47:377][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.16.47:379][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=17
+[2024.03.26-09.16.47:380][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.03.26-09.16.47:380][573]LogInit: FAudioDevice initialized with ID 17.
+[2024.03.26-09.16.47:380][573]LogAudio: Display: Audio Device (ID: 17) registered with world 'MAP_Menu'.
+[2024.03.26-09.16.47:380][573]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.26-09.16.47:384][573]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.16.47:384][573]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.16.47
+[2024.03.26-09.16.47:385][573]LogWorld: Bringing up level for play took: 0.000929
+[2024.03.26-09.16.47:385][573]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.03.26-09.16.47:388][573]PIE: Server logged in
+[2024.03.26-09.16.47:389][573]PIE: Play in editor total start time 0.364 seconds.
+[2024.03.26-09.16.53:015][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.16.53:016][899]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.16.53:016][899]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.16.53:016][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.16.53:020][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.16.53:032][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.16.53:056][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.16.53:056][899]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.26-09.16.53:107][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.26-09.16.53:157][900]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.03.26-09.16.54:060][949]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.08:190][997]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.16:438][422]LogToolMenus: Warning: Menu item not found: 'OpenMarketplace' for insert: 'ContentBrowser'
+[2024.03.26-09.17.17:031][444]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.17:198][447]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.17:331][451]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.17:647][464]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.17:731][466]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.19:114][531]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.19:231][533]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.19:416][537]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.19:467][538]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.20:298][573]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.20:948][594]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.28:612][948]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2024.03.26-09.17.28:612][948]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2024.03.26-09.17.28:615][948]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Maps/MAP_Menu.MAP_Menu:PersistentLevel.CameraActor_0
+[2024.03.26-09.17.28:615][948]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Maps/MAP_Menu.MAP_Menu:PersistentLevel.CameraActor_0
+[2024.03.26-09.17.28:826][949]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.17.28:845][950]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.28:865][950]LogViewport: Scene viewport resized to 270x152, mode Windowed.
+[2024.03.26-09.17.28:895][951]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.17.33:976][197]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.33:988][197]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.17.34:023][198]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.17.51:391][251]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.51:394][251]LogViewport: Scene viewport resized to 270x152, mode Windowed.
+[2024.03.26-09.17.51:475][252]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.17.53:870][354]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.17.53:884][354]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.17.53:927][355]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.17.54:432][364]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.17.54:442][364]LogViewport: Scene viewport resized to 270x152, mode Windowed.
+[2024.03.26-09.17.54:470][365]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.18.05:700][908]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.18.05:713][908]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.18.05:792][909]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.18.05:885][911]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.18.05:895][911]LogViewport: Scene viewport resized to 270x152, mode Windowed.
+[2024.03.26-09.18.05:923][912]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.18.06:792][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.26-09.18.06:802][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.18.06:872][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.26-09.18.06:925][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.03.26-09.18.06:941][951]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Menu
+[2024.03.26-09.18.06:941][951]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_MenuB3C9D4A7EF3843EBB8ED2215F94E3352.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap'
+[2024.03.26-09.18.06:953][951]LogFileHelpers: Saving map 'MAP_Menu' took 0.081
+[2024.03.26-09.18.06:986][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 184 ms (total: 3.77 sec)
+[2024.03.26-09.18.06:987][951]AssetCheck: New page: Asset Save: MAP_Menu
+[2024.03.26-09.18.06:987][951]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.18.06:999][951]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.18.07:006][951]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.18.07:034][952]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.18.07:061][953]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.18.07:085][953]LogViewport: Scene viewport resized to 270x152, mode Windowed.
+[2024.03.26-09.18.07:113][954]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.18.08:545][ 21]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.18.08:555][ 21]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.18.08:586][ 22]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.18.13:976][ 41]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.18.13:986][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.18.13:986][ 41]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:18:13 AM)
+[2024.03.26-09.18.13:987][ 41]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.18.13:989][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002748s)
+[2024.03.26-09.18.13:989][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.002777s)
+[2024.03.26-09.18.14:010][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.26-09.18.14:011][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.18.14:011][ 41]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.18.14:012][ 41]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.18.14:012][ 41]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2024.03.26-09.18.14:012][ 41]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.03.26-09.18.14:012][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.18.14:012][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.18.14:012][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.18.14:012][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.18.14:012][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.18.14:012][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.18.14:012][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.18.14:012][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.18.14:013][ 41]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.18.14:013][ 41]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.18.14:013][ 41]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.18.14:013][ 41]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.18.14:013][ 41]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.18.14:280][ 41]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.18.14:332][ 41]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.18.14:334][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.18.14:334][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.18.14:334][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.18.14:336][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=18
+[2024.03.26-09.18.14:337][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.03.26-09.18.14:337][ 41]LogInit: FAudioDevice initialized with ID 18.
+[2024.03.26-09.18.14:337][ 41]LogAudio: Display: Audio Device (ID: 18) registered with world 'MAP_Menu'.
+[2024.03.26-09.18.14:337][ 41]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.03.26-09.18.14:341][ 41]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.18.14:343][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.18.14
+[2024.03.26-09.18.14:343][ 41]LogWorld: Bringing up level for play took: 0.001712
+[2024.03.26-09.18.14:344][ 41]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.03.26-09.18.14:348][ 41]PIE: Server logged in
+[2024.03.26-09.18.14:350][ 41]PIE: Play in editor total start time 0.365 seconds.
+[2024.03.26-09.18.14:395][ 41]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.18.16:878][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.18.16:878][185]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.18.16:878][185]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.18.16:878][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.18.16:881][185]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.18.16:886][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.18.16:907][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.18.16:907][185]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.03.26-09.18.16:954][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.03.26-09.18.17:221][186]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.03.26-09.18.17:244][186]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.18.49:108][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.03.26-09.18.49:119][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-09.18.49:209][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Menu" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.26-09.18.49:288][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.03.26-09.18.49:305][678]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Menu
+[2024.03.26-09.18.49:305][678]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/MAP_MenuE82635557104449596722D624E3FA543.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Maps/MAP_Menu.umap'
+[2024.03.26-09.18.49:318][678]LogFileHelpers: Saving map 'MAP_Menu' took 0.111
+[2024.03.26-09.18.49:403][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 283 ms (total: 4.05 sec)
+[2024.03.26-09.18.49:406][678]AssetCheck: New page: Asset Save: MAP_Menu
+[2024.03.26-09.18.49:406][678]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Menu.MAP_Menu
+[2024.03.26-09.18.49:435][678]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.18.49:441][678]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.18.49:505][679]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.18.49:527][680]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.18.49:535][680]LogViewport: Scene viewport resized to 270x152, mode Windowed.
+[2024.03.26-09.18.49:562][681]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.18.50:267][713]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.18.50:282][713]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.18.50:317][714]LogViewport: Scene viewport resized to 269x152, mode Windowed.
+[2024.03.26-09.18.55:701][732]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-09.18.55:715][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-09.18.55:715][732]PIE: New page: PIE session: MAP_Menu (Mar 26, 2024, 10:18:55 AM)
+[2024.03.26-09.18.55:715][732]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.18.55:718][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003172s)
+[2024.03.26-09.18.55:718][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Menu.MAP_Menu to /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu (0.003207s)
+[2024.03.26-09.18.55:741][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.26-09.18.55:742][732]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.18.55:742][732]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.18.55:742][732]LogAIModule: Creating AISystem for world MAP_Menu
+[2024.03.26-09.18.55:743][732]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2024.03.26-09.18.55:743][732]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.03.26-09.18.55:743][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-09.18.55:743][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-09.18.55:743][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-09.18.55:743][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-09.18.55:743][732]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-09.18.55:743][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-09.18.55:743][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-09.18.55:743][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-09.18.55:744][732]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-09.18.55:744][732]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-09.18.55:744][732]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-09.18.55:744][732]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.03.26-09.18.55:744][732]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.03.26-09.18.56:002][732]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.03.26-09.18.56:024][732]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2024.03.26-09.18.56:024][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-09.18.56:024][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-09.18.56:024][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-09.18.56:025][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=19
+[2024.03.26-09.18.56:026][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.03.26-09.18.56:026][732]LogInit: FAudioDevice initialized with ID 19.
+[2024.03.26-09.18.56:026][732]LogAudio: Display: Audio Device (ID: 19) registered with world 'MAP_Menu'.
+[2024.03.26-09.18.56:026][732]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.03.26-09.18.56:029][732]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.03.26-09.18.56:030][732]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Menu.MAP_Menu up for play (max tick rate 0) at 2024.03.26-09.18.56
+[2024.03.26-09.18.56:031][732]LogWorld: Bringing up level for play took: 0.001313
+[2024.03.26-09.18.56:031][732]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.03.26-09.18.56:035][732]PIE: Server logged in
+[2024.03.26-09.18.56:036][732]PIE: Play in editor total start time 0.321 seconds.
+[2024.03.26-09.18.56:079][732]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.18.58:531][875]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.20.18:294][119]LogNet: Browse: /Game/Maps/MAP_Egypt
+[2024.03.26-09.20.18:294][119]LogLoad: LoadMap: /Game/Maps/MAP_Egypt
+[2024.03.26-09.20.18:294][119]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Menu
+[2024.03.26-09.20.18:294][119]LogWorld: UWorld::CleanupWorld for MAP_Menu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.20.18:295][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.20.18:313][119]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-09.20.18:316][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.26-09.20.18:613][119]LogAudio: Display: Audio Device (ID: 19) registered with world 'MAP_Egypt'.
+[2024.03.26-09.20.18:614][119]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-09.20.18:614][119]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-09.20.18:614][119]LogAIModule: Creating AISystem for world MAP_Egypt
+[2024.03.26-09.20.18:615][119]LogPlayLevel: PIE: World Init took: (0.001892s)
+[2024.03.26-09.20.18:616][119]LogLoad: Game class is 'GM_CaceteDeAgulha_C'
+[2024.03.26-09.20.18:866][119]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Egypt.MAP_Egypt up for play (max tick rate 0) at 2024.03.26-09.20.18
+[2024.03.26-09.20.18:870][119]LogWorld: Bringing up level for play took: 0.252272
+[2024.03.26-09.20.18:879][119]LogLoad: Took 0.585016 seconds to LoadMap(/Game/Maps/MAP_Egypt)
+[2024.03.26-09.20.18:992][119]LogViewport: Scene viewport resized to 1529x478, mode Windowed.
+[2024.03.26-09.20.21:186][235]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.21:538][254]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.24:407][420]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.27:699][604]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.28:049][622]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.28:209][630]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.29:208][686]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.29:910][724]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.30:717][770]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.31:306][802]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.31:931][837]LogScript: Script Msg: Playing animation override...
+[2024.03.26-09.20.33:738][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.20.33:738][931]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Egypt
+[2024.03.26-09.20.33:741][931]LogWorld: UWorld::CleanupWorld for MAP_Egypt, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-09.20.33:757][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.20.33:765][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-09.20.33:773][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-09.20.33:811][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-09.20.33:811][931]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.03.26-09.20.33:881][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-09.20.34:148][932]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.03.26-09.20.34:181][932]LogViewport: Scene viewport resized to 269x151, mode Windowed.
+[2024.03.26-09.20.42:027][323]LogViewport: Scene viewport resized to 1534x481, mode Windowed.
+[2024.03.26-09.20.42:039][323]LogViewport: Scene viewport resized to 268x151, mode Windowed.
+[2024.03.26-09.20.42:081][324]LogViewport: Scene viewport resized to 269x152, mode Windowed.
