@@ -9390,3 +9390,133 @@ Script call stack:
 [2024.03.29-16.38.14:391][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 22.5 sec)
 [2024.03.29-16.38.14:394][447]AssetCheck: New page: Asset Save: WID_Scoreboard
 [2024.03.29-16.38.14:394][447]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.WID_Scoreboard
+[2024.03.29-17.06.39:309][289]LogWorld: UWorld::CleanupWorld for World_120, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-17.06.39:310][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-17.06.50:742][922]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/SaveGame/BP_Scoreboard.BP_Scoreboard without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.06.50:742][922]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/SaveGame/BP_Scoreboard.BP_Scoreboard without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.07.00:041][448]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/SaveGame/BP_Scoreboard.BP_Scoreboard without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.07.00:041][448]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/SaveGame/BP_Scoreboard.BP_Scoreboard without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.07.04:343][655]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/SaveGame/BP_Scoreboard.BP_Scoreboard without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.07.04:343][655]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/SaveGame/BP_Scoreboard.BP_Scoreboard without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.07.06:759][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.29-17.07.07:526][800]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.07.07:585][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SaveGame/BP_Scoreboard" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Scoreboard.uasset" SILENT=true
+[2024.03.29-17.07.07:592][800]LogSavePackage: Moving output files for package: /Game/Blueprints/SaveGame/BP_Scoreboard
+[2024.03.29-17.07.07:593][800]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Scoreboard2A813CFDF66B4D39BDF5E77478E2A6EE.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/SaveGame/BP_Scoreboard.uasset'
+[2024.03.29-17.07.07:691][800]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 22.6 sec)
+[2024.03.29-17.07.07:692][800]AssetCheck: New page: Asset Save: BP_Scoreboard
+[2024.03.29-17.07.07:692][800]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/SaveGame/BP_Scoreboard.BP_Scoreboard
+[2024.03.29-17.07.08:460][847]BlueprintLog: New page: Compile BP_Scoreboard
+[2024.03.29-17.07.08:506][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.29-17.07.10:488][947]LogWorld: UWorld::CleanupWorld for World_114, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-17.07.10:488][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-17.08.19:563][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.29-17.08.19:570][957]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Menu' took 0.032
+[2024.03.29-17.08.19:570][957]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard] ([2] browsable assets)...
+[2024.03.29-17.08.19:585][957]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.WID_Scoreboard]
+[2024.03.29-17.08.19:585][957]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard]
+[2024.03.29-17.08.19:597][957]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard_Auto1
+[2024.03.29-17.08.19:597][957]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Scoreboard_Auto139A660C504384BA590E32AFD31D1501E.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Saved/Autosaves/Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard_Auto1.uasset'
+[2024.03.29-17.08.19:597][957]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.03.29-17.08.47:618][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.29-17.08.48:345][628]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.08.48:441][628]LogSavePackage: Moving output files for package: /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard
+[2024.03.29-17.08.48:441][628]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Scoreboard67A1AC82CE02447DB5B7707F7C541F74.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.uasset'
+[2024.03.29-17.08.48:528][628]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 22.8 sec)
+[2024.03.29-17.08.48:529][628]AssetCheck: New page: Asset Save: WID_Scoreboard
+[2024.03.29-17.08.48:529][628]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.WID_Scoreboard
+[2024.03.29-17.08.49:548][690]BlueprintLog: New page: Compile WID_Scoreboard
+[2024.03.29-17.08.49:585][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.29-17.09.58:032][656]LogSlate: Window 'Replace References' being destroyed
+[2024.03.29-17.09.58:095][656]LogSlate: Window 'Replace References' being destroyed
+[2024.03.29-17.10.25:150][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.03.29-17.10.25:914][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.10.26:019][221]LogSavePackage: Moving output files for package: /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard
+[2024.03.29-17.10.26:019][221]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Scoreboard4FD08CEACA404DF9882452848B012ABA.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.uasset'
+[2024.03.29-17.10.26:082][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 23.0 sec)
+[2024.03.29-17.10.26:084][221]AssetCheck: New page: Asset Save: WID_Scoreboard
+[2024.03.29-17.10.26:084][221]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.WID_Scoreboard
+[2024.03.29-17.10.27:498][304]BlueprintLog: New page: Compile WID_Scoreboard
+[2024.03.29-17.10.27:548][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.03.29-17.11.11:692][780]LogDerivedDataCache: /home/zero/.config/Epic/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.081 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10257 files in 11782 folders with total size 418 MiB.
+[2024.03.29-17.12.11:198][175]BlueprintLog: New page: Compile WID_Scoreboard
+[2024.03.29-17.12.11:247][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.03.29-17.12.12:152][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.12.12:244][175]LogSavePackage: Moving output files for package: /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard
+[2024.03.29-17.12.12:244][175]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/WID_Scoreboard60A1010DD38A42D8BCFF743562D7CEC1.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.uasset'
+[2024.03.29-17.12.12:299][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 23.1 sec)
+[2024.03.29-17.12.12:325][175]AssetCheck: New page: Asset Save: WID_Scoreboard
+[2024.03.29-17.12.12:325][175]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/GameState/Widgets/Game/Scoreboard/WID_Scoreboard.WID_Scoreboard
+[2024.03.29-17.12.20:597][627]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-17.12.20:597][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-17.12.20:609][627]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-17.12.20:609][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-17.12.26:730][987]LogWorld: UWorld::CleanupWorld for World_106, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-17.12.26:730][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-17.12.33:127][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.03.29-17.12.33:280][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.03.29-17.12.33:886][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.12.33:946][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.29-17.12.34:008][366]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.29-17.12.34:008][366]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_CharacterFB8EEE75EE344C6AA1945197E0C12827.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.29-17.12.34:036][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 23.3 sec)
+[2024.03.29-17.12.34:038][366]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.29-17.12.34:038][366]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.29-17.12.39:504][687]BlueprintLog: New page: Compile BP_Character
+[2024.03.29-17.12.39:656][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.29-17.13.27:595][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.03.29-17.13.28:409][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.13.28:481][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.29-17.13.28:530][437]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.29-17.13.28:530][437]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Character74ED379EC525462AAC15E2952EB0F270.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.29-17.13.28:554][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 23.4 sec)
+[2024.03.29-17.13.28:557][437]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.29-17.13.28:557][437]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.29-17.13.28:933][456]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.29-17.14.03:134][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.03.29-17.14.03:293][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.29-17.14.03:901][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.14.03:973][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.29-17.14.04:024][425]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.29-17.14.04:024][425]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_CharacterC8B3A40E57AD4B118EF0C79CEB788651.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.29-17.14.04:058][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 23.6 sec)
+[2024.03.29-17.14.04:060][425]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.29-17.14.04:060][425]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.29-17.14.12:295][874]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.29-17.14.16:372][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.03.29-17.14.17:109][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.14.17:165][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Character" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset" SILENT=true
+[2024.03.29-17.14.17:217][108]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Character
+[2024.03.29-17.14.17:217][108]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/BP_Character0CCD9433AE6B4273918B90BD818DE7EC.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BP_Character.uasset'
+[2024.03.29-17.14.17:271][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 23.8 sec)
+[2024.03.29-17.14.17:274][108]AssetCheck: New page: Asset Save: BP_Character
+[2024.03.29-17.14.17:274][108]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_Character.BP_Character
+[2024.03.29-17.14.33:735][ 67]BlueprintLog: New page: Compile BP_Character
+[2024.03.29-17.14.33:902][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.29-17.14.47:451][789]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.14.47:451][789]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.14.53:839][110]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.14.53:839][110]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.15.04:975][660]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.15.04:975][660]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.15.07:460][807]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.15.07:460][807]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.15.13:291][132]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.15.13:291][132]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha without an associated node. The blueprint breakpoint has been removed
+[2024.03.29-17.15.24:071][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.03.29-17.15.24:943][769]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-17.15.25:001][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameState/GI_CaceteDeAgulha" FILE="../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/GameState/GI_CaceteDeAgulha.uasset" SILENT=true
+[2024.03.29-17.15.25:018][769]LogSavePackage: Moving output files for package: /Game/Blueprints/GameState/GI_CaceteDeAgulha
+[2024.03.29-17.15.25:018][769]LogSavePackage: Moving '../../../../../UnrealGames/CaceteDeAgulha/Saved/GI_CaceteDeAgulha80AABA506FC240CABC8419D28A4BEF0B.tmp' to '../../../../../UnrealGames/CaceteDeAgulha/Content/Blueprints/GameState/GI_CaceteDeAgulha.uasset'
+[2024.03.29-17.15.25:076][769]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 23.9 sec)
+[2024.03.29-17.15.25:091][769]AssetCheck: New page: Asset Save: GI_CaceteDeAgulha
+[2024.03.29-17.15.25:091][769]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameState/GI_CaceteDeAgulha.GI_CaceteDeAgulha
+[2024.03.29-17.15.26:875][865]BlueprintLog: New page: Compile GI_CaceteDeAgulha
+[2024.03.29-17.15.26:914][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.29-17.15.33:254][227]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-17.15.33:254][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-17.16.24:048][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.29-17.16.24:048][229]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-17.16.24:048][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-17.16.32:187][705]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.03.29-17.16.32:245][705]LogSlate: Window 'Find in Blueprints' being destroyed
