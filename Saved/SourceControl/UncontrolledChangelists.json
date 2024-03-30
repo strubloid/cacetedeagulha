@@ -54,7 +54,10 @@
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Sound/Metasounds/MS_Footsteps.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Sound/Metasounds/01-footstep.uasset",
 				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/Death/AnimSequences/Run.uasset",
-				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset"
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/BP_Player.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/BPC_Character.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/WID_Player.uasset",
+				"/home/zero/UnrealGames/CaceteDeAgulha/Content/Blueprints/Characters/Player/WID_PlayerUI.uasset"
 			]
 		}
 	]
