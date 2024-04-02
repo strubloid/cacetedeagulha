@@ -1,0 +1,62 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-26-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "UAssetEditorSubsystem::OpenEditorForAsset"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+libUnrealEditor-Core.so!ThreadStackWalker(int, siginfo_t*, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1040]
+libc.so.6!UnknownFunction(0x4298f)
+libUnrealEditor-BlueprintGraph.so!UK2Node* UClass::GetDefaultObject<UK2Node>() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:3295]
+libUnrealEditor-BlueprintGraph.so!BlueprintActionDatabaseImpl::GetNodeSpecificActions(TSubclassOf<UEdGraphNode const>, FBlueprintActionDatabaseRegistrar&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/BlueprintGraph/Private/BlueprintActionDatabase.cpp:997]
+libUnrealEditor-BlueprintGraph.so!FBlueprintActionDatabase::RegisterAllNodeActions(FBlueprintActionDatabaseRegistrar&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/BlueprintGraph/Private/BlueprintActionDatabase.cpp:1988]
+libUnrealEditor-BlueprintGraph.so!FBlueprintActionDatabase::RefreshAssetActions(UObject*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/BlueprintGraph/Private/BlueprintActionDatabase.cpp:1815]
+libUnrealEditor-BlueprintGraph.so!TBaseStaticDelegateInstance<void (UObject*), FDefaultDelegateUserPolicy>::ExecuteIfSafe(UObject*) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:775]
+libUnrealEditor-CoreUObject.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (UObject*), FDefaultDelegateUserPolicy>, UObject*>(UObject*) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:254]
+libUnrealEditor-CoreUObject.so!EndLoad(FUObjectSerializeContext*, TArray<UPackage*, TSizedDefaultAllocator<32> >*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2347]
+libUnrealEditor-CoreUObject.so!LoadPackageInternal(UPackage*, FPackagePath const&, unsigned int, FLinkerLoad*, FArchive*, FLinkerInstancingContext const*, FPackagePath const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:1850]
+libUnrealEditor-CoreUObject.so!LoadPackage(UPackage*, FPackagePath const&, unsigned int, FArchive*, FLinkerInstancingContext const*, FPackagePath const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2014]
+libUnrealEditor-CoreUObject.so!LoadPackage(UPackage*, char16_t const*, unsigned int, FArchive*, FLinkerInstancingContext const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:1987]
+libUnrealEditor-CoreUObject.so!ResolveName(UObject*&, FString&, bool, bool, unsigned int, FLinkerInstancingContext const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:1192]
+libUnrealEditor-CoreUObject.so!StaticLoadObjectInternal(UClass*, UObject*, char16_t const*, char16_t const*, unsigned int, UPackageMap*, bool, FLinkerInstancingContext const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:1301]
+libUnrealEditor-CoreUObject.so!StaticLoadObject(UClass*, UObject*, char16_t const*, char16_t const*, unsigned int, UPackageMap*, bool, FLinkerInstancingContext const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:1377]
+libUnrealEditor-Kismet.so!void FLoadObjectsFromAssetRegistryHelper::Load<UUserDefinedEnum>(TSet<TWeakObjectPtr<UUserDefinedEnum, FWeakObjectPtr>, DefaultKeyFuncs<TWeakObjectPtr<UUserDefinedEnum, FWeakObjectPtr>, false>, FDefaultSetAllocator>&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Kismet/Private/BlueprintEditor.cpp:1944]
+libUnrealEditor-Kismet.so!FBlueprintEditor::CommonInitialization(TArray<UBlueprint*, TSizedDefaultAllocator<32> > const&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Kismet/Private/BlueprintEditor.cpp:2010]
+libUnrealEditor-Kismet.so!FBlueprintEditor::InitBlueprintEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, TArray<UBlueprint*, TSizedDefaultAllocator<32> > const&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Kismet/Private/BlueprintEditor.cpp:2362]
+libUnrealEditor-UMGEditor.so!FWidgetBlueprintEditor::InitWidgetBlueprintEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, TArray<UBlueprint*, TSizedDefaultAllocator<32> > const&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp:163]
+libUnrealEditor-UMGEditor.so!UAssetDefinition_WidgetBlueprint::OpenAssets(FAssetOpenArgs const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UMGEditor/Private/AssetDefinition_WidgetBlueprint.cpp:52]
+libUnrealEditor-AssetTools.so!FAssetDefinitionProxy::OpenAssetEditor(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod, TSharedPtr<IToolkitHost, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Developer/AssetTools/Private/AssetTools.cpp:244]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAsset(UObject*, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, bool, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:579]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAsset(FSoftObjectPath const&, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:777]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorsForAssets(TArray<FString, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:1411]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OnConfirmRestorePreviouslyOpenAssets(TArray<FString, TSizedDefaultAllocator<32> >) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:1097]
+libUnrealEditor-UnrealEd.so!decltype(auto) UE::Core::Private::Tuple::TTupleBase<TIntegerSequence<unsigned int, 0u>, TArray<FString, TSizedDefaultAllocator<32> > >::ApplyAfter<void (UAssetEditorSubsystem::* const&)(TArray<FString, TSizedDefaultAllocator<32> >), UAssetEditorSubsystem*&>(void (UAssetEditorSubsystem::* const&&&)(TArray<FString, TSizedDefaultAllocator<32> >), UAssetEditorSubsystem*&&&) const & [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Templates/Tuple.h:311]
+libUnrealEditor-UnrealEd.so!TBaseUObjectMethodDelegateInstance<false, UAssetEditorSubsystem, void (), FDefaultDelegateUserPolicy, TArray<FString, TSizedDefaultAllocator<32> > >::ExecuteIfSafe() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:665]
+libUnrealEditor-Slate.so!SNotificationItemImpl::OnButtonClicked(TDelegate<void (), FDefaultDelegateUserPolicy>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Notifications/SNotificationList.cpp:614]
+libUnrealEditor-Slate.so!TBaseSPMethodDelegateInstance<false, SNotificationItemImpl, (ESPMode)1, FReply (), FDefaultDelegateUserPolicy, TDelegate<void (), FDefaultDelegateUserPolicy> >::Execute() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+libUnrealEditor-Slate.so!SButton::ExecuteOnClick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:465]
+libUnrealEditor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:390]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5207]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5775]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, UE::Math::TVector2<double>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5740]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:415]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:442]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5743]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2814f)
+libc.so.6!__libc_start_main(+0x88)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
