@@ -1,0 +1,89 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-27-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "UAssetEditorSubsystem::OpenEditorForAsset"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+libUnrealEditor-Core.so!ThreadStackWalker(int, siginfo_t*, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1040]
+libc.so.6!UnknownFunction(0x4298f)
+ld-linux-x86-64.so.2!UnknownFunction(0x1448e)
+ld-linux-x86-64.so.2!UnknownFunction(0x1469b)
+ld-linux-x86-64.so.2!__tls_get_addr(+0x3b)
+libUnrealEditor-Core.so!FMRSWRecursiveAccessDetector::GetDestructionSentinelStackTls() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Misc/MTAccessDetector.cpp:15]
+libUnrealEditor-Slate.so!TDelegateAccessHandlerBase<FNotThreadSafeDelegateMode>::~TDelegateAccessHandlerBase() [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateAccessHandler.h:97]
+libUnrealEditor-Slate.so!TDelegateBase<FNotThreadSafeDelegateMode>::~TDelegateBase() [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateBase.h:145]
+libUnrealEditor-Slate.so!void TDelegate<FSlateFontInfo (), FDefaultDelegateUserPolicy>::CopyFrom<FDefaultDelegateUserPolicy>(TDelegate<FSlateFontInfo (), FDefaultDelegateUserPolicy> const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:615]
+libUnrealEditor-Slate.so!SEditableText::Construct(SEditableText::FArguments const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SEditableText.cpp:51]
+libUnrealEditor-DetailCustomizations.so!TSlateDecl<SEditableText, RequiredArgs::T0RequiredArgs>::operator<<=(SEditableText::FArguments const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:975]
+libUnrealEditor-DetailCustomizations.so!SNumericEntryBox<float>::Construct(SNumericEntryBox<float>::FArguments const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Input/SNumericEntryBox.h:279]
+libUnrealEditor-DetailCustomizations.so!TSlateDecl<SNumericEntryBox<float>, RequiredArgs::T0RequiredArgs>::operator<<=(SNumericEntryBox<float>::FArguments const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:975]
+libUnrealEditor-DetailCustomizations.so!FColorGradingVectorCustomizationBase::MakeNumericEntryBox(int, TOptional<float>&, TOptional<float>&, TOptional<float>&, TOptional<float>&, float&, float&, int&, bool&, bool&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/DetailCustomizations/Private/ColorGradingVectorCustomization.cpp:545]
+libUnrealEditor-DetailCustomizations.so!FColorGradingCustomBuilder::GenerateHeaderRowContent(FDetailWidgetRow&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/DetailCustomizations/Private/ColorGradingVectorCustomization.cpp:955]
+libUnrealEditor-PropertyEditor.so!FDetailCustomBuilderRow::OnItemNodeInitialized(TSharedRef<FDetailItemNode, (ESPMode)1>, TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TAttribute<bool> const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCustomBuilderRow.cpp:57]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::InitCustomBuilder() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:165]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:49]
+libUnrealEditor-PropertyEditor.so!FDetailPropertyRow::GenerateChildrenForPropertyNode(TSharedPtr<FPropertyNode, (ESPMode)1>&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:369]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::GenerateChildren(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:426]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:66]
+libUnrealEditor-PropertyEditor.so!FDetailGroup::OnGenerateChildren(TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailGroup.cpp:216]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::GenerateChildren(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:437]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:66]
+libUnrealEditor-PropertyEditor.so!FDetailGroup::OnGenerateChildren(TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailGroup.cpp:216]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::GenerateChildren(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:437]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:66]
+libUnrealEditor-PropertyEditor.so!FDetailPropertyRow::GenerateChildrenForPropertyNode(TSharedPtr<FPropertyNode, (ESPMode)1>&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailPropertyRow.cpp:369]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::GenerateChildren(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:426]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:66]
+libUnrealEditor-PropertyEditor.so!FDetailGroup::OnGenerateChildren(TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailGroup.cpp:216]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::GenerateChildren(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:437]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:66]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateChildrenForLayouts() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1044]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateLayout() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1210]
+libUnrealEditor-PropertyEditor.so!FDetailLayoutBuilderImpl::BuildCategories(TMap<FName, TSharedPtr<FDetailCategoryImpl, (ESPMode)1>, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, TSharedPtr<FDetailCategoryImpl, (ESPMode)1>, false> > const&, TArray<TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TSizedDefaultAllocator<32> >&, TArray<TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailLayoutBuilderImpl.cpp:316]
+libUnrealEditor-PropertyEditor.so!FDetailLayoutBuilderImpl::GenerateDetailLayout() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailLayoutBuilderImpl.cpp:456]
+libUnrealEditor-PropertyEditor.so!SDetailsViewBase::UpdateSinglePropertyMap(TSharedPtr<FComplexPropertyNode, (ESPMode)1>, FDetailLayoutData&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsViewBase.cpp:665]
+libUnrealEditor-PropertyEditor.so!SDetailsViewBase::UpdatePropertyMaps() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsViewBase.cpp:608]
+libUnrealEditor-PropertyEditor.so!SDetailsView::PostSetObject(TArray<FDetailsViewObjectRoot, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:1009]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObjectArrayPrivate(TArray<UObject*, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:769]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObjects(TArray<UObject*, TSizedDefaultAllocator<32> > const&, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:532]
+libUnrealEditor-AdvancedPreviewScene.so!SAdvancedPreviewDetailsTab::UpdateSettingsView() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/AdvancedPreviewScene/Private/SAdvancedPreviewDetailsTab.cpp:156]
+libUnrealEditor-AdvancedPreviewScene.so!TBaseSPMethodDelegateInstance<false, SAdvancedPreviewDetailsTab, (ESPMode)1, void (TSharedRef<FAdvancedPreviewScene, (ESPMode)1>), FDefaultDelegateUserPolicy>::ExecuteIfSafe(TSharedRef<FAdvancedPreviewScene, (ESPMode)1>) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-StaticMeshEditor.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (TSharedRef<FAdvancedPreviewScene, (ESPMode)1>), FDefaultDelegateUserPolicy>, TSharedRef<FAdvancedPreviewScene, (ESPMode)1> >(TSharedRef<FAdvancedPreviewScene, (ESPMode)1>) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:254]
+libUnrealEditor-StaticMeshEditor.so!FStaticMeshEditor::OnEditorLayoutChanged() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/StaticMeshEditor/Private/StaticMeshEditor.cpp:664]
+libUnrealEditor-StaticMeshEditor.so!TBaseRawMethodDelegateInstance<false, FStaticMeshEditor, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:532]
+libUnrealEditor-UnrealEd.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (), FDefaultDelegateUserPolicy> >() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:254]
+libUnrealEditor-UnrealEd.so!FEditorViewportTabContent::SetViewportConfiguration(FName const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorViewportTabContent.cpp:57]
+libUnrealEditor-UnrealEd.so!FEditorViewportTabContent::Initialize(TFunction<TSharedRef<SAssetEditorViewport, (ESPMode)1> (FAssetEditorViewportConstructionArgs const&)>, TSharedPtr<SDockTab, (ESPMode)1>, FString const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorViewportTabContent.cpp:26]
+libUnrealEditor-StaticMeshEditor.so!FStaticMeshEditor::SpawnTab_Viewport(FSpawnTabArgs const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/StaticMeshEditor/Private/StaticMeshEditor.cpp:548]
+libUnrealEditor-StaticMeshEditor.so!TBaseSPMethodDelegateInstance<false, FStaticMeshEditor, (ESPMode)1, TSharedRef<SDockTab, (ESPMode)1> (FSpawnTabArgs const&), FDefaultDelegateUserPolicy>::Execute(FSpawnTabArgs const&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+libUnrealEditor-Slate.so!FTabManager::SpawnTab(FTabId const&, TSharedPtr<SWindow, (ESPMode)1> const&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:2021]
+libUnrealEditor-Slate.so!FTabManager::RestoreArea_Helper(TSharedRef<FTabManager::FLayoutNode, (ESPMode)1> const&, TSharedPtr<SWindow, (ESPMode)1> const&, bool, FSidebarTabLists&, EOutputCanBeNullptr) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1691]
+libUnrealEditor-Slate.so!FTabManager::RestoreSplitterContent(TSharedRef<FTabManager::FSplitter, (ESPMode)1> const&, TSharedRef<SDockingSplitter, (ESPMode)1> const&, TSharedPtr<SWindow, (ESPMode)1> const&, FSidebarTabLists&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1902]
+libUnrealEditor-Slate.so!FTabManager::RestoreArea_Helper(TSharedRef<FTabManager::FLayoutNode, (ESPMode)1> const&, TSharedPtr<SWindow, (ESPMode)1> const&, bool, FSidebarTabLists&, EOutputCanBeNullptr) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1820]
+libUnrealEditor-Slate.so!FTabManager::RestoreArea(TSharedRef<FTabManager::FArea, (ESPMode)1> const&, TSharedPtr<SWindow, (ESPMode)1> const&, bool, EOutputCanBeNullptr) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1615]
+libUnrealEditor-Slate.so!FTabManager::RestoreFrom(TSharedRef<FTabManager::FLayout, (ESPMode)1> const&, TSharedPtr<SWindow, (ESPMode)1> const&, bool, EOutputCanBeNullptr) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1045]
+libUnrealEditor-UnrealEd.so!SStandaloneAssetEditorToolkitHost::RestoreFromLayout(TSharedRef<FTabManager::FLayout, (ESPMode)1> const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Toolkits/SStandaloneAssetEditorToolkitHost.cpp:185]
+libUnrealEditor-UnrealEd.so!SStandaloneAssetEditorToolkitHost::SetupInitialContent(TSharedRef<FTabManager::FLayout, (ESPMode)1> const&, TSharedPtr<SDockTab, (ESPMode)1> const&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Toolkits/SStandaloneAssetEditorToolkitHost.cpp:74]
+libUnrealEditor-UnrealEd.so!FAssetEditorToolkit::InitAssetEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, FName, TSharedRef<FTabManager::FLayout, (ESPMode)1> const&, bool, bool, TArray<UObject*, TSizedDefaultAllocator<32> > const&, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Toolkits/AssetEditorToolkit.cpp:288]
+libUnrealEditor-UnrealEd.so!FAssetEditorToolkit::InitAssetEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, FName, TSharedRef<FTabManager::FLayout, (ESPMode)1> const&, bool, bool, UObject*, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Toolkits/AssetEditorToolkit.cpp:64]
+libUnrealEditor-StaticMeshEditor.so!FStaticMeshEditor::InitStaticMeshEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, UStaticMesh*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/StaticMeshEditor/Private/StaticMeshEditor.cpp:360]
+libUnrealEditor-StaticMeshEditor.so!FStaticMeshEditorModule::CreateStaticMeshEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, UStaticMesh*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/StaticMeshEditor/Private/StaticMeshEditorModule.cpp:50]
+libUnrealEditor-EngineAssetDefinitions.so!UAssetDefinition_StaticMesh::OpenAssets(FAssetOpenArgs const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Editor/EngineAssetDefinitions/Source/Private/AssetDefinition_StaticMesh.cpp:31]
+libUnrealEditor-AssetTools.so!FAssetDefinitionProxy::OpenAssetEditor(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod, TSharedPtr<IToolkitHost, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Developer/AssetTools/Private/AssetTools.cpp:244]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAsset(UObject*, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, bool, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:579]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAsset(FSoftObjectPath const&, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Unre
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

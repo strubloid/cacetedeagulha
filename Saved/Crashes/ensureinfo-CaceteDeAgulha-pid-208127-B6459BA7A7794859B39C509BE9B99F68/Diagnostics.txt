@@ -1,0 +1,70 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-27-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "Ensure condition failed: KnownStaticMesh == StaticMesh  [File:./Runtime/Engine/Private/Components/StaticMeshComponent.cpp] [Line: 698] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Engine.so!UStaticMeshComponent::GetStaticMesh() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Engine/Classes/Components/StaticMeshComponent.h:368]
+libUnrealEditor-Engine.so!FStaticMeshComponentInstanceData::FStaticMeshComponentInstanceData(UStaticMeshComponent const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/StaticMeshComponent.cpp:60]
+libUnrealEditor-Engine.so!void TStructOnScope<FActorComponentInstanceData>::InitializeAs<FStaticMeshComponentInstanceData, void, UStaticMeshComponent const*>(UStaticMeshComponent const*&&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/CoreUObject/Public/UObject/StructOnScope.h:185]
+libUnrealEditor-Engine.so!USplineMeshComponent::GetComponentInstanceData() const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SplineMeshComponent.cpp:1348]
+libUnrealEditor-Engine.so!FComponentInstanceDataCache::FComponentInstanceDataCache(AActor const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/ComponentInstanceDataCache.cpp:603]
+libUnrealEditor-Engine.so!FActorTransactionAnnotation::Create(AActor const*, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/ActorEditor.cpp:406]
+libUnrealEditor-Engine.so!AActor::RerunConstructionScripts() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/ActorConstruction.cpp:369]
+libUnrealEditor-Engine.so!UActorComponent::ConsolidatedPostEditChange(FPropertyChangedEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:939]
+libUnrealEditor-Engine.so!USceneComponent::PostEditChangeProperty(FPropertyChangedEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SceneComponent.cpp:534]
+libUnrealEditor-Engine.so!UPrimitiveComponent::PostEditChangeProperty(FPropertyChangedEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/PrimitiveComponent.cpp:1185]
+libUnrealEditor-Engine.so!UStaticMeshComponent::PostEditChangeProperty(FPropertyChangedEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/StaticMeshComponent.cpp:2028]
+libUnrealEditor-Engine.so!USplineMeshComponent::PostEditChangeProperty(FPropertyChangedEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SplineMeshComponent.cpp:1438]
+libUnrealEditor-CoreUObject.so!UObject::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:541]
+libUnrealEditor-Engine.so!UActorComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:986]
+libUnrealEditor-Engine.so!USceneComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SceneComponent.cpp:565]
+libUnrealEditor-Engine.so!UPrimitiveComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/PrimitiveComponent.cpp:1269]
+libUnrealEditor-Engine.so!UMeshComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/MeshComponent.cpp:157]
+libUnrealEditor-CoreUObject.so!UObject::PropagatePostEditChange(TArray<UObject*, TSizedDefaultAllocator<32> >&, FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:709]
+libUnrealEditor-CoreUObject.so!UObject::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:508]
+libUnrealEditor-Engine.so!UActorComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:986]
+libUnrealEditor-Engine.so!USceneComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SceneComponent.cpp:565]
+libUnrealEditor-Engine.so!UPrimitiveComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/PrimitiveComponent.cpp:1269]
+libUnrealEditor-Engine.so!UMeshComponent::PostEditChangeChainProperty(FPropertyChangedChainEvent&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/MeshComponent.cpp:157]
+libUnrealEditor-PropertyEditor.so!FPropertyNode::NotifyPostChange(FPropertyChangedEvent&, FNotifyHook*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/PropertyNode.cpp:3014]
+libUnrealEditor-PropertyEditor.so!FPropertyValueImpl::ImportText(TArray<FObjectBaseAddress, TSizedDefaultAllocator<32> > const&, TArray<FString, TSizedDefaultAllocator<32> > const&, FPropertyNode*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:549]
+libUnrealEditor-PropertyEditor.so!FPropertyValueImpl::ImportText(FString const&, FPropertyNode*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:243]
+libUnrealEditor-PropertyEditor.so!FPropertyValueImpl::SetValueAsString(FString const&, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:847]
+libUnrealEditor-PropertyEditor.so!FPropertyHandleObject::SetValueFromFormattedString(FString const&, unsigned int, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:4250]
+libUnrealEditor-PropertyEditor.so!FPropertyHandleObject::SetValue(FAssetData const&, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:4069]
+libUnrealEditor-PropertyEditor.so!SPropertyEditorAsset::SetValue(FAssetData const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/UserInterface/PropertyEditor/SPropertyEditorAsset.cpp:911]
+libUnrealEditor-PropertyEditor.so!TBaseSPMethodDelegateInstance<false, SPropertyEditorAsset, (ESPMode)1, void (FAssetData const&), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FAssetData const&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-PropertyEditor.so!SPropertyMenuAssetPicker::OnAssetSelected(FAssetData const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/UserInterface/PropertyEditor/SPropertyMenuAssetPicker.cpp:347]
+libUnrealEditor-PropertyEditor.so!TBaseSPMethodDelegateInstance<false, SPropertyMenuAssetPicker, (ESPMode)1, void (FAssetData const&), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FAssetData const&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-ContentBrowser.so!SAssetPicker::HandleItemSelectionChanged(FContentBrowserItem const&, ESelectInfo::Type) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/ContentBrowser/Private/SAssetPicker.cpp:585]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SAssetPicker, (ESPMode)1, void (FContentBrowserItem const&, ESelectInfo::Type), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FContentBrowserItem const&, ESelectInfo::Type) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-ContentBrowser.so!SAssetView::AssetSelectionChanged(TSharedPtr<FAssetViewItem, (ESPMode)1>, ESelectInfo::Type) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/ContentBrowser/Private/SAssetView.cpp:3968]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SAssetView, (ESPMode)1, void (TSharedPtr<FAssetViewItem, (ESPMode)1>, ESelectInfo::Type), FDefaultDelegateUserPolicy>::ExecuteIfSafe(TSharedPtr<FAssetViewItem, (ESPMode)1>, ESelectInfo::Type) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-ContentBrowser.so!SListView<TSharedPtr<FAssetViewItem, (ESPMode)1> >::Private_SignalSelectionChanged(ESelectInfo::Type) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/SListView.h:995]
+libUnrealEditor-ContentBrowser.so!STableRow<TSharedPtr<FAssetViewItem, (ESPMode)1> >::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:579]
+libUnrealEditor-ContentBrowser.so!non-virtual thunk to STableRow<TSharedPtr<FAssetViewItem, (ESPMode)1> >::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:0]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5207]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5775]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, UE::Math::TVector2<double>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5740]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:415]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:442]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5743]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2814f)
+libc.so.6!__libc_start_main(+0x88)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

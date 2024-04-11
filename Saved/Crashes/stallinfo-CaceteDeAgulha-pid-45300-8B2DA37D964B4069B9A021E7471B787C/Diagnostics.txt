@@ -1,0 +1,97 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-27-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "UAssetEditorSubsystem::OpenEditorForAsset"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+libUnrealEditor-Core.so!ThreadStackWalker(int, siginfo_t*, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1040]
+libc.so.6!UnknownFunction(0x4298f)
+libUnrealEditor-Core.so!FArchiveState::CopyTrivialFArchiveStatusMembers(FArchiveState const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Serialization/Archive.cpp:224]
+libUnrealEditor-Core.so!FArchiveState::FArchiveState(FArchiveState const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Serialization/Archive.cpp:85]
+libUnrealEditor-Core.so!FArchiveFromStructuredArchiveImpl::FArchiveFromStructuredArchiveImpl(FStructuredArchiveSlot) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Serialization/ArchiveFromStructuredArchive.cpp:37]
+libUnrealEditor-CoreUObject.so!FArchiveUObjectFromStructuredArchiveImpl::FArchiveUObjectFromStructuredArchiveImpl(FStructuredArchiveSlot) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/Serialization/ArchiveUObjectFromStructuredArchive.cpp:10]
+libUnrealEditor-CoreUObject.so!FMulticastSparseDelegateProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyMulticastDelegate.cpp:567]
+libUnrealEditor-CoreUObject.so!FProperty::SerializeBinProperty(FStructuredArchiveSlot, void*, int) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h:413]
+libUnrealEditor-CoreUObject.so!UStruct::SerializeBin(FStructuredArchiveSlot, void*) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1103]
+libUnrealEditor-CoreUObject.so!UObject::SerializeScriptProperties(FStructuredArchiveSlot) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1811]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FStructuredArchiveRecord) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1614]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1500]
+libUnrealEditor-Engine.so!AActor::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Actor.cpp:864]
+libUnrealEditor-Engine.so!AStaticMeshActor::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/StaticMeshActor.cpp:80]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool)::FFindLightmapsArchive::operator<<(UObject*&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8591]
+libUnrealEditor-CoreUObject.so!FArchiveUObject::SerializeObjectPtr(FArchive&, FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/Serialization/ArchiveUObject.cpp:89]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool)::FFindLightmapsArchive::operator<<(FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8619]
+libUnrealEditor-Core.so!FStructuredArchiveSlot::operator<<(FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Serialization/StructuredArchiveSlots.cpp:287]
+libUnrealEditor-CoreUObject.so!FObjectPtrProperty::StaticSerializeItem(FObjectPropertyBase const*, FStructuredArchiveSlot, void*, void const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyObjectPtr.cpp:61]
+libUnrealEditor-CoreUObject.so!FArrayProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const::$_0::operator()(FStructuredArchiveSlot, unsigned char*) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyArray.cpp:235]
+libUnrealEditor-CoreUObject.so!FArrayProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyArray.cpp:368]
+libUnrealEditor-CoreUObject.so!FProperty::SerializeBinProperty(FStructuredArchiveSlot, void*, int) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h:413]
+libUnrealEditor-CoreUObject.so!UStruct::SerializeBin(FStructuredArchiveSlot, void*) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1103]
+libUnrealEditor-CoreUObject.so!UObject::SerializeScriptProperties(FStructuredArchiveSlot) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1811]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FStructuredArchiveRecord) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1614]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1500]
+libUnrealEditor-Engine.so!AActor::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Actor.cpp:864]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool)::FFindLightmapsArchive::operator<<(UObject*&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8591]
+libUnrealEditor-CoreUObject.so!FArchiveUObject::SerializeObjectPtr(FArchive&, FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/Serialization/ArchiveUObject.cpp:89]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool)::FFindLightmapsArchive::operator<<(FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8619]
+libUnrealEditor-Core.so!FStructuredArchiveSlot::operator<<(FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Serialization/StructuredArchiveSlots.cpp:287]
+libUnrealEditor-CoreUObject.so!FObjectPtrProperty::StaticSerializeItem(FObjectPropertyBase const*, FStructuredArchiveSlot, void*, void const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyObjectPtr.cpp:61]
+libUnrealEditor-CoreUObject.so!FProperty::SerializeBinProperty(FStructuredArchiveSlot, void*, int) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h:413]
+libUnrealEditor-CoreUObject.so!UStruct::SerializeBin(FStructuredArchiveSlot, void*) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1103]
+libUnrealEditor-CoreUObject.so!UObject::SerializeScriptProperties(FStructuredArchiveSlot) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1811]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FStructuredArchiveRecord) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1614]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1500]
+libUnrealEditor-Engine.so!AActor::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Actor.cpp:864]
+libUnrealEditor-Engine.so!AStaticMeshActor::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/StaticMeshActor.cpp:80]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool)::FFindLightmapsArchive::operator<<(UObject*&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8591]
+libUnrealEditor-CoreUObject.so!FArchiveUObject::SerializeObjectPtr(FArchive&, FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/CoreUObject/Private/Serialization/ArchiveUObject.cpp:89]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool)::FFindLightmapsArchive::operator<<(FObjectPtr&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8619]
+libUnrealEditor-Engine.so!FArchive& TArrayPrivateFriend::Serialize<TObjectPtr<AActor>, TSizedDefaultAllocator<32> >(FArchive&, TArray<TObjectPtr<AActor>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Containers/Array.h:3592]
+libUnrealEditor-Engine.so!ULevel::Serialize(FArchive&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Level.cpp:587]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool)::FFindLightmapsArchive::operator<<(UObject*&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8591]
+libUnrealEditor-Engine.so!UWorld::GetLightMapsAndShadowMaps(ULevel*, TArray<UTexture2D*, TSizedDefaultAllocator<32> >&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/World.cpp:8632]
+libUnrealEditor-DetailCustomizations.so!FLightmapCustomNodeBuilder::RefreshLightmapItems() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/DetailCustomizations/Private/WorldSettingsDetails.cpp:517]
+libUnrealEditor-DetailCustomizations.so!FLightmapCustomNodeBuilder::GenerateChildContent(IDetailChildrenBuilder&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/DetailCustomizations/Private/WorldSettingsDetails.cpp:341]
+libUnrealEditor-PropertyEditor.so!FDetailCustomBuilderRow::OnGenerateChildren(TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCustomBuilderRow.cpp:74]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::GenerateChildren(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:430]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:66]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateChildrenForLayouts() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1050]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateLayout() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1210]
+libUnrealEditor-PropertyEditor.so!FDetailLayoutBuilderImpl::BuildCategories(TMap<FName, TSharedPtr<FDetailCategoryImpl, (ESPMode)1>, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, TSharedPtr<FDetailCategoryImpl, (ESPMode)1>, false> > const&, TArray<TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TSizedDefaultAllocator<32> >&, TArray<TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailLayoutBuilderImpl.cpp:316]
+libUnrealEditor-PropertyEditor.so!FDetailLayoutBuilderImpl::GenerateDetailLayout() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailLayoutBuilderImpl.cpp:456]
+libUnrealEditor-PropertyEditor.so!SDetailsViewBase::UpdateSinglePropertyMap(TSharedPtr<FComplexPropertyNode, (ESPMode)1>, FDetailLayoutData&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsViewBase.cpp:665]
+libUnrealEditor-PropertyEditor.so!SDetailsViewBase::UpdatePropertyMaps() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsViewBase.cpp:608]
+libUnrealEditor-PropertyEditor.so!SDetailsView::PostSetObject(TArray<FDetailsViewObjectRoot, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:1009]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObjectArrayPrivate(TArray<UObject*, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:769]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObjects(TArray<UObject*, TSizedDefaultAllocator<32> > const&, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:532]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObject(UObject*, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:559]
+libUnrealEditor-LevelEditor.so!SLevelEditor::HandleEditorMapChange(unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/LevelEditor/Private/SLevelEditor.cpp:1927]
+libUnrealEditor-LevelEditor.so!TBaseRawMethodDelegateInstance<false, SLevelEditor, void (unsigned int), FDefaultDelegateUserPolicy>::ExecuteIfSafe(unsigned int) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:532]
+libUnrealEditor-UnrealEd.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (unsigned int), FDefaultDelegateUserPolicy>, unsigned int>(unsigned int) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:254]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Map_Load(char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:2806]
+libUnrealEditor-UnrealEd.so!UEditorEngine::HandleMapCommand(char16_t const*, FOutputDevice&, UWorld*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:6235]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Exec_Editor(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:5752]
+libUnrealEditor-Core.so!FExec::Exec(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Misc/Exec.cpp:18]
+libUnrealEditor-Engine.so!UEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/UnrealEngine.cpp:4686]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/UnrealEdSrv.cpp:662]
+libUnrealEditor-UnrealEd.so!FEditorFileUtils::LoadMap(FString const&, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/FileHelpers.cpp:2908]
+libUnrealEditor-EngineAssetDefinitions.so!UAssetDefinition_World::OpenAssets(FAssetOpenArgs const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Editor/EngineAssetDefinitions/Source/Private/AssetDefinition_World.cpp:62]
+libUnrealEditor-AssetTools.so!FAssetDefinitionProxy::OpenAssetEditor(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod, TSharedPtr<IToolkitHost, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Developer/AssetTools/Private/AssetTools.cpp:244]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAsset(UObject*, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, bool, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:579]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAssets_Advanced(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:645]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAssets(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod) [/mnt/horde/
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
