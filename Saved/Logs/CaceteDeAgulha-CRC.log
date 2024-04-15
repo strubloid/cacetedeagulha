@@ -1,122 +1,130 @@
-﻿Log file open, 04/11/24 22:31:04
+﻿Log file open, 04/15/24 13:16:09
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogInit: ExecutableName: CrashReportClient
 LogInit: Build: ++UE5+Release-5.3-CL-29314046
 LogInit: Engine Version: 5.3.2-29314046+++UE5+Release-5.3
 LogInit: Compatible Engine Version: 5.3.0-27405482+++UE5+Release-5.3
 LogInit: Net CL: 27405482
-LogInit: OS: Ubuntu 23.10 (6.5.0-27-generic), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1070 (NVIDIA UNIX x86_64 Kernel Module  535.161.07  Sat Feb 17 22:55:48 UTC 2024)
+LogInit: OS: Ubuntu 23.10 (6.5.0-27-generic), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1070 (NVIDIA UNIX x86_64 Kernel Module  535.171.04  Tue Mar 19 20:30:00 UTC 2024)
 LogInit: Compiled (64-bit): Nov  3 2023 16:27:17
 LogInit: Architecture: x64
 LogInit: Compiled with Clang: 16.0.6 (github.com/llvm/llvm-project 7cbf1a2591520c2491aa35339f227775f4d3adf6)
 LogInit: Build Configuration: Shipping
 LogInit: Branch Name: ++UE5+Release-5.3
-LogInit: Command Line:  -Abslog="/home/zero/UnrealGames/CaceteDeAgulha/Saved/Logs/CaceteDeAgulha-CRC.log" -Unattended "/home/zero/UnrealGames/CaceteDeAgulha/Saved/Crashes/stallinfo-CaceteDeAgulha-pid-112080-31109F2784464B6D807193A6D9A7B322/"
+LogInit: Command Line:  -Abslog="/home/zero/UnrealGames/CaceteDeAgulha/Saved/Logs/CaceteDeAgulha-CRC.log" "/home/zero/UnrealGames/CaceteDeAgulha/Saved/Crashes/crashinfo-CaceteDeAgulha-pid-7396-1B758734BC2C459984FC5110CF752589/"
 LogInit: Base Directory: /home/zero/programs/Linux_Unreal_Engine_5.3.2/Engine/Binaries/Linux/
 LogInit: Allocator: Mimalloc
 LogInit: Installed Engine Build: 1
 LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
 LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2024.04.11-21.31.04:245][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
-[2024.04.11-21.31.04:245][  0]LogInit: Unix hardware info:
-[2024.04.11-21.31.04:245][  0]LogInit:  - we are the first instance of this executable
-[2024.04.11-21.31.04:245][  0]LogInit:  - this process' id (pid) is 112699, parent process' id (ppid) is 112080
-[2024.04.11-21.31.04:245][  0]LogInit:  - we are not running under debugger
-[2024.04.11-21.31.04:245][  0]LogInit:  - machine network name is 'strubloid'
-[2024.04.11-21.31.04:245][  0]LogInit:  - user name is 'zero' (zero)
-[2024.04.11-21.31.04:245][  0]LogInit:  - we're logged in locally
-[2024.04.11-21.31.04:245][  0]LogInit:  - we're running with rendering
-[2024.04.11-21.31.04:245][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz' (signature: 0x906EA)
-[2024.04.11-21.31.04:245][  0]LogInit:  - Number of physical cores available for the process: 6
-[2024.04.11-21.31.04:245][  0]LogInit:  - Number of logical cores available for the process: 12
-[2024.04.11-21.31.04:245][  0]LogInit:  - GPU Brand Info: NVIDIA GeForce GTX 1070 (NVIDIA UNIX x86_64 Kernel Module  535.161.07  Sat Feb 17 22:55:48 UTC 2024)
-[2024.04.11-21.31.04:245][  0]LogInit:  - Memory allocator used: Mimalloc
-[2024.04.11-21.31.04:245][  0]LogInit:  - This is an internal build.
-[2024.04.11-21.31.04:245][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
-[2024.04.11-21.31.04:245][  0]LogInit: Unix-specific commandline switches:
-[2024.04.11-21.31.04:245][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
-[2024.04.11-21.31.04:245][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
-[2024.04.11-21.31.04:245][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
-[2024.04.11-21.31.04:245][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
-[2024.04.11-21.31.04:245][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
-[2024.04.11-21.31.04:245][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
-[2024.04.11-21.31.04:245][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
-[2024.04.11-21.31.04:245][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
-[2024.04.11-21.31.04:245][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
-[2024.04.11-21.31.04:245][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
-[2024.04.11-21.31.04:245][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
-[2024.04.11-21.31.04:245][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
-[2024.04.11-21.31.04:245][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
-[2024.04.11-21.31.04:245][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
-[2024.04.11-21.31.04:245][  0]LogInit:  - Physical RAM available (not considering process quota): 32 GB (31816 MB, 32580488 KB, 33362419712 bytes)
-[2024.04.11-21.31.04:245][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
-[2024.04.11-21.31.04:245][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
-[2024.04.11-21.31.04:245][  0]LogInit:  - PageSize 4096
-[2024.04.11-21.31.04:245][  0]LogInit:  - BinnedPageSize 65536
-[2024.04.11-21.31.04:251][  0]LogUObjectArray: 434 objects as part of root set at end of initial load.
-[2024.04.11-21.31.04:251][  0]LogUObjectAllocator: 90616 out of 0 bytes used by permanent object pool.
-[2024.04.11-21.31.04:251][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2024.04.11-21.31.04:252][  0]LogInit: Using OS detected language (en-US).
-[2024.04.11-21.31.04:252][  0]LogInit: Using OS detected locale (en-US).
-[2024.04.11-21.31.04:252][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
-[2024.04.11-21.31.04:306][  0]LogInit: Using OS detected language (en-US).
-[2024.04.11-21.31.04:306][  0]LogInit: Using OS detected locale (en-US).
-[2024.04.11-21.31.04:306][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2024.04.11-21.31.04:306][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2024.04.11-21.31.04:306][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000054 seconds
-[2024.04.11-21.31.04:306][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
-[2024.04.11-21.31.04:306][  0]CrashReportCoreLog: CrashReportReceiver disabled
-[2024.04.11-21.31.04:306][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
-[2024.04.11-21.31.04:333][  0]LogInit: Using libcurl 8.4.0
-[2024.04.11-21.31.04:333][  0]LogInit:  - built for x86_64-unknown-linux-gnu
-[2024.04.11-21.31.04:333][  0]LogInit:  - supports SSL with OpenSSL/1.1.1t
-[2024.04.11-21.31.04:333][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.13
-[2024.04.11-21.31.04:333][  0]LogInit:  - other features:
-[2024.04.11-21.31.04:333][  0]LogInit:      CURL_VERSION_SSL
-[2024.04.11-21.31.04:333][  0]LogInit:      CURL_VERSION_LIBZ
-[2024.04.11-21.31.04:333][  0]LogInit:      CURL_VERSION_IPV6
-[2024.04.11-21.31.04:333][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2024.04.11-21.31.04:333][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2024.04.11-21.31.04:333][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
-[2024.04.11-21.31.04:334][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2024.04.11-21.31.04:334][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
-[2024.04.11-21.31.04:334][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2024.04.11-21.31.04:334][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2024.04.11-21.31.04:334][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
-[2024.04.11-21.31.04:334][  0]LogInit:  - LocalHostAddr = Default
-[2024.04.11-21.31.04:334][  0]LogInit:  - BufferSize = 65536
-[2024.04.11-21.31.04:334][  0]LogAnalytics: Display: [CrashReporter.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = ++UE5+Release-5.3-CL-29314046
-[2024.04.11-21.31.04:337][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
-[2024.04.11-21.31.04:337][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
-[2024.04.11-21.31.04:337][  0]LogCrashDebugHelper: DepotName: //UE5/Release-5.3
-[2024.04.11-21.31.04:337][  0]LogCrashDebugHelper: BuiltFromCL: 29314046
-[2024.04.11-21.31.04:337][  0]LogCrashDebugHelper: EngineVersion: 5.3.2-29314046+++UE5+Release-5.3
-[2024.04.11-21.31.04:337][  0]LogCrashDebugHelper: BuildVersion: ++UE5+Release-5.3-CL-29314046
-[2024.04.11-21.31.05:309][  0]CrashReportCoreLog: Got 4 pending files to upload from 'stallinfo-CaceteDeAgulha-pid-112080-31109F2784464B6D807193A6D9A7B322'
-[2024.04.11-21.31.05:309][  0]CrashReportCoreLog: State change from Ready to SendingFiles
-[2024.04.11-21.31.05:309][  0]CrashReportCoreLog: CompressAndSendData have 4 pending files
-[2024.04.11-21.31.05:309][  0]CrashReportCoreLog: CompressAndSendData compressing 162362 bytes ('/home/zero/UnrealGames/CaceteDeAgulha/Saved/Crashes/stallinfo-CaceteDeAgulha-pid-112080-31109F2784464B6D807193A6D9A7B322/CaceteDeAgulha.log')
-[2024.04.11-21.31.05:310][  0]CrashReportCoreLog: CompressAndSendData compressing 46374 bytes ('/home/zero/UnrealGames/CaceteDeAgulha/Saved/Crashes/stallinfo-CaceteDeAgulha-pid-112080-31109F2784464B6D807193A6D9A7B322/CrashContext.runtime-xml')
-[2024.04.11-21.31.05:310][  0]CrashReportCoreLog: CompressAndSendData compressing 179 bytes ('/home/zero/UnrealGames/CaceteDeAgulha/Saved/Crashes/stallinfo-CaceteDeAgulha-pid-112080-31109F2784464B6D807193A6D9A7B322/CrashReportClient.ini')
-[2024.04.11-21.31.05:310][  0]CrashReportCoreLog: CompressAndSendData compressing 13514 bytes ('/home/zero/UnrealGames/CaceteDeAgulha/Saved/Crashes/stallinfo-CaceteDeAgulha-pid-112080-31109F2784464B6D807193A6D9A7B322/Diagnostics.txt')
-[2024.04.11-21.31.05:316][  0]CrashReportCoreLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&AppEnvironment=Release&UploadType=crashreports&UserID=4b008907c2de4648ae46ea42097d4caa-000003e8%7C%7C4b008907c2de4648ae46ea42097d4caa
-[2024.04.11-21.31.06:010][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
-[2024.04.11-21.31.06:010][  0]CrashReportCoreLog: State change from SendingFiles to SendingFiles
-[2024.04.11-21.31.06:010][  0]CrashReportCoreLog: All uploads done
-[2024.04.11-21.31.06:010][  0]CrashReportCoreLog: State change from SendingFiles to Finished
-[2024.04.11-21.31.06:344][  0]CrashReportCoreLog: Final state (Receiver) = Finished
-[2024.04.11-21.31.06:344][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
-[2024.04.11-21.31.06:344][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit)
-[2024.04.11-21.31.06:344][  0]LogExit: Preparing to exit.
-[2024.04.11-21.31.06:345][  0]LogExit: Object subsystem successfully closed.
-[2024.04.11-21.31.06:347][  0]LogModuleManager: Shutting down and abandoning module CrashDebugHelper (14)
-[2024.04.11-21.31.06:347][  0]LogModuleManager: Shutting down and abandoning module AnalyticsET (12)
-[2024.04.11-21.31.06:347][  0]LogModuleManager: Shutting down and abandoning module HTTP (11)
-[2024.04.11-21.31.06:872][  0]LogModuleManager: Shutting down and abandoning module SSL (10)
-[2024.04.11-21.31.06:872][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
-[2024.04.11-21.31.06:872][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2024.04.11-21.31.06:872][  0]LogPakFile: Destroying PakPlatformFile
-[2024.04.11-21.31.06:872][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2024.04.11-21.31.06:874][  0]LogExit: Exiting.
-[2024.04.11-21.31.06:886][  0]Log file closed, 04/11/24 22:31:06
+[2024.04.15-12.16.09:150][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.04.15-12.16.09:150][  0]LogInit: Unix hardware info:
+[2024.04.15-12.16.09:150][  0]LogInit:  - we are the first instance of this executable
+[2024.04.15-12.16.09:150][  0]LogInit:  - this process' id (pid) is 32769, parent process' id (ppid) is 7396
+[2024.04.15-12.16.09:150][  0]LogInit:  - we are not running under debugger
+[2024.04.15-12.16.09:150][  0]LogInit:  - machine network name is 'strubloid'
+[2024.04.15-12.16.09:150][  0]LogInit:  - user name is 'zero' (zero)
+[2024.04.15-12.16.09:150][  0]LogInit:  - we're logged in locally
+[2024.04.15-12.16.09:150][  0]LogInit:  - we're running with rendering
+[2024.04.15-12.16.09:150][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz' (signature: 0x906EA)
+[2024.04.15-12.16.09:150][  0]LogInit:  - Number of physical cores available for the process: 6
+[2024.04.15-12.16.09:150][  0]LogInit:  - Number of logical cores available for the process: 12
+[2024.04.15-12.16.09:150][  0]LogInit:  - GPU Brand Info: NVIDIA GeForce GTX 1070 (NVIDIA UNIX x86_64 Kernel Module  535.171.04  Tue Mar 19 20:30:00 UTC 2024)
+[2024.04.15-12.16.09:150][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.04.15-12.16.09:150][  0]LogInit:  - This is an internal build.
+[2024.04.15-12.16.09:150][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.04.15-12.16.09:150][  0]LogInit: Unix-specific commandline switches:
+[2024.04.15-12.16.09:150][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.04.15-12.16.09:150][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.04.15-12.16.09:150][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.04.15-12.16.09:150][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.04.15-12.16.09:150][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.04.15-12.16.09:150][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2024.04.15-12.16.09:150][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2024.04.15-12.16.09:150][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2024.04.15-12.16.09:150][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2024.04.15-12.16.09:150][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2024.04.15-12.16.09:150][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2024.04.15-12.16.09:150][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2024.04.15-12.16.09:150][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2024.04.15-12.16.09:150][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2024.04.15-12.16.09:150][  0]LogInit:  - Physical RAM available (not considering process quota): 32 GB (31816 MB, 32580484 KB, 33362415616 bytes)
+[2024.04.15-12.16.09:150][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2024.04.15-12.16.09:150][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2024.04.15-12.16.09:150][  0]LogInit:  - PageSize 4096
+[2024.04.15-12.16.09:150][  0]LogInit:  - BinnedPageSize 65536
+[2024.04.15-12.16.09:152][  0]LogUObjectArray: 434 objects as part of root set at end of initial load.
+[2024.04.15-12.16.09:152][  0]LogUObjectAllocator: 90616 out of 0 bytes used by permanent object pool.
+[2024.04.15-12.16.09:152][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.04.15-12.16.09:153][  0]LogInit: Using OS detected language (en-US).
+[2024.04.15-12.16.09:153][  0]LogInit: Using OS detected locale (en-US).
+[2024.04.15-12.16.09:153][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.04.15-12.16.09:184][  0]LogInit: Using OS detected language (en-US).
+[2024.04.15-12.16.09:184][  0]LogInit: Using OS detected locale (en-US).
+[2024.04.15-12.16.09:184][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.04.15-12.16.09:184][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2024.04.15-12.16.09:184][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000031 seconds
+[2024.04.15-12.16.09:184][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2024.04.15-12.16.09:184][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2024.04.15-12.16.09:184][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2024.04.15-12.16.09:204][  0]LogInit: Using libcurl 8.4.0
+[2024.04.15-12.16.09:204][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2024.04.15-12.16.09:204][  0]LogInit:  - supports SSL with OpenSSL/1.1.1t
+[2024.04.15-12.16.09:204][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.13
+[2024.04.15-12.16.09:204][  0]LogInit:  - other features:
+[2024.04.15-12.16.09:204][  0]LogInit:      CURL_VERSION_SSL
+[2024.04.15-12.16.09:204][  0]LogInit:      CURL_VERSION_LIBZ
+[2024.04.15-12.16.09:204][  0]LogInit:      CURL_VERSION_IPV6
+[2024.04.15-12.16.09:204][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2024.04.15-12.16.09:204][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2024.04.15-12.16.09:204][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2024.04.15-12.16.09:204][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2024.04.15-12.16.09:204][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2024.04.15-12.16.09:205][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2024.04.15-12.16.09:205][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2024.04.15-12.16.09:205][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2024.04.15-12.16.09:205][  0]LogInit:  - LocalHostAddr = Default
+[2024.04.15-12.16.09:205][  0]LogInit:  - BufferSize = 65536
+[2024.04.15-12.16.09:205][  0]LogAnalytics: Display: [CrashReporter.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = ++UE5+Release-5.3-CL-29314046
+[2024.04.15-12.16.09:207][  0]LogInit: Initializing SDL.
+[2024.04.15-12.16.09:276][  0]LogInit: Initialized SDL 2.24.0 revision:  (compiled against 2.24.0)
+[2024.04.15-12.16.09:276][  0]LogInit: Using SDL video driver 'x11'
+[2024.04.15-12.16.09:282][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2024.04.15-12.16.09:283][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.04.15-12.16.09:284][  0]LogSlate: Using FreeType 2.10.0
+[2024.04.15-12.16.09:285][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.04.15-12.16.09:285][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2024.04.15-12.16.09:322][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2024.04.15-12.16.09:412][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.04.15-12.16.09:412][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.04.15-12.16.09:437][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2024.04.15-12.16.09:440][  0]LogSlate: Took 0.000046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.04.15-12.16.09:440][  0]LogSlate: Took 0.000075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.04.15-12.16.09:443][  0]LogSlate: Took 0.000075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.04.15-12.16.09:485][  0]LogCore: Error: appError called: Assertion failed: Data [File:./Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLVertexBuffer.cpp] [Line: 112] 
+
+
+[2024.04.15-12.16.09:485][  0]LogCore: === Critical error: ===
+
+
+[2024.04.15-12.16.09:485][  0]LogCore: Assertion failed: Data [File:./Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLVertexBuffer.cpp] [Line: 112] 
+
+0x0000000001a7e48e CrashReportClient!FSlateOpenGLRenderer::DrawWindows(FSlateDrawBuffer&) [/mnt/horde/++UE5/Sync/Engine/Source/./Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLRenderer.cpp:176]
+0x000000000172cd67 CrashReportClient!FSlateApplication::PrivateDrawWindows(TSharedPtr<SWindow, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:1405]
+0x000000000172e7eb CrashReportClient!FSlateApplication::TickAndDrawWidgets(float) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:1681]
+0x000000000172e0ff CrashReportClient!FSlateApplication::Tick(ESlateTickType) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:1540]
+0x0000000001b1c777 CrashReportClient!FMainLoopTiming::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Programs/CrashReportClient/Private/MainLoopTiming.cpp:35]
+0x0000000001b1c044 CrashReportClient!RunWithUI(FLinuxErrorReport, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Programs/CrashReportClient/Private/CrashReportClientApp.cpp:384]
+0x0000000001b1d90f CrashReportClient!SendErrorReport(FLinuxErrorReport&, TOptional<bool>, TOptional<bool>) [/mnt/horde/++UE5/Sync/Engine/Source/./Programs/CrashReportClient/Private/CrashReportClientApp.cpp:692]
+0x0000000001b1edc8 CrashReportClient!RunCrashReportClient(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Programs/CrashReportClient/Private/CrashReportClientApp.cpp:1075]
+0x0000000001b222ee CrashReportClient!main [/mnt/horde/++UE5/Sync/Engine/Source/./Programs/CrashReportClient/Private/Linux/CrashReportClientMainLinux.cpp:67]
+0x000078c5cd628150 libc.so.6!UnknownFunction(0x2814f)
+0x000078c5cd628209 libc.so.6!__libc_start_main(+0x88)
+0x0000000000d64029 CrashReportClient!_start()
+
+
+
+
+[2024.04.15-12.16.09:513][  0]LogExit: Executing StaticShutdownAfterError
+[2024.04.15-12.16.09:513][  0]LogCore: FUnixPlatformMisc::RequestExit(1, FUnixErrorOutputDevice.Serialize.!GIsGuarded)
