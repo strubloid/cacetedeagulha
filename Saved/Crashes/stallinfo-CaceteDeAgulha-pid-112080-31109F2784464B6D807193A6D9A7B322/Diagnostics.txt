@@ -1,0 +1,78 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-27-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "UAssetEditorSubsystem::OpenEditorForAsset"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+libUnrealEditor-Core.so!ThreadStackWalker(int, siginfo_t*, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1040]
+libc.so.6!UnknownFunction(0x4298f)
+libUnrealEditor-Slate.so!TDelegateAccessHandlerBase<FNotThreadSafeDelegateMode>::FWriteAccessScope::~FWriteAccessScope() [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateAccessHandler.h:148]
+libUnrealEditor-Slate.so!TDelegateBase<FNotThreadSafeDelegateMode>::~TDelegateBase() [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateBase.h:144]
+libUnrealEditor-Slate.so!SBorder::Construct(SBorder::FArguments const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Layout/SBorder.cpp:66]
+libUnrealEditor-DetailCustomizations.so!TSlateDecl<SBorder, RequiredArgs::T0RequiredArgs>::operator<<=(SBorder::FArguments const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:975]
+libUnrealEditor-DetailCustomizations.so!FLightmapCustomNodeBuilder::MakeLightMapList(TSharedPtr<FLightmapCustomNodeBuilder::FLightmapItem, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/DetailCustomizations/Private/WorldSettingsDetails.cpp:389]
+libUnrealEditor-DetailCustomizations.so!FLightmapCustomNodeBuilder::GenerateChildContent(IDetailChildrenBuilder&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/DetailCustomizations/Private/WorldSettingsDetails.cpp:349]
+libUnrealEditor-PropertyEditor.so!FDetailCustomBuilderRow::OnGenerateChildren(TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCustomBuilderRow.cpp:74]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::GenerateChildren(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:430]
+libUnrealEditor-PropertyEditor.so!FDetailItemNode::Initialize() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailItemNode.cpp:66]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateNodesFromCustomizations(TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1001]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArray<FDetailLayoutCustomization, TSizedDefaultAllocator<32> > const&, TArray<TSharedRef<FDetailTreeNode, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1023]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateChildrenForLayouts() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1050]
+libUnrealEditor-PropertyEditor.so!FDetailCategoryImpl::GenerateLayout() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailCategoryBuilderImpl.cpp:1210]
+libUnrealEditor-PropertyEditor.so!FDetailLayoutBuilderImpl::BuildCategories(TMap<FName, TSharedPtr<FDetailCategoryImpl, (ESPMode)1>, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, TSharedPtr<FDetailCategoryImpl, (ESPMode)1>, false> > const&, TArray<TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TSizedDefaultAllocator<32> >&, TArray<TSharedRef<FDetailCategoryImpl, (ESPMode)1>, TSizedDefaultAllocator<32> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailLayoutBuilderImpl.cpp:316]
+libUnrealEditor-PropertyEditor.so!FDetailLayoutBuilderImpl::GenerateDetailLayout() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/DetailLayoutBuilderImpl.cpp:456]
+libUnrealEditor-PropertyEditor.so!SDetailsViewBase::UpdateSinglePropertyMap(TSharedPtr<FComplexPropertyNode, (ESPMode)1>, FDetailLayoutData&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsViewBase.cpp:665]
+libUnrealEditor-PropertyEditor.so!SDetailsViewBase::UpdatePropertyMaps() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsViewBase.cpp:608]
+libUnrealEditor-PropertyEditor.so!SDetailsView::PostSetObject(TArray<FDetailsViewObjectRoot, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:1009]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObjectArrayPrivate(TArray<UObject*, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:769]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObjects(TArray<UObject*, TSizedDefaultAllocator<32> > const&, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:532]
+libUnrealEditor-PropertyEditor.so!SDetailsView::SetObject(UObject*, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:559]
+libUnrealEditor-LevelEditor.so!SLevelEditor::HandleEditorMapChange(unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/LevelEditor/Private/SLevelEditor.cpp:1927]
+libUnrealEditor-LevelEditor.so!TBaseRawMethodDelegateInstance<false, SLevelEditor, void (unsigned int), FDefaultDelegateUserPolicy>::ExecuteIfSafe(unsigned int) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:532]
+libUnrealEditor-UnrealEd.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (unsigned int), FDefaultDelegateUserPolicy>, unsigned int>(unsigned int) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:254]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Map_Load(char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:2806]
+libUnrealEditor-UnrealEd.so!UEditorEngine::HandleMapCommand(char16_t const*, FOutputDevice&, UWorld*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:6235]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Exec_Editor(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:5752]
+libUnrealEditor-Core.so!FExec::Exec(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Misc/Exec.cpp:18]
+libUnrealEditor-Engine.so!UEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/UnrealEngine.cpp:4686]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/UnrealEdSrv.cpp:662]
+libUnrealEditor-UnrealEd.so!FEditorFileUtils::LoadMap(FString const&, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/FileHelpers.cpp:2908]
+libUnrealEditor-EngineAssetDefinitions.so!UAssetDefinition_World::OpenAssets(FAssetOpenArgs const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Editor/EngineAssetDefinitions/Source/Private/AssetDefinition_World.cpp:62]
+libUnrealEditor-AssetTools.so!FAssetDefinitionProxy::OpenAssetEditor(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod, TSharedPtr<IToolkitHost, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Developer/AssetTools/Private/AssetTools.cpp:244]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAsset(UObject*, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, bool, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:579]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAssets_Advanced(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:645]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAssets(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:760]
+libUnrealEditor-ContentBrowserAssetDataSource.so!ContentBrowserAssetData::EditOrPreviewAssetFileItems(TArrayView<TSharedRef<FContentBrowserAssetFileItemDataPayload const, (ESPMode)1> const, int>, EAssetTypeActivationMethod::Type, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Source/ContentBrowserAssetDataSource/Private/ContentBrowserAssetDataCore.cpp:372]
+libUnrealEditor-ContentBrowserAssetDataSource.so!ContentBrowserAssetData::EditOrPreviewItems(IAssetTools*, UContentBrowserDataSource const*, TArrayView<FContentBrowserItemData const, int>, EAssetTypeActivationMethod::Type, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Source/ContentBrowserAssetDataSource/Private/ContentBrowserAssetDataCore.cpp:417]
+libUnrealEditor-ContentBrowser.so!SContentBrowser::OnItemsActivated(TArrayView<FContentBrowserItem const, int>, EAssetTypeActivationMethod::Type) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/ContentBrowser/Private/SContentBrowser.cpp:3141]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SContentBrowser, (ESPMode)1, void (TArrayView<FContentBrowserItem const, int>, EAssetTypeActivationMethod::Type), FDefaultDelegateUserPolicy>::Execute(TArrayView<FContentBrowserItem const, int>, EAssetTypeActivationMethod::Type) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+libUnrealEditor-ContentBrowser.so!SAssetView::OnListMouseButtonDoubleClick(TSharedPtr<FAssetViewItem, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/ContentBrowser/Private/SAssetView.cpp:4081]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SAssetView, (ESPMode)1, void (TSharedPtr<FAssetViewItem, (ESPMode)1>), FDefaultDelegateUserPolicy>::ExecuteIfSafe(TSharedPtr<FAssetViewItem, (ESPMode)1>) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-ContentBrowser.so!SListView<TSharedPtr<FAssetViewItem, (ESPMode)1> >::Private_OnItemDoubleClicked(TSharedPtr<FAssetViewItem, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/SListView.h:1122]
+libUnrealEditor-ContentBrowser.so!STableRow<TSharedPtr<FAssetViewItem, (ESPMode)1> >::OnMouseButtonDoubleClick(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:422]
+libUnrealEditor-ContentBrowser.so!non-virtual thunk to STableRow<TSharedPtr<FAssetViewItem, (ESPMode)1> >::OnMouseButtonDoubleClick(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:0]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerDoubleClickEvent(FWidgetPath const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5700]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonDoubleClickEvent(TSharedPtr<FGenericWindow, (ESPMode)1> const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5683]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseDoubleClick(TSharedPtr<FGenericWindow, (ESPMode)1> const&, EMouseButtons::Type, UE::Math::TVector2<double>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5648]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:438]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:442]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5743]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2814f)
+libc.so.6!__libc_start_main(+0x88)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
